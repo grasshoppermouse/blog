@@ -1,0 +1,14 @@
+---
+title: "The wide world of modules"
+date: "05-01-2021"
+draft: true
+image: "2001_hal_daisy.jpg"
+---
+
+![](2001_hal_daisy.jpg)
+---
+
+>[T]he properties in virtue of which input systems are modular are ones which, in general, central cognitive processes do not share. 
+>
+>Jerry Fodor, *Modularity of Mind*, 1983.
+

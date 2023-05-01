@@ -1,0 +1,48 @@
+---
+title: "Most shooters are suicidal. Would arming teachers deter them?"
+author: "Ed Hagen"
+date: "08-23-2018"
+image: "clubfightscars.jpg"
+categories:
+  - science
+---
+
+<!-- Today, the New York Times [reported](https://www.nytimes.com/2018/08/23/us/politics/devos-guns-in-schools.html) that Betsy DeVos wants to use federal education grants to put guns in schools: -->
+
+<!-- > WASHINGTON — The Education Department is considering whether to allow states to access federal funding set aside for academic enrichment and student services to purchase guns for educators, according to multiple people with knowledge of the plan. -->
+
+<!-- The goal, presumably, would be to deter and respond to active shooters. Although there are many arguments against arming teachers, I want put forward three more. -->
+
+<!-- ## Most shooters are suicidal. Would arming teachers deter them? -->
+
+The FBI recently released a [report](https://www.fbi.gov/file-repository/pre-attack-behaviors-of-active-shooters-in-us-2000-2013.pdf) on pre-attack behaviors of active shooters. The report analyzes the 63 shooters between 2000 and 2013 who had case files, which contain interviews with friends, family members and other background information. The case files were used to identify behaviors and characteristics that might help identify potential shooters before they strike.
+
+The statistic that jumped out at my grad student, [Kristen Syme](http://anthro.vancouver.wsu.edu/grads/syme/), and me was this: many, perhaps most, shooters were suicidal. Of the 35 shooters for whom a determination could be made, 30 had suicidal ideation or engaged in suicide-related behavior prior to the attack (there was no information for the other 28 shooters). Shooters' circumstances matched those of other suicidal young people, including many cases in the ethnographic record: they were in conflict with powerful others [(Syme, Garfield and Hagen, 2016)](https://doi.org/10.1016/j.evolhumbehav.2015.10.005). The FBI report found that most shooters were *not* motivated by ideology or hatred of a group but instead had strong personal grievances, such as being subjected to disciplinary actions at school or interpersonal conflicts.
+
+Although [President Trump](https://twitter.com/realDonaldTrump/status/966657362789568512) and others have argued that arming teachers would deter shooters, it's hard to deter an individual who seeks death. 
+
+## Could arming teachers *encourage* suicidal shooters?
+
+A second key statistic from a different set of studies is that many police shootings are "suicide by cop." That is, a suicidal person who can't take his or her own life deliberately provokes a police officer to use lethal force against them, usually by threatening the officer with a loaded gun or other weapon. The typical victim of suicide-by-cop is a young adult white male with romantic relationship conflicts. Estimates of the percentage of police killings that are suicide-by-cop vary widely, from 10% to almost 50%, with several estimates in the 30-40% range [(Patton and Fremouw)](http://dx.doi.org/10.1016/j.avb.2016.03.003).
+
+Arming teachers means millions of teenagers who would only rarely interact with armed police would now regularly interact with armed teachers with whom they might be in conflict. Suicidality is not rare among teenagers. Of the [7.5 million boys in high school](https://nces.ed.gov/fastfacts/display.asp?id=372), about 10% have seriously considered suicide or made a plan, and 5% have attempted suicide [(Lowry et al. 2014)](https://doi.org/10.1016/j.jadohealth.2013.07.024). Thus, arming teachers would dramatically increase the opportunities to commit suicide-by-cop, except in this case it would be suicide-by-teacher. If even a tiny fraction of suicidal male teenagers provoked shootouts with teachers and staff at their schools, or simply tried to obtain their guns, it would substantially increase the number of school shootings and deaths.
+
+## Would arming teachers begin to create an informal institution of the active shooting?
+
+A more important consideration, perhaps, is the implication of arming teachers for our institutions of conflict resolution. The FBI [report](https://www.fbi.gov/file-repository/pre-attack-behaviors-of-active-shooters-in-us-2000-2013.pdf) and Kristen's work on suicide [(Syme, Garfield and Hagen, 2016)](https://doi.org/10.1016/j.evolhumbehav.2015.10.005) both indicate that shooters in particular, and suicidal individuals more generally, are engaged in interpersonal conflict.
+
+Anthropologists have documented numerous examples of cultural institutions that aim to resolve personal conflicts, and prevent them from devolving into blood feuds that engulf entire communities. These institutions often involve personal combat. 
+
+The Yanomamo, for example, have a graded series of mechanisms to resolve conflict between two parties, ranging from side-slapping to club fights to ax fights. Phillip Walker [documented](https://doi.org/10.1002/ajpa.1330800305) healed depressed cranial fractures in prehistoric skeletal remains from the Channel Islands off the coast of southern California that could be evidence of club fighting similar to that observed among the Yanomamo.
+
+![Scars from club fighting in a Yanomamo man.](clubfightscars.jpg){fig-align="center"}
+
+In Europe and the United States, [dueling](https://en.wikipedia.org/wiki/Duel) with swords or pistols historically served to resolve personal conflicts. Though frequently outlawed, dueling  persisted for centuries in Europe and was popular in the US, especially the South, up until the Civil War. The toll was substantial. According to [Drake (2004)](https://www.smithsonianmag.com/history/duel-104161025/), "between 1798 and the Civil War, the [US] Navy lost two-thirds as many officers to dueling as it did to more than 60 years of combat at sea. Many of those killed and maimed were teenage midshipmen and barely older junior officers, casualties of their own reckless judgment...."
+
+Even today, personal combat to resolve conflicts and restore personal honor is common in US teenagers. Most American males have witnessed, and probably participated in, clandestine fist fights arranged to take place after school. The key point is that aggrieved individuals will attempt to resolve their conflicts using the institutions provided by their culture. An angry Yanomamo would not think to challenge an opponent to rapiers at dawn, nor would a Renaissance nobleman have thought to challenge his opponent to a club fight. Instead, they, and we, choose from the options our cultures provide us. 
+
+Semi-automatic weapons expand the scope of such conflict resolution strategies, enabling aggrieved individuals to effectively attack entire ingroups (school shootings?) or, perhaps as a way to increase one's ingroup status, kill many members of an outgroup.
+
+My concern is that arming teachers would not only fail to deter suicidal shooters and dramatically increase the exposure of suicidal teenagers to folks with loaded firearms, it would also be fateful step towards creating and advertising a new informal institution of conflict resolution that is similar to, but much more deadly than a duel: the active shooting.
+
+*Edited Aug 24, 2018 to add high school suicide stats, Aug 25, 2018 to add subheadings and a bit more detail on dueling, and Aug 4, 2019 to add note on active shooting to resolve conflicts between individuals and groups. Edited Sep 9, 2021 to tweak title.*

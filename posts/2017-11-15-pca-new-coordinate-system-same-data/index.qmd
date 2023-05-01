@@ -1,0 +1,193 @@
+---
+title: "PCA: new coordinate system, same data"
+author: "Ed Hagen"
+date: "11-15-2017"
+image: "ConstellationBigDipper.png"
+categories:
+  - stats
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+There are many ways to teach Principal Component Analysis (PCA). This way is mine.
+
+The first constellation I learned to recognize was the [Big Dipper](https://en.wikipedia.org/wiki/Big_Dipper). In the evening it's in one part of the sky, and in the early morning, another, but it's still the Big Dipper. Same thing if I look at it while I slowly spin around. To be more specific, in each of the 3 figures below, the stars have different $x$ and $y$ coordinates, yet it is easy to recognize them as the same stars:
+
+![Big Dipper](ConstellationBigDipper.png)
+
+The point is: we recognize the Big Dipper, not by the specific location of the stars in the sky, but by the location of each star *relative to the others*.
+
+The first and most important step in understanding PCA is to think about your data in the same way that you think about constellations: it's the relationships between your data points, not their individual values, that matters.
+
+In a scientific study, we typically measure multiple values on each person (or population, or whatever), e.g., age, height, weight, sex, and so forth. The mental frame shift to make is to think about the collection of multiple values on a single person as a *single* data point --- a single "star" in the sky --- and all the data points as a constellation of stars in the sky. If we had two measurements per person -- e.g., height and weight -- then each person (each data point) has two coordinates; if we had three measurements per person -- e.g., height, weight, and age -- then each person (each data point) has three coordinates, and so forth.
+
+In general, you can think about each "unit" in the data -- person or observation or "row" -- as one point in an $N$-dimensional Euclidean space, where $N$ is the number of variables that you have measured. Viewed this way, the data has a "structure" determined by the relationships of each observations to the others that will be preserved even if the coordinate system is changed. 
+
+Here is a concrete example with 2 variables per person -- *height* and *weight* -- and thus a 2-dimensional space of points:
+
+```{r, message=F, warning=F}
+# Height and weight of !Kung individuals.
+# The !Kung are an ethnic group in
+# southwest Africa.
+# From Howell via McElreath:
+d <- readr::read_delim("https://raw.githubusercontent.com/rmcelreath/rethinking/master/data/Howell1.csv", delim = ';')
+library(ggplot2)
+ggplot(d, aes(height, weight)) + 
+  geom_point(alpha = 0.5) + 
+  scale_x_continuous(limits = c(0,200)) +
+  scale_y_continuous(limits = c(0,70)) +
+  geom_point(x = 0, y = 0, colour = 'red', size = 3) +
+  labs(title = "!Kung heights and weights", subtitle = "Each black dot represents one person.\nThe red dot indicates the origin of the coordinate system.")
+```
+
+Most students would (correctly) interpret this plot as depicting the relationship between height and weight.
+
+There is another way.
+
+Although each star in the Big Dipper is also described by two variables -- an $x$ and $y$ coordinate (or an [ascension and declination](http://www.skyandtelescope.com/astronomy-resources/what-are-celestial-coordinates/)) -- both variables are in the *same units* (angles). This is an important reason why we can think about the Big Dipper in space without thinking about the $x$ and $y$ values of each star. 
+
+The first step on our journey is therefore to put our height and weight variables into the same units by [standardizing them](https://en.wikipedia.org/wiki/Standard_score) (subtract the mean from each variable, and then divide it by its standard deviation):
+
+```{r}
+# Standardize each variable
+d$zheight <- scale(d$height)[,1]
+d$zweight <- scale(d$weight)[,1]
+# Plot
+ggplot(d, aes(zheight, zweight)) + 
+  geom_point(alpha = 0.5) +
+  geom_point(x = 0, y = 0, colour = 'red', size = 3) +
+  coord_fixed(xlim = c(-4, 3), ylim = c(-3, 3)) +
+  labs(title = "Standardized !Kung heights and weights", subtitle = "Each black dot represents one person.\nThe red dot indicates the origin of the coordinate system.")
+```
+
+Many folks would (correctly) interpret these new variables as transformed versions of the original data. However, I would like you to instead see this as a transformation of the *coordinate system*: we have translated the origin of the coordinate system to the middle of the data (the red dot), and we have put the $x$ and $y$ axes on the same scale (1 unit of x equals 1 unit of y). The data remain the same.
+
+The translation of the origin to the center of the data is useful because positive values on the $x$-axis now indicate values that are greater than the mean, and negative values now indicate values that are less than the mean. The same goes for the $y$-axis. The translation of the origin makes it easy to identify individuals whose heights and weights are above or below average. Transforming the coordinate system (not the data!) can help us interpret the data -- the new origin has advantages over the original origin.
+
+Putting the $x$ and $y$ axes on the same scale is useful because we can now more easily think about this 2d space as a uniform *height-weight* space, or *height-weight* continuum, independent of individual $height$ and $weight$ values.
+
+We are ready for another transformation of the coordinate system: a rotation around the origin:
+
+```{r}
+angle <- -1.5 # angle of rotation in radians
+
+# New x and y coordinates after rotation
+d$x <- d$zheight * cos(angle) - d$zweight * sin(angle)
+d$y <- d$zheight * sin(angle) + d$zweight * cos(angle)
+
+ggplot(d, aes(x, y)) + 
+  geom_point(alpha = 0.5) +
+  geom_point(x = 0, y = 0, colour = 'red', size = 3) +
+  coord_fixed(xlim = c(-4, 3), ylim = c(-3, 3)) +
+  labs(title = "Rotated !Kung heights and weights", subtitle = "Each black dot represents one person.\nThe red dot indicates the origin of the coordinate system.")
+```
+
+Here are the pairs of coordinates of our first 6 data points in each of our 3 different coordinate systems (the original, standardized, and rotated coordinate system):
+
+```{r, echo=F}
+knitr::kable(head(d[c("height", "weight", "zheight", "zweight", "x", "y")]), digits = 2)
+```
+
+Although the pairs of coordinates are radically different, we easily recognize the same constellation of data in the plots, regardless of coordinate system.
+
+We have seen how translating the origin of the coordinate system to the center of the data helps us interpret the data. But how could rotating the coordinate system be helpful?
+
+In most studies, we measure stuff because we know that the things we're studying -- people in this case -- vary, and it is exactly this variation that we want to understand. What if we rotated the coordinate system so that the variance of the data was maximized along the $x$-axis? Then, in this rotated coordinate system, folks with large positive values on the $x$-axis would be maximally "different" from folks with large negative values on the $x$-axis in "*height-weight*" space. Differences in $y$-values would then be less important in distinguishing individuals.
+
+We can find the rotation that maximizes variance along the $x$-axis by trial and error: simply choose different angles, compute the rotation, and then compute the variance or standard deviation along the $x$-axis. Rinse and repeat unit you find an angle that maximizes the standard deviation. There will be two such angles, each $\pi$ radians (180 degrees) apart:
+
+```{r}
+# Run this code over and over with
+# different values for the angle
+# until sd(d$x) is at a maximum.
+angle <- -0.78 # This angle comes close; -0.78 + pi would also come close
+d$x <- d$zheight * cos(angle) - d$zweight * sin(angle)
+sd(d$x) # We could also use var(d$x)
+```
+
+A second way would be to use R's `optim` function, which automates the above process:
+
+```{r}
+# This function rotates and then
+# computes sd along x.
+
+sd_x <- function(angle) {
+  sd(d$zheight * cos(angle) - d$zweight * sin(angle))
+}
+
+# This function finds the angle that 
+# maximizes the above function
+opt <- 
+  optim(
+    0, # Starting value of angle
+    sd_x, # The function to minimize
+    method = "Brent", # The optim procedure that works best in 1-D
+    lower = -pi,
+    upper = pi,
+    control = list(fnscale = -1) # Maximize instead of minimize
+    )
+```
+
+An angle of rotation (in radians) that maximizes sd along x: 
+
+`opt$par` = `r opt$par` 
+
+The maximized standard deviation: 
+
+`opt$value` = `r opt$value`
+
+Let's plot our data using that optimal angle of rotation:
+
+```{r}
+# one optimal angle in radians;
+# the other would be opt$par + pi
+angle <- opt$par 
+
+# New x and y coordinates after rotation
+d$x <- d$zheight * cos(angle) - d$zweight * sin(angle)
+d$y <- d$zheight * sin(angle) + d$zweight * cos(angle)
+
+ggplot(d, aes(x, y)) + 
+  geom_point(alpha = 0.5) +
+  geom_point(x = 0, y = 0, colour = 'red', size = 3) +
+  coord_fixed(xlim = c(-4, 3), ylim = c(-3, 3)) +
+  labs(title = "!Kung heights and weights rotated to maximize variance along x-axis", subtitle = "Each black dot represents one person.\nThe red dot indicates the origin of the coordinate system.")
+```
+
+Guess what? The $x$-axis is principal component 1 (PC1), and the $y$-axis is principle component 2 (PC2), as we can confirm by comparing our results to those from R's `prcomp` (principal component) function:
+
+```{r}
+# Compute PCA using the standard R function
+m <- prcomp(~ zheight + zweight, data = d)
+summary(m)
+
+# Compare the standard deviations above with:
+sd(d$x)
+sd(d$y)
+
+```
+
+Compare our x & y values...
+
+`r knitr::kable(head(d[c('x', 'y')]) )`
+
+... with those from `prcomp`
+
+`r knitr::kable(head(m$x))`
+
+The minus signs are reversed because the axes are rotated 180 degrees, but the variance is still maximized along the x-axis (remember, there are 2 rotations that will maximize the variance).
+
+In summary, principal components are simply a new orthogonal (perpendicular) coordinate system for your data, rotated so the variance of your data is maximized along the first axis (PC1); then, rotating around the first axis, the remaining variance is maximized along the second axis (PC2), which is perpendicular to the first; and so forth, until the directions of all axes are specified. Thus, there will be as many principal components as there are dimensions in your data (i.e., number of variables), and the variance will decrease across each successive component across each successive component.
+
+There are many uses of this new coordinate system. In our example, 97% of the variance in our data falls along PC1. Thus, we might interpret PC1, which is a combination of height and weight, as something like *size*. By rotating our coordinate system, we have identified underlying "structure" in our data. For 2-d data like our example, PCA is not that useful. But when our data have many dimensions, PCA and related techniques can find structure that would be difficult or impossible to find without them.
+
+---
+
+*Note #1: The `prcomp` and other PCA functions do not find these rotations in the same way we did. Instead, they use methods like singular value decomposition, which you can read about on [wikipedia](https://en.wikipedia.org/wiki/Principal_component_analysis).*
+
+*Note #2: You might have heard of rotation after PCA, or terms like varimax rotation. These also seek useful rotations, but are distinct from PCA. You can read more about them, and their relationship to PCA [here](https://stats.stackexchange.com/questions/612/is-pca-followed-by-a-rotation-such-as-varimax-still-pca), [here](https://stats.stackexchange.com/questions/151653/what-is-the-intuitive-reason-behind-doing-rotations-in-factor-analysis-pca-how), and [here](https://stats.stackexchange.com/questions/160422/what-are-rotated-and-unrotated-principal-components-given-that-pca-always-r).*
+
+*Note #3: There is a great set of alternative explanations of PCA [here](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues) .*

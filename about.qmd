@@ -1,0 +1,21 @@
+---
+title: "Ed Hagen"
+image: hagen.jpg
+about:
+  template: jolla
+  links:
+    - text: Department webpage
+      href: https://anthro.vancouver.wsu.edu/people/hagen
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/ed_hagen
+    - icon: github
+      text: Github
+      href: https://github.com/grasshoppermouse
+    - icon: envelope
+      text: Email
+      href: mailto:edhagen@wsu.edu
+
+---
+
+I am a Professor of Anthropology at Washington State University

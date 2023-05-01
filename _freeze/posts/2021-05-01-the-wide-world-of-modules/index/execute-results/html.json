@@ -1,0 +1,16 @@
+{
+  "hash": "2d7e7315204f2030527fd5291ccebc55",
+  "result": {
+    "markdown": "---\ntitle: \"The wide world of modules\"\ndate: \"05-01-2021\"\ndraft: true\nimage: \"../../images/2001_hal_daisy.jpg\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nknitr::include_graphics(\"../../images/2001_hal_daisy.jpg\")\n```\n\n::: {.cell-output-display}\n![](../../images/2001_hal_daisy.jpg){width=412}\n:::\n:::\n\n\n---\n\n>[T]he properties in virtue of which input systems are modular are ones which, in general, central cognitive processes do not share. \n>\n>Jerry Fodor, *Modularity of Mind*, 1983.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

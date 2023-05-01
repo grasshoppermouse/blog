@@ -1,0 +1,20 @@
+Protein class,No of genes,Source
+Enzymes,3706,
+Metabolic proteins,3616,Metabolic Atlas
+CD markers,384,UniProt
+Blood group antigen proteins,31,UniProt
+Nuclear receptors,49,NucleaRDB
+Transporters,1894,TCDB
+Ribosomal proteins,178,UniProt
+G-protein coupled receptors,764,UniProt
+Voltage-gated ion channels,132,IUPHAR-DB
+Predicted membrane proteins,5543,MDM
+Predicted secreted proteins,1903,HPA
+Predicted intracellular proteins,15877,HPA
+Plasma proteins,3752,Plasma Proteome Database
+Transcription factors,1490,UMG
+RNA polymerase related proteins,31,KEGG
+RAS pathway related proteins,231,KEGG
+Citric acid cycle related proteins,30,KEGG
+Immunoglobulin genes,214,Ensembl
+T-cell receptor genes,195,Ensembl

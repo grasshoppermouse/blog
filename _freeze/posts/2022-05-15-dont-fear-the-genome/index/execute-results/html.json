@@ -1,0 +1,16 @@
+{
+  "hash": "53d8ffd33d25f68360cade36fc3c9985",
+  "result": {
+    "markdown": "---\ntitle: \"Don't fear the genome\"\ndate: \"2022-05-15\"\nimage: \"../../images/the_seventh_seal_ancestry.png\"\ndraft: true\nbibliography: genome.bib\n---\n\n\n\n\n![](the_seventh_seal.ancestry.png){fig-align=\"center\"}\n\nI want to convince you of four things. First, what we don't understand about the human genome vastly exceeds what we do understand. Second, that the most popular conception of the genome, which I will refer to as the DIFF model, though widely accepted by biologists and social scientists of all stripes, is ridiculously misleading. Third, research is exploding on an immeasurably better model that I'll term REG. Fourth, the DIFF model should be retired as the basis of genetics education and replaced with the REG model.\n\n## The proteome\n\n\n::: {.cell}\n::: {.cell-output-display}\n![Protein classes. Data from https://www.proteinatlas.org/](index_files/figure-html/proteins-1.png){width=672}\n:::\n:::\n\n\n\n## The genome is still largely a mystery\n\nWe all start life as a single cell, a zygote, that, after a few dozen cell divisions across a couple of decades, becomes the 37 trillion cells of the intricately-structured adult human body. \n\n\n::: {.cell}\n::: {.cell-output-display}\n![Cellular structures. Figure from @thul2017.](cellularstructures.png){#fig-cell width=576}\n:::\n:::\n\n\n\nA recent study grouped these 37 trillion cells into over 400 types.\n\n## Reverse engineering the genome\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![Mystery mechanism](1024px-Gelenk-liegend.jpg){#fig-cvjoint width=512}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

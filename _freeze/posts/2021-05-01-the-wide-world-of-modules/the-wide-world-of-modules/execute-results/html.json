@@ -1,0 +1,14 @@
+{
+  "hash": "7ff7e05f6485d6c8b5ef93978e3a8195",
+  "result": {
+    "markdown": "---\ntitle: \"The wide world of modules\"\nauthor:\n  - name: Ed Hagen\n    url: https://anthro.vancouver.wsu.edu/people/hagen\ndate: 05-01-2021\ndraft: true\nbase_url: https://grasshoppermouse.github.io\npreview: ../../images/2001_hal_daisy.jpg\ntwitter:\n  creator: \"@ed_hagen\"\noutput:\n  distill::distill_article:\n    self_contained: false\n---\n\n\n\n::: {.cell layout=\"l-screen-inset\"}\n::: {.cell-output-display}\n![](../../images/2001_hal_daisy.jpg){width=412}\n:::\n:::\n\n\n---\n\n>[T]he properties in virtue of which input systems are modular are ones which, in general, central cognitive processes do not share. \n>\n>Jerry Fodor, *Modularity of Mind*, 1983.\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
