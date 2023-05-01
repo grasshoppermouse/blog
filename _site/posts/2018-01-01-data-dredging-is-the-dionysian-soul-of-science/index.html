@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.340">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ed Hagen">
+<meta name="dcterms.date" content="2018-01-01">
+
+<title>Grasshoppermouse - Data dredging is the Dionysian soul of science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Grasshoppermouse - Data dredging is the Dionysian soul of science">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://blog.edhagen.net/posts/2018-01-01-data-dredging-is-the-dionysian-soul-of-science/BlakeGoodAndEvilAngels.jpg">
+<meta property="og:site-name" content="Grasshoppermouse">
+<meta name="twitter:title" content="Grasshoppermouse - Data dredging is the Dionysian soul of science">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://blog.edhagen.net/posts/2018-01-01-data-dredging-is-the-dionysian-soul-of-science/BlakeGoodAndEvilAngels.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Grasshoppermouse</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">Ed Hagen</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/ed_hagen" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Data dredging is the Dionysian soul of science</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">science</div>
+                <div class="quarto-category">stats</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ed Hagen </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 1, 2018</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="BlakeGoodAndEvilAngels.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Good and Evil Angels. Plate 4 of <em>The Marriage of Heaven and Hell</em>. From The William Blake Archive: http://www.blakearchive.org</figcaption>
+</figure>
+</div>
+<p>Yin and Yang. Apollo and Dionysus. Heaven and Hell. Id and Superego. Reason and Emotion. Spock and McCoy. Many intellectual and moral frameworks are structured around two, often opposing, elements. If one element gains the upper hand over the other, beware. William Blake, for example, in <em>The Marriage of Heaven and Hell</em>, took aim at the imbalance he saw in Christian theology. God, Heaven, and the Good were the “passive that obeys reason,” our Apollonian side. Satan, Hell and Evil were the “active springing from Energy,” wrongly suppressed by the Church, the Dionysian excess that “leads to the palace of wisdom.”</p>
+<p>Data analysis in the social sciences has two forms, one “good” that is highly developed and has many rules that supposedly will lead us to truth, and one “bad” that lives in the shadows, has few if any rules, and is frequently, but wrongly, vilified. This imbalance is crippling the social sciences.</p>
+<section id="angelic-confirmation" class="level1">
+<h1>Angelic confirmation</h1>
+<p>Science often proceeds in roughly three parts: notice a pattern in nature, form a hypothesis about it, and then test the hypothesis by measuring nature. The challenge in testing our hypotheses is that the world is noisy, and it can be very difficult to distinguish the signal — the patterns in our data that are stable from sample to sample — from the noise — the patterns in our data that change randomly from sample to sample.</p>
+<p>Statistics, as a discipline, has focused almost exclusively on the challenges of the third part, hypothesis testing, termed confirmatory data analysis (CDA). CDA is (and must be) the epitome of obedience: obedience to reason, to logic, to complex rules and to a meticulous, pre-specified plan that is focused on answering perhaps a single question. It is Apollonian, governed by the “good” angels of Blake’s Heaven.</p>
+<p>Although CDA is one of science’s crown jewels, it is not designed to use data to discover new things about the world, i.e., unexpected patterns in our current sample of measurements that are likely to appear in future samples of measurements. CDA can reliably distinguish signals from noise in a sample of data only if the putative signal is specified independently of those data. If, instead, a researcher notices a pattern in her data, and then tries to use CDA on those same data to determine if the pattern is a signal or noise, she will very likely be mislead.</p>
+<p>In a largely futile attempt to insure that hypotheses are independent of the data used to test them, statistics articles and textbooks disparage the discovery of new patterns in data by referring to it with derogatory terms such as dredging, fishing, p-hacking, snooping, cherry-picking, HARKing (Hypothesizing After the Results are Known), data torturing, and the sardonic <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1850704">researcher degrees of freedom</a>.</p>
+<p>Notice something? The first, and arguably most important step in a scientific investigation is to identify an interesting pattern in nature, yet we are taught that it is wrong use our data to look for those interesting patterns.</p>
+<p>That, my friends, is insane.</p>
+</section>
+<section id="the-devils-exploration" class="level1">
+<h1>The Devil’s exploration</h1>
+<p>John Tukey, one of the most <a href="http://www.nytimes.com/2000/07/28/us/john-tukey-85-statistician-coined-the-word-software.html">eminent statisticians</a> of the 20th century, recognized that his discipline had put too much emphasis on CDA and too little on exploratory data analysis (EDA), his approving term for data dredging, which he <a href="http://dx.doi.org/10.2307/2682991">defined</a> thus:</p>
+<ol type="1">
+<li><em>It is an attitude, AND</em></li>
+<li><em>A flexibility, AND</em></li>
+<li><em>Some graph paper (or transparencies, or both).</em></li>
+</ol>
+<blockquote class="blockquote">
+<p><em>No catalog of techniques can convey a willingness to look for what can be seen, whether or not anticipated. Yet this is at the heart of exploratory data analysis. The graph paper—and tansparencies—are there, not as a technique, but rather as a recognition that the picture-examining eye is the best finder we have of the wholly unanticipated.</em></p>
+</blockquote>
+<p>Or, as he wrote in his <a href="https://books.google.com/books/about/Exploratory_Data_Analysis.html?id=UT9dAAAAIAAJ">classic text</a> on EDA:</p>
+<blockquote class="blockquote">
+<p><em>The greatest value of a picture is when it forces us to notice what we never expected to see.</em></p>
+</blockquote>
+<p>For Tukey, data analysis was a critical tool for discovery, not only confirmation. As he put it, “Finding the question is often more important than finding the answer.” And “The most important maxim for data analysis to heed, and one which many statisticians seem to have shunned, is this: ‘Far better an approximate answer to the right question, which is often vague, than an exact answer to the wrong question, which can always be made precise.’”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>I want to draw out what I see as the radical implications of some of Tukey’s mains points for norms in the social sciences.</p>
+<p>The world, especially the world of human cognition and behavior, is far more complex than any of us can imagine. To have any hope of understanding it, to discover the right questions, we have no choice but to collect and explore high quality data. Although running small pilot studies is tempting because they take little time and few resources, they can be worse than useless. The precision of our estimates goes as the square root of sample size. EDA on small, noisy data sets will only lead us down blind allies. Alternatively, because we social scientists get credit for confirmation, and exploration is actively discouraged, we disguise our shameful explorations as confirmations, all dressed up with stars of significance. And then those “effects” don’t replicate</p>
+<p>The solution is obvious: we must put at least as much effort into exploration and discovery as we put into confirmation, perhaps more. We will need to collect and explore large sets of data using the best measures available. If those measures do not exist, we will need to develop them. It will take time. It will take money.</p>
+<p>But let’s face it: discovery is the fun part of science. EDA draws on the energy, instinct, and rebelliousness of Blake’s Devil and Nietzsche’s Dionysus, that heady mix of intuition, inspiration, luck, analysis, and willingness to throw received wisdom out the door that attracted most of us to science in the first place.</p>
+</section>
+<section id="the-marriage-of-cda-and-eda" class="level1">
+<h1>The marriage of CDA and EDA</h1>
+<p>Blake, Nietzsche, and perhaps all great artists and thinkers recognize that there must be a marriage of Heaven and Hell, that neither the Dionysian nor the Apollonian should prevail over the other. Tukey understood well that “Neither exploratory nor confirmatory is sufficient alone. To try to replace either by the other is madness. We need them both.”</p>
+<p>Madness it may be, but without institutional carrots or sticks, EDA will remain in the shadows, a pervasive yet unacknowledged practice that undermines rather than strengthens science.</p>
+<p>One carrot would be an article type <a href="http://www.sciencedirect.com/science/article/pii/S0010945217302393?via%3Dihub">devoted to exploratory research</a>. It might be worthwhile, though, to wield a stick.</p>
+<p>Tukey argues that “to implement the very confirmatory paradigm properly, we need to do a lot of exploratory work.” The reason is, there is “no real alternative, in most truly confirmatory studies, to having a single main question—in which a question is specified by ALL of design, collection, monitoring, AND ANALYSIS” (caps in the original).</p>
+<!--As Tukey admonished, "Preplan THE main analysis (having even two main analyses may be too many)!"-->
+<p>Answering just one question with statistical test requires decisions about, e.g., the sample population, sample size (which is based on estimated effect sizes and power), which control variables to include, choice of instruments to measure the variables, which model to fit and/or test to perform, whether and how to transform certain variables (e.g., log or square root transform), and whether to include interactions and which ones. To believe the standard textbooks, we can do all that with a single sample of data while at the same time avoiding the temptation to use any of these researcher degrees of freedom to p-hack.</p>
+<p>Hah!</p>
+<p>If the replication crisis has taught us anything, it is that our statistical tests are surprisingly fragile: small modifications to our procedures can have a large influence on our results. It must therefore become a basic norm in much of science that a confirmatory study – especially one reporting p-values – must preregister “ALL of design, collection, monitoring, AND ANALYSIS.” Everything. In detail.</p>
+<p>A good confirmatory study, then, is completely specified. Running it should be like turning a crank. As Tukey said (caps in original):</p>
+<blockquote class="blockquote">
+<p><em>Whatever those who have tried to teach it may feel, confirmatory data analysis, especially as sanctification, is a routine relatively easy to teach and, hence,</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p><em>A ROUTINE EASY TO COMPUTERIZE.</em></p>
+</blockquote>
+<p>The standard I’m personally aiming for (but have not quite yet achieved) is to preregister our R code.</p>
+<p>It will be impossible to achieve this ideal without EDA — without first looking at data to evaluate and optimize all the decisions necessary to run a high quality confirmatory study. The stick I envision is that every confirmatory study would be required to have, at a minimum, <em>two</em> samples and <em>two</em> analyses. The first sample would be for EDA, the second for CDA. Every paper reporting results of a confirmatory study must also report the preceding EDA that justified each study design decision. Because the EDA would include estimates of effect sizes, each paper would contain an attempted replication of it’s main result(s).</p>
+<p>In some cases, it will be possible to divide a single sample in two, and first perform EDA on one portion, and then CDA on the other. In other cases, it will be possible to use existing data for the EDA, and new data for the CDA. In many other cases, however, researchers will simply have to collect two (or more) samples. Requiring that every paper include an EDA on one sample and a subsequent CDA on a separate sample could cut researchers’ publication productivity in half. It could easily more than double their <em>scientific</em> productivity, however, their publication of results that will replicate.</p>
+</section>
+<section id="notes" class="level1">
+<h1>Notes</h1>
+<!--CDA techniques depend on mathematical models of pure noise (e.g., binomial, normal, and Poisson distributions), which specify the probability of making a particular measurement (or a measurement within a certain range) in a system where variation is due entirely to a random process (noise). -->
+<!--
+
+Hopefully, you will discover something important in your data that you never expected to see.
+* *Finding the question is often more important than finding the answer.*
+
+* *I assert, and I count upon most of you to agree after reflection, that to implement the very confirmatory paradigm properly, we need to do a lot of exploratory work. *
+
+* *Neither exploratory nor confirmatory is sufficient alone. To try to replace either by the other is madness. We need them both.*
+
+* *I see no real alternative, in most truly confirmatory studies, to having a single main question---in which a question is specified by ALL of design, collection, monitoring, AND ANALYSIS.*
+
+* *The only way humans can do BETTER than computers is to take a chance of doing WORSE.*
+-->
+
+<!--
+https://christophm.github.io/interpretable-ml-book/
+
+http://andrewgelman.com/2013/03/12/misunderstanding-the-p-value/
+-->
+<!--
+EDA relies heavily on graphical techniques to discover structure in data. 
+
+Stated another way, whereas CDA minimizes type I and type II errors, EDA aims to minimize so-called type III errors: precisely solving the wrong problem, when you should have been working on the right problem.
+-->
+<!--
+
+Tall parents seem to have tall children, for instance, and short parents seem to have short children. We might hypothesize that, on average, childrens' heights increase linearly with each unit change in parents' heights. We could test this hypothesis by measuring the heights of a sample of adults and their parents.
+
+
+Parents heights are clearly not the only determinants of children's heights, for example, as some tall parents have short children and some short parents have tall children. If, in our sample, we find that, on average, taller parents have taller children, this could either be due to the fact that this is a genuine fact about the world (signal), or it could be that, by accident, we happened to sample tall parents with tall children and short parents with short children (noise). If the latter, our next sample is unlikely to exhibit the same pattern.
+
+We can't test this hypothesis by measuring all adults on the planet -- we don't have the time or money -- but we could test it by measuring the heights of a sample of adults and their parents. If we do, we will discover a couple of things. First, childrens' heights do seem to increase linearly with parents' heights, but even so, many children are taller than one would predict based on their parents' heights, and many are shorter. That is, according to our hypothesis, the height of any given child will be the sum of the height predicted
+
+there is a systematic part of the model (intercept and slope) that we expect to be similar from sample to sample, and a stochastic part that we
+
+that each new sample provides somewhat different estimate of the slope. -->
+<!--The different models of noise share the feature that measurements that only deviate a small amount from some central value are common (have high probability), whereas measurements that deviate a large amount from the central value are rare (have small probability). -->
+<!--A key step in CDA is to compute the probability of making the measurements in hand (the data) under one or more hypotheses of interest. If the measurements (or summary of the measurements) are close to the value(s) predicted by a hypothesis, the computed probability of making those measurements under that hypothesis will be high, and if they are far, the probability will be low. Depending on your statistical philosophy and type of test, a high or low probability of your data under a hypothesis might lead you to put more or less weight on that hypothesis, sometimes relative to alternative hypotheses.-->
+<!--To briefly illustrate, if one predicts that a particular pair of dice will come up two 3's, and then one immediately rolls two 3's, that is fairly strong evidence that the dice are biased toward 3's because the probability of that happening if the dice were fair is low (1/36). If, however, one first rolls two 3's, and then tries to claim the dice must be biased because we can reject the null of fair dice (p = 1/36), one has made exactly this error: the probability of rolling two 3's under a hypothesis of fair dice was computed using the same data that motivated us to compute the probability of two 3's in the first place (as opposed to two 4's or two 5's or two 6's, or two odd numbers, or whatever).-->
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Tukey was not the first to recognize the importance of exploring data, nor to clearly distinguish exploration from confirmation. De Groot <a href="https://pdfs.semanticscholar.org/77e4/c0aea8c39b13d4a7b8532f92964a75eb31cc.pdf">made these points in 1956</a>, for example, and even then he noted they were not new. Statistician Andrew Gelman recently <a href="http://andrewgelman.com/2016/11/17/thinking-more-seriously-about-the-design-of-exploratory-studies/">raised the issue on his blog</a>. Unlike others, however, Tukey devoted a chunk of his career to developing and promoting EDA. Much of his writing on the topic has an aphoristic flavor, which reminded me of Blake’s <a href="http://www.gutenberg.org/files/45315/45315.txt"><em>Proverbs of Hell</em></a>. I recommend you read <a href="http://dx.doi.org/10.2307/2682991">Tukey (1980)</a>; it’s short, with no math.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

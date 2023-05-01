@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.340">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ed Hagen">
+<meta name="dcterms.date" content="2019-07-12">
+
+<title>Grasshoppermouse - Should scientific publishing move to Github and friends?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Grasshoppermouse - Should scientific publishing move to Github and friends?">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://blog.edhagen.net/posts/2019-07-12-should-scientific-publishing-move-to-github-and-friends/githubrepo.png">
+<meta property="og:site-name" content="Grasshoppermouse">
+<meta property="og:image:height" content="970">
+<meta property="og:image:width" content="1134">
+<meta name="twitter:title" content="Grasshoppermouse - Should scientific publishing move to Github and friends?">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://blog.edhagen.net/posts/2019-07-12-should-scientific-publishing-move-to-github-and-friends/githubrepo.png">
+<meta name="twitter:image-height" content="970">
+<meta name="twitter:image-width" content="1134">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Grasshoppermouse</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">Ed Hagen</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/ed_hagen" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Should scientific publishing move to Github and friends?</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">science</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Ed Hagen </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 12, 2019</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><em>TL;DR: Open access publishing has very high administrative overhead and is therefore too expensive. Github and similar services have substantial and perhaps insurmountable technical and funding advantages as publishing platforms. Scientific publications should therefore be <a href="https://git-scm.com">git</a> repos, created by the researchers themselves, that contain the manuscript, data, and analysis code, and that are hosted on, e.g., <a href="https:github.com">github</a>, <a href="https:gitlab.com">gitlab</a>, <a href="https://bitbucket.org">bitbucket</a>, <a href="http://sourceforge.net/">sourceforge</a>, and a <a href="https://git.wiki.kernel.org/index.php/GitHosting">few others</a>. A ‘journal’ would just be a <a href="https://help.github.com/en/enterprise/2.16/admin/user-management/creating-organizations">managed collection</a> of repos. Reviews would be handled via <a href="https://help.github.com/en/articles/about-issues">issues</a>. Long-term archiving and minting of <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">doi’s</a> would be handled by <a href="https://zenodo.org">zenodo</a> or equivalent data archiving services. Journal reputations would be based on the reputations of the editors, who are typically researchers themselves.</em></p>
+<p><strong>July 17, 2019: Added links at the end to researchers and journals that are already publishing on Github.</strong></p>
+<p>Elsevier, the world’s largest publisher of scientific articles, just <a href="https://www.latimes.com/business/hiltzik/la-fi-uc-elsevier-20190711-story.html">cut off access</a> to its journals by the University of California, one of the world’s largest producers of scientific articles, because UC objected to Elsevier’s increasingly exorbitant subscription fees. Meanwhile, many funders of scientific research, mostly in Europe but also including the Gates Foundation, have signed on to <a href="https://en.wikipedia.org/wiki/Plan_S">Plan S</a>, which stipulates that research that is funded with money from supporting institutions must be published in open access journals or platforms.</p>
+<p>Open access journals are expensive, though, typically charging $1000 or more per article. The reason they are so expensive is that administration and software development is expensive. <a href="https://arxiv.org">arXiv.org</a>, the famous physics/math preprint server that hosts articles for free, has a relatively small <a href="https://arxiv.org/about/people/leadership_team">leadership team</a> of six people, yet salaries alone amount to more than <a href="https://confluence.cornell.edu/download/attachments/340896260/2019%20CY%20arXiv%20budget%20estimate.pdf?api=v2">$1.3 million/year</a>. Add in indirect costs, and the total is about $2 million/year, covered by grants, memberships, and Cornell. Their servers and misc expenses are less than 1/10 of the total.</p>
+<p>PLOS, PeerJ, and other open access journals cover their substantial administrative and development costs with publication fees that range from $1000-$3000/article, which is about what traditional journal publishers like Elsevier charge for open access.</p>
+<p>The <a href="https://cos.io">Center for Open Science (COS)</a> and <a href="http://osf.io">osf.io</a> offer free preprint, preregistration, and file hosting services (full disclosure: I use osf.io, and we received one of their $1000 preregistration awards). They currently have about 50 employees and are spending in the neighborhood of <a href="https://cos.io/about/our-finances/">$7 million/year</a>, which, as far as I can tell, comes mostly from <a href="https://cos.io/about/our-sponsors/">grants</a>. As COS itself <a href="https://docs.google.com/document/d/1sqz3appQ73vqa6fP1Gy8KK8HZpotoSGaiJC1XQuvREI/edit#heading=h.f1yiz05siagv">admits</a>, sustainability is a major concern, and will probably involve charging fees to stakeholder communities, e.g., universities.</p>
+<p>In sum, the multiple open science initiatives each have their own admin teams, incurring high administrative overhead, and are chasing a relatively small pool of users, many of whom have little funding or incentive to contribute to these public goods.</p>
+<section id="how-does-the-open-source-software-community-do-it-for-free" class="level1">
+<h1>How does the open source software community do it for free?</h1>
+<p>The open source software community, like the science community, wants to give its products away for free in exchange for prestige. Their efforts have <a href="https://en.wikipedia.org/wiki/WorldWideWeb">transformed the planet</a>. Unlike science, however, open source developers pay nothing to publish their highly technical “documents” (code). How do they do it? In a word, <a href="https://github.com">Github</a>.</p>
+<p>If you don’t know what Github is I describe it in a bit more detail below. For now, think of it as an online service for collaborating on software development. The open source community is allowed to use Github for free because the tech industry benefits tremendously from open source code and the talent that produces it. Open source is therefore subsidized by the fees commercial firms pay to use Github, which has estimated annual revenues of $250 million, and was acquired last year by Microsoft for $7.5 billion. Microsoft’s annual revenue is $110 billion. Gitlab, a similar service, has $10.5 million in annual revenue, and recently received <a href="https://about.gitlab.com/2018/09/19/announcing-100m-series-d-funding/">$100 million in venture capital</a>. Atlassian, which owns Bitbucket, yet another such service, offers a number of commercial collaboration services and has about $1 billion in annual revenue.</p>
+<p>As of this writing, Github alone has over <a href="https://octoverse.github.com">30 million users working on close to 100 million projects</a>. The technological and financial investment in these platforms and the economies of scale are orders of magnitude larger than those enjoyed by any open science initiative.</p>
+</section>
+<section id="could-scientific-publishing-move-to-github" class="level1">
+<h1>Could scientific publishing move to Github?</h1>
+<!-- I think [Github](http://github.com) and similar cloud-based services that facilitate global collaboration on open source software projects could be those open platforms.  -->
+<!-- (I will use the term 'Github' to refer to Github and all similar services, e.g., Gitlab, Bitbucket.) -->
+<p>In 2011, Marcio von Muhlen argued that academia needed a <a href="https://marciovm.com/i-want-a-github-of-science">Github of science</a>. He made three key points:</p>
+<ul>
+<li><p>Publishing is central to Academia, but its publishing system is outclassed by what Open Source software developers have in GitHub</p></li>
+<li><p>GitHub’s success is not just about openness, but also a prestige economy that rewards valuable content producers with credit and attention</p></li>
+<li><p>Open Science efforts like arXiv and PLoS ONE should follow GitHub’s lead and embrace the social web</p></li>
+</ul>
+<p>Each of these points is just as true today as it was then. The only thing I would add is that the Github of science should be…Github. The costs of hosting scientific articles on Github or similar services, such as Gitlab and Bitbucket, would be a rounding error.</p>
+<p>Moreover, much of science’s computational infrastructure is already developed on Github and friends. This includes <a href="https://github.com/python/cpython">python</a> and <a href="https://github.com/scipy/scipy">scipy</a>, <a href="https://github.com/tensorflow/tensorflow">machine learning frameworks</a>, <a href="https://github.com/tidyverse/tidyverse">key r packages</a>, and <a href="https://github.com/topics/scientific-computing">much more</a>.</p>
+<p>Just like it benefits from open source software, the business community benefits tremendously from science. Instead of researchers paying the <a href="https://doi.org/10.1371/journal.pone.0127502">scientific publishing oligopoly</a> hefty <a href="(https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science)">fees</a> to publish tax-funded research, commercial businesses would subsidize the (small) cost for researchers to publish their research on git hosting services.</p>
+<p>Sounds fair to me.</p>
+<p>This proposal is not without risk. Microsoft’s purchase of Github, for instance, immediately <a href="https://www.forbes.com/sites/washingtonbytes/2018/08/29/microsoft-and-github-jaw-dropping-price-tag-brings-competitive-concerns/#67b0b8e95312">raised concerns</a> that it would use its control over Github to harm competitors that rely on the platform. What would stop Microsoft or Atlassian from exploiting their control of a scientific publishing platform? It’s also not clear that any of the git hosting services, which are investing heavily in growth, are profitable yet.</p>
+<p>While these risks shouldn’t be ignored, I think they are no larger (and are probably much smaller) than the risks of using platforms, such as osf.io, that have no long-term funding plan in place. Researchers would retain copyright over their publications that carry open source licenses. Because git repos are an open standard, it’s trivial to host them on multiple platforms and to archive them on multiple data archiving services. Furthermore, the fees that Github, Gitlab, and Bitbucket charge commercial users are pretty small. Some of the plans are as low as $25-$50/user/year. Gitlab has a completely open source version of its cloud platform.</p>
+<p>In summary, there is substantial overlap between programming and the data analysis and modeling that is at the heart of much science. Github and similar hosting services are used by millions of programmers and thousands of researchers every day. These services provide all the features necessary to support scientific journals: online submission, review, revision, and publication. Their business models appear viable, at least judged by the venture capital they are attracting, they are investing heavily in their IT infrastructure, and they enjoy huge economies of scale. Researchers and universities should not use their limited funds to support a small scientific publishing oligopoly that provides little added value. Nor should they fund multiple administrative teams at various open science initiatives that are reinventing the wheel. Instead, the tech industry and broader business community that benefits so heavily from science can subsidize the relatively small costs of publishing scientific research on shared IT platforms like Github, Gitlab, and Bitbucket. Who knows, the synergies of hosting scientific publications might be valuable enough that these services would even compete to attract scientists by developing science-specific features.</p>
+<p>Now down to brass tacks. How would this actually work?</p>
+</section>
+<section id="what-is-git" class="level1">
+<h1>What is git?</h1>
+<p><em>Skip this part if you already know what git is.</em></p>
+<p>Computer code is just a bunch of text files in a directory. Collaborating on code requires some way to allow multiple programmers to access and edit these files, track changes to them, and revert back to previous versions, if necessary. The solution that has almost universally been adopted is a <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">distributed version control system (DVCS)</a>, and one in particular: <a href="https://git-scm.com">git</a>.</p>
+<p>The <a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository">basic workflow</a> is as follows: a programmer installs git on her own computer, and then starts a new software project by creating one or more text files in directory. She then runs the git initialization command, which creates a hidden directory inside that project directory. That directory is now a git repository (a <em>repo</em>). She creates a new feature in her software by editing one or more text files in the directory on her own computer, and <em>commits</em> those changes using another git command. This tracks the changes she’s made to each file, stamps the changes with the time, date, and her identity, and stores the changes in the hidden directory.</p>
+<p>The programmer and her collaborators can then use git and numerous third-party tools to inspect precisely what changes have been made to which files, when, and by whom. Think of it like track-changes in Word, but on steroids.</p>
+</section>
+<section id="why-is-a-git-repo-a-good-format-for-a-scientific-publication" class="level1">
+<h1>Why is a git repo a good format for a scientific publication?</h1>
+<p>A research publication is just a bunch of files in a directory. These include the manuscript itself, the figure files, supplementary information files, and sometimes data and data-processing code files. In some cases, such as writing a single-authored commentary in Word, git would provide few, if any, advantages to the researcher. In many other cases, however, such as working with collaborators on an empirical study that analyzes data using, e.g., python, R, or matlab, git would provide the same enormous advantages that it provides to software developers. The researchers can easily track who is making what changes to which files, when, and where. Thousands of researchers are already using git for exactly this purpose. In addition, the manuscript itself can be written using text-based formats like <a href="https://www.latex-project.org"><span class="math inline">\(\LaTeX\)</span></a> or <a href="https://en.wikipedia.org/wiki/Markdown">markdown</a>, and all the advantages of git when writing code also apply to these text-based documents.</p>
+<p>The most important advantage of git, though, is that it is a open standard, based on open software, that is used by millions of software developers and researchers around the world, and there is a large and growing IT infrastructure that can ‘speak’ git. This means that researchers can conduct their analyses on their own computers and then <em>seamlessly</em> share them with the public via services such as Github.</p>
+</section>
+<section id="what-is-github" class="level1">
+<h1>What is Github?</h1>
+<p><em>Skip this part if you know what Github is</em></p>
+<p>When the programmer or researcher is ready to share her work, she uploads her git repo to a hosting service, which allows others to view the code, copy it to their own computers using git (cloning), make their own commits to the code using git, and then share any improvements they’ve made using git. Think of git + git hosting as track-changes combined with dropbox, but on steroids.</p>
+<p>The most popular git hosting service is <a href="https://github.com">Github.com</a>, a proprietary cloud service, recently purchased by Microsoft, that ‘speaks git.’ (For a somewhat rah rah version of the Github story, see <a href="https://medium.com/@hnshah/how-github-democratized-coding-built-a-2-billion-business-and-found-a-new-home-at-microsoft-bd94d2dea2a9">this</a>.) <a href="https://gitlab.com">Gitlab</a> is another up-and-comer that, unlike Github, provides a pretty full-featured <a href="https://gitlab.com/gitlab-org/gitlab-ce">open source version</a> of its platform.</p>
+<p>These hosting services also offer an issue tracking feature, which is basically a discussion board where developers or users can report bugs and request new features (issues).</p>
+<p>Oh, and just to repeat, all open source projects can use Github and similar platforms for free.</p>
+</section>
+<section id="creating-a-scientific-journal-on-top-of-github" class="level1">
+<h1>Creating a scientific journal on top of Github</h1>
+<p>Typically, a researcher submits her manuscript to a journal by using its clunky web interface to upload a manuscript file, such as a Word doc or PDF, one or more figure files, one or more supplementary information files, and perhaps even data and code files. Numerous forms must be filled out that duplicate information in the manuscript itself. The process can easily take the better part of an afternoon. Yuck.</p>
+<p>If git were the standard format for a research manuscript, the researcher would simply organize all the relevant files in a git repo on her own computer, and then push it to Github with single command or click of the mouse. Github et al.&nbsp;are fully capable of providing both html and pdf versions of scientific articles, just as all scientific publishers do today (this blog is hosted on Github). As long as scientific publications use an <a href="https://opensource.org/licenses">open source license</a> (and why wouldn’t they?), hosting would be free.</p>
+<p>But how to create a journal that would comprise hundreds or thousands of repos created by diverse researchers? Github, Gitlab, and Bitbucket have a feature that allows a group of individuals to manage multiple repositories. Github calls these ‘organizations’, Gitlab calls them ‘groups’, and Bitbucket calls them ‘teams.’ I’ll use the Github terminology. To create a new journal, an editor and her associate editors create an organization on Github.</p>
+<p>To get the journal off the ground I think the editor would have to be a highly regarded researcher in her discipline, which would create immediate buzz and trust. <em>I suspect this is key to the whole idea.</em></p>
+<p>To submit an article to the journal, a researcher uploads a repository with all her data, analysis scripts, and a final version of her paper in pdf or html format to her own github account. She also assigns it an <a href="https://opensource.org/licenses">open source license</a>. She then messages the editor to consider her repo for publication. The editor looks at the repo and decides if it is suitable for her journal. If so, she clones the repo into her organization.</p>
+<p>At this point, the repo might be private (not accessible to the public). The Editor then recruits reviewers, who create issues on the issue tracker for the repo. Each issue is one comment/critique that the author(s) will have to address.</p>
+<p>The authors make changes to their manuscript and code to address each issue, and then submit their revisions via, e.g., a <a href="https://help.github.com/en/articles/about-pull-requests">pull request</a>. If they are using a text-based format for their manuscript, Github will display the revisions similar to track-changes in Word.</p>
+<p>Once the editor determines that an issue has been adequately addressed, she closes it. When all issues are closed, the editor decides if she wants to publish the study. If so, she gets a <code>doi</code> for it via, e.g., <a href="https://guides.github.com/activities/citable-code/">zenodo</a>, so the study is citable, and then makes the repo public.</p>
+<p>Done!</p>
+<p>Other researchers can <a href="https://help.github.com/en/articles/fork-a-repo">fork</a> the repo, or star it if they think its cool. Because the code is under an open source license, others can modify it and publish their own analysis (with proper attribution, of course).</p>
+<p>There are many other possibilities for creating a scientific prestige economy on Github, but I’ll leave discussion of those for another time.</p>
+</section>
+<section id="researchers-and-journals-that-are-already-publishing-on-github" class="level1">
+<h1>Researchers and journals that are already publishing on Github</h1>
+<ul>
+<li><p><a href="https://andrewgyork.github.io">andrewgyork.github.io</a></p></li>
+<li><p><a href="http://rescience.github.io">http://rescience.github.io</a></p></li>
+<li><p><a href="https://www.arfon.org/chatops-driven-publishing">https://www.arfon.org/chatops-driven-publishing</a></p></li>
+<li><p><a href="https://manubot.org">https://manubot.org</a></p></li>
+</ul>
+<section id="publishing-with-jupyter-notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-with-jupyter-notebooks">Publishing with <a href="https://jupyter.org">Jupyter notebooks</a>:</h2>
+<ul>
+<li><p><a href="https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/">The Scientific Paper Is Obsolete (Atlantic)</a></p></li>
+<li><p><a href="https://www.linuxjournal.com/content/jupyter-future-open-science">By Jupyter–Is This the Future of Open Science?</a></p></li>
+<li><p><a href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#reproducible-academic-publications">Reproducible academic publications</a></p></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
