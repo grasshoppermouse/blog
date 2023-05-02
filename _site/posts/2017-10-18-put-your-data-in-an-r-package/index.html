@@ -272,7 +272,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">use_data</span>(mydataset, demographics, <span class="at">overwrite =</span> T)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>That last line writes your R data frames and other data objects to files in the <code>data</code> directory (not the <code>data-raw</code> directory!). The <code>data</code> directory will be created if it does not exist.</p>
-<p>Edit your <code>DESCRIPTION</code> file as specified in Hadley Wickham’s book on R packages: http://r-pkgs.had.co.nz/description.html.</p>
+<p>Edit your <code>DESCRIPTION</code> file as specified in Hadley Wickham’s book on R packages:</p>
+<p><a href="https://r-pkgs.had.co.nz/description.html" class="uri">https://r-pkgs.had.co.nz/description.html</a></p>
 <p>You won’t need <code>Imports</code> or <code>Suggests</code>.</p>
 <p>At this point you should confirm that you can build and install your package. You should see a <strong>Build</strong> tab in RStudio. Open it and click <strong>Build and Install</strong> (older RStudio versions) or <strong>Install and Restart</strong> (newer RStudio versions), which will build the package and install it in your package library. You should see your package in the <strong>Packages</strong> tab, and you should have access to the data frame objects in any script where you include: <code>library(mydatapackage)</code>.</p>
 </section>
@@ -305,7 +306,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="st">"mydataset"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Do that for each data frame in your package, adding each skeleton to <code>R/data.R</code>. Edit the parts in ALL_CAPS. <code>sinew</code> also provides RStudio addins, available in the <code>Addins</code> menu. Read their documentation to learn how to use them.</p>
-<p>For a bit more detail on documenting data packages, see http://r-pkgs.had.co.nz/data.html.</p>
+<p>For a bit more detail on documenting data packages, see:</p>
+<p><a href="https://r-pkgs.had.co.nz/data.html" class="uri">https://r-pkgs.had.co.nz/data.html</a></p>
 </section>
 <section id="building-your-data-package" class="level1">
 <h1>Building your data package</h1>

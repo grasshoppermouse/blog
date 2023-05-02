@@ -105,7 +105,9 @@ usethis::use_data(mydataset, demographics, overwrite = T)
 
 That last line writes your R data frames and other data objects to files in the `data` directory (not the `data-raw` directory!). The `data` directory will be created if it does not exist.
 
-Edit your `DESCRIPTION` file as specified in Hadley Wickham's book on R packages: http://r-pkgs.had.co.nz/description.html. 
+Edit your `DESCRIPTION` file as specified in Hadley Wickham's book on R packages: 
+
+<https://r-pkgs.had.co.nz/description.html>
 
 You won't need `Imports` or `Suggests`.
 
@@ -148,7 +150,9 @@ This will print out a skeleton that you copy and paste into your currently empty
 
 Do that for each data frame in your package, adding each skeleton to `R/data.R`. Edit the parts in ALL_CAPS. `sinew` also provides RStudio addins, available in the `Addins` menu. Read their documentation to learn how to use them.
 
-For a bit more detail on documenting data packages, see http://r-pkgs.had.co.nz/data.html.
+For a bit more detail on documenting data packages, see:
+
+<https://r-pkgs.had.co.nz/data.html>
 
 # Building your data package
 

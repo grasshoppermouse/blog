@@ -68,7 +68,7 @@ knitr::include_graphics("F2.large.jpg")
 knitr::include_graphics("ancestry.jpg")
 ```
 
-Discerning population structure from genetic variation works best, however, when analyses are restricted to variation that is not under selection, the >90% of the genome that is "junk," i.e., has no influence on the phenotype (*non-functional* DNA). The genetic basis of "Race," in this case, cannot have anything to do with racial traits (and there are critiques of the genetic clustering algorithms, e.g., [Lawson et al. 2018](https://doi.org/10.1101/066431)). I [blog about this here](/2019/07/27/about-90-of-the-genome-is-junk-which-is-very-informative-about-ancestry-but-says-little-about-biology/).
+Discerning population structure from genetic variation works best, however, when analyses are restricted to variation that is not under selection, the >90% of the genome that is "junk," i.e., has no influence on the phenotype (*non-functional* DNA). The genetic basis of "Race," in this case, cannot have anything to do with racial traits (and there are critiques of the genetic clustering algorithms, e.g., [Lawson et al. 2018](https://doi.org/10.1101/066431)). I [blog about this here](/posts/2019-07-27-about-90-of-the-genome-is-junk-which-is-very-informative-about-ancestry-but-says-little-about-biology/).
 
 There are also population differences, though, in the fraction of the genome that actually does something (*functional* DNA, currently estimated at about 8.2% of the entire genome; [Rands et al. 2014](https://doi.org/10.1371/journal.pgen.1004525)). Some of those differences represent adaptations to local environmental conditions:
 
@@ -83,7 +83,6 @@ Despite their disagreements, Lewontin, Edwards, Cavalli-Sforza, and Reich all fo
 ```{r fig-variants, echo=F, fig.cap="Variant sites per genome, relative to the reference human genome. Each symbol is one genome. Organized by population, and sorted by the number of variants. Figure from [The 1000 Genomes Project Consortium, 2015](https://doi.org/10.1038/nature15393)."}
 knitr::include_graphics("variantsites.png")
 ```
-
 
 Population differences in functional DNA, in particular, are the basis of Reich's warning that, if it hasn't already, science will eventually produce evidence of "substantial biological differences among human populations."
 
@@ -171,7 +170,6 @@ knitr::include_graphics("endomesodermGRN.png")
 ```
 
 Notice that the network takes inputs from the mother (upper left), in the form of maternal mRNA sequestered in the egg. More importantly, notice the complexity of the GRN governing early development in the sea urchin.
-
 
 # The custom-built phenotype
 
