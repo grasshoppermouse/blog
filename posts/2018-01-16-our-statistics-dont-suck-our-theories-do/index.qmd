@@ -3,15 +3,13 @@ title: "Our statistics don't suck, our theories do"
 author: "Ed Hagen"
 date: "01-16-2018"
 image: "F11.large.jpg"
+execute:
+  echo: false
+  warning: false
 categories:
   - science
   - stats
 ---
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
 
 >*Every genuine test of a theory is an attempt to falsify it, or to refute it.*  Karl Popper, 1963.
 
@@ -34,9 +32,13 @@ We social scientists might be forgiven for concluding that NHST is deeply flawed
 
 In the natural sciences, such as physics and chemistry, theories typically predict numerical values for various parameters. Sometimes the predicted value might be 0. Under Einstein's theory of [special relativity](https://en.wikipedia.org/wiki/Special_relativity), for instance, the speed of light in the direction of the earth's motion [will not differ](https://en.wikipedia.org/wiki/Michelson–Morley_experiment) from the speed of light perpendicular to the earth's motion. Other times, the predicted values are different from 0. Einstein's theory of [general relativity](), for example, predicts that the sun will bend star light by a [specific (non-zero) amount](https://en.wikipedia.org/wiki/Tests_of_general_relativity). In either case, the predicted value is a substantive $H_0$ (not a nil) that can be meaningfully tested with NHST.
 
-Unlike rejecting a nil, which social scientists usually take as evidence supporting their theory, rejecting a substantive $H_0$ *rejects* the theory! If the difference of the speed of light in one direction vs. another is greater than 0 $(p < 3 \times 10^{-7})$, then special relativity is wrong![^4] If the sun bends light more or less than the predicted amount $(p < 3 \times 10^{-7})$ then general relativity is wrong![^2] In the natural sciences, NHST is often a powerful tool to *challenge* theories, not support them (see Figure 1).
+Unlike rejecting a nil, which social scientists usually take as evidence supporting their theory, rejecting a substantive $H_0$ *rejects* the theory! If the difference of the speed of light in one direction vs. another is greater than 0 $(p < 3 \times 10^{-7})$, then special relativity is wrong![^4] If the sun bends light more or less than the predicted amount $(p < 3 \times 10^{-7})$ then general relativity is wrong![^2] In the natural sciences, NHST is often a powerful tool to *challenge* theories, not support them (see @fig-NHST).
 
-```{r NHST, echo=F, message=F, warning=F, fig.height=6, fig.cap="Testing nils vs. substantive nulls. Black vertical line: null. Red vertical line: mean of data. **A**: Rejecting the nil that the mean = 0 is taken as support for a theory predicting that the mean has some value > 0. **B**: Rejecting the substantive null that the mean = 0 rejects the theory. **C**: Failing to reject the substantive null that the mean = 3 fails to reject the theory. All data simulated."}
+```{r}
+#| label: fig-NHST
+#| fig-height: 6
+#| fig-cap: "Testing nils vs. substantive nulls. Black vertical line: null. Red vertical line: mean of data. **A**: Rejecting the nil that the mean = 0 is taken as support for a theory predicting that the mean has some value > 0. **B**: Rejecting the substantive null that the mean = 0 rejects the theory. **C**: Failing to reject the substantive null that the mean = 3 fails to reject the theory. All data simulated."
+
 library(ggplot2)
 library(patchwork)
 # library(xkcd)
@@ -114,14 +116,15 @@ Yet it is certainly possible to develop social science theories that predict spe
 
 My graduate student Aaron Lightner and I, for example, recently missed an opportunity to do better science by following standard practice and testing a nil, when we now realize we should have also tested a substantive null. We conducted a classic framing effect study in which we predicted that participants would make different monetary offers in an ultimatum game if it was framed as a currency exchange than if it was "unframed." We set up our statistical test in the standard social science way. $H_0$ was a "nil": *no difference in mean offers in the framed vs. unframed condition*. 
 
-We found a huge effect size ($d\sim2$; see Figure \@ref(fig:effectsize)), and our p-value was very small $(p = 1.8 \times 10^{-31})$. We therefore rejected the nil and concluded that there was a difference in mean offers. [Publication](http://dx.doi.org/10.1098/rsos.170543)! 
-![Effect sizes (absolute values of Cohen's d) from this study (denoted by ‘**’) and a representative sample of previous framing studies. Colours represent game type and bars indicate 95% CI. From Lightner et al. 2017: http://dx.doi.org/10.1098/rsos.170543](rsos170543f13.jpg)
+We found a huge effect size ($d\sim2$; see @fig-effectsizes, and our p-value was very small $(p = 1.8 \times 10^{-31})$. We therefore rejected the nil and concluded that there was a difference in mean offers. [Publication](http://dx.doi.org/10.1098/rsos.170543)! 
+
+![Effect sizes (absolute values of Cohen's d) from this study (denoted by ‘**’) and a representative sample of previous framing studies. Colours represent game type and bars indicate 95% CI. From Lightner et al. 2017: http://dx.doi.org/10.1098/rsos.170543](rsos170543f13.jpg){#fig-effectsizes}
 
 We could have put our theory to a much more severe test, however, by proposing a substantive $H_0$. In our study, participants self-reported what they thought was a fair offer, and they also made actual monetary offers. Our scientific (not statistical) hypothesis was that actual offers would match self-reported fair offers. These, in turn, would match a cultural norm for offers in currency exchange that differed from offers usually seen in the ultimatum game. If a participant reported that 3% was a fair offer, for instance, then he or she should have offered 3%.
 
-As our substantive $H_0$, we therefore should have proposed this: *There will be no difference between actual offers and self-reported fair offers*. If we had, we would have found that the probability of our data under such an $H_0$ was very small[^5], leading us to reject $H_0$, and therefore to reject our theory. Specifically, our data showed that although many actual offers were exactly, or very close to, self-reported fair offers (dots that fall on, or close to, the diagonal line), as our theory predicted, many other actual offers differed substantially from self-reported fair offers (dots that are far from the diagonal line), contrary to our prediction:
+As our substantive $H_0$, we therefore should have proposed this: *There will be no difference between actual offers and self-reported fair offers*. If we had, we would have found that the probability of our data under such an $H_0$ was very small[^5], leading us to reject $H_0$, and therefore to reject our theory. Specifically, our data showed that although many actual offers were exactly, or very close to, self-reported fair offers (dots that fall on, or close to, the diagonal line), as our theory predicted, many other actual offers differed substantially from self-reported fair offers (dots that are far from the diagonal line), contrary to our prediction (@fig-results):
 
-![Self-reported fair offers vs. actual offers in a framed ultimatum game experiment. There were two framed conditions: banker and customer. From Lightner et al. 2017: http://dx.doi.org/10.1098/rsos.170543](F11.large.jpg)
+![Self-reported fair offers vs. actual offers in a framed ultimatum game experiment. There were two framed conditions: banker and customer. From Lightner et al. 2017: http://dx.doi.org/10.1098/rsos.170543](F11.large.jpg){#fig-results}
 
 We don't even need to compute a p-value to see that we can reject our substantive $H_0$. Our scientific theory is wrong.
 
