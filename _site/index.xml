@@ -9,7 +9,7 @@
 <link>https://blog.edhagen.net/</link>
 <atom:link href="https://blog.edhagen.net/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.536</generator>
+<generator>quarto-1.6.37</generator>
 <lastBuildDate>Tue, 21 Jan 2020 08:00:00 GMT</lastBuildDate>
 <item>
   <title>Is evolutionary psychology impossible?</title>
@@ -2109,6 +2109,7 @@ font-style: inherit;"># computes sd along x.</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(angle) {</span>
 <span id="cb6-5">  <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -2461,6 +2462,8 @@ font-style: inherit;">$</span>y)</span></code></pre></div>
 
 
 
+
+<p><em>Updated: Feb 26, 2025</em></p>
 <p>I used to write long R scripts that imported data files, created new variables, reshaped the data, reshaped it again, and spit out results along the way, all in one file.</p>
 <p>That worked so long as I never wanted to use that data again. But what if I did? Should I just tack on more code for the new analysis, and then even more code for yet more analyses? That approach will litter your environment with objects that are irrelevant for, and might even interfere with, a particular analysis. Should I copy all the files into a new directory and then hack away at the code? Now I have two copies of the data – which one is definitive? Should I just treat the original data files as the data? Now I have to repeat the same initial processing steps every time I want to reuse that data.</p>
 <section id="the-solution" class="level2">
@@ -2522,9 +2525,9 @@ font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">create_package</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"path/to/my/data/package/"</span>)</span></code></pre></div>
+font-style: inherit;">"path/to/my/nifty/data/package"</span>)</span></code></pre></div>
 </div>
-<p>Open your new data package using “Open project…” in RStudio. Then run this code from the console:</p>
+<p>Your new data package will open automatically in RStudio. If it doesn’t, open it using “Open project…” in RStudio. Then run this code from the console:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -2535,7 +2538,7 @@ background-color: null;
 font-style: inherit;"># Set up the data-raw directory and data processing script</span></span>
 <span id="cb3-4"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># You can use any name you want for your data</span></span>
+font-style: inherit;"># You can use any name you want for your script</span></span>
 <span id="cb3-5">usethis<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
@@ -2544,24 +2547,27 @@ font-style: inherit;">use_data_raw</span>(<span class="at" style="color: #657422
 background-color: null;
 font-style: inherit;">name =</span> <span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'mydataset'</span>)</span>
+font-style: inherit;">'niftydata'</span>)</span>
 <span id="cb3-6"></span>
 <span id="cb3-7"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># This script in the R directory will contain the documentation.</span></span>
+font-style: inherit;"># Create a script in the R directory that will contain the</span></span>
 <span id="cb3-8"><span class="co" style="color: #5E5E5E;
 background-color: null;
+font-style: inherit;"># documentation, which I explain a bit later. </span></span>
+<span id="cb3-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
 font-style: inherit;"># You can use any name you want.</span></span>
-<span id="cb3-9"><span class="fu" style="color: #4758AB;
+<span id="cb3-10"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">file.create</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"R/data.R"</span>)</span>
-<span id="cb3-10"></span>
-<span id="cb3-11"><span class="co" style="color: #5E5E5E;
+<span id="cb3-11"></span>
+<span id="cb3-12"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Initialize git repository (optional)</span></span>
-<span id="cb3-12">usethis<span class="sc" style="color: #5E5E5E;
+<span id="cb3-13">usethis<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
@@ -2571,14 +2577,14 @@ font-style: inherit;">use_git</span>()</span></code></pre></div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://blog.edhagen.net/posts/2017-10-18-put-your-data-in-an-r-package/datapackage_screenshot.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Package layout</figcaption>
+<figcaption>Package layout</figcaption>
 </figure>
 </div>
-<p>Write your data processing code in a <code>data-raw/mydataset.R</code> script. It would look something like this:</p>
+<p>Write your data processing code in a <code>data-raw/niftydata.R</code> script. It would look something like this:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># data-raw/mydataset.R</span></span>
+font-style: inherit;"># data-raw/niftydata.R</span></span>
 <span id="cb4-2"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Data import and processing pipeline</span></span>
@@ -2590,45 +2596,38 @@ font-style: inherit;">library</span>(readr)</span>
 background-color: null;
 font-style: inherit;">library</span>(readxl)</span>
 <span id="cb4-6"></span>
-<span id="cb4-7">mydataset <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">read_csv</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"data-raw/pendulum data.csv"</span>)</span>
-<span id="cb4-8">demographics <span class="ot" style="color: #003B4F;
+<span id="cb4-7">niftydata <span class="ot" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">read_excel</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"data-raw/Demographics.xlsx"</span>)</span>
-<span id="cb4-9"></span>
-<span id="cb4-10"><span class="co" style="color: #5E5E5E;
+font-style: inherit;">"data-raw/niftydata.xlsx"</span>)</span>
+<span id="cb4-8"></span>
+<span id="cb4-9"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Data cleaning code here...</span></span>
-<span id="cb4-11"><span class="co" style="color: #5E5E5E;
+<span id="cb4-10"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># (Do NOT put data analysis code here!)</span></span>
-<span id="cb4-12"></span>
-<span id="cb4-13"><span class="co" style="color: #5E5E5E;
+<span id="cb4-11"></span>
+<span id="cb4-12"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># This should be the last line.</span></span>
-<span id="cb4-14"><span class="co" style="color: #5E5E5E;
+<span id="cb4-13"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># Note that names are unquoted.</span></span>
-<span id="cb4-15"><span class="co" style="color: #5E5E5E;
+<span id="cb4-14"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># I like using overwrite = T so everytime I run the script the </span></span>
-<span id="cb4-16"><span class="co" style="color: #5E5E5E;
+<span id="cb4-15"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;"># updated objects are saved, but the default is overwrite = F</span></span>
-<span id="cb4-17">usethis<span class="sc" style="color: #5E5E5E;
+<span id="cb4-16">usethis<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">use_data</span>(mydataset, demographics, <span class="at" style="color: #657422;
+font-style: inherit;">use_data</span>(niftydata, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">overwrite =</span> T)</span></code></pre></div>
 </div>
@@ -2636,7 +2635,7 @@ font-style: inherit;">overwrite =</span> T)</span></code></pre></div>
 <p>Edit your <code>DESCRIPTION</code> file as specified in Hadley Wickham’s book on R packages:</p>
 <p><a href="https://r-pkgs.had.co.nz/description.html" class="uri">https://r-pkgs.had.co.nz/description.html</a></p>
 <p>You won’t need <code>Imports</code> or <code>Suggests</code>.</p>
-<p>At this point you should confirm that you can build and install your package. You should see a <strong>Build</strong> tab in RStudio. Open it and click <strong>Build and Install</strong> (older RStudio versions) or <strong>Install and Restart</strong> (newer RStudio versions), which will build the package and install it in your package library. You should see your package in the <strong>Packages</strong> tab, and you should have access to the data frame objects in any script where you include: <code>library(mydatapackage)</code>.</p>
+<p>At this point you should confirm that you can build and install your package. You should see a <strong>Build</strong> tab in RStudio. Open it and click <strong>Build and Install</strong> (older RStudio versions) or <strong>Install</strong> (newer RStudio versions), which will build the package and install it in your package library. You should see your package in the <strong>Packages</strong> tab, and you should have access to the data frame objects in any script where you include: <code>library(niftydata)</code>.</p>
 </section>
 <section id="document-your-data" class="level1">
 <h1>Document your data</h1>
@@ -2655,7 +2654,7 @@ font-style: inherit;">"sinew"</span>)</span></code></pre></div>
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">makeOxygen</span>(mydataset, <span class="at" style="color: #657422;
+font-style: inherit;">makeOxygen</span>(niftydata, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">add_fields =</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -2702,7 +2701,7 @@ background-color: null;
 font-style: inherit;">#' @source \url{http://somewhere.important.com/}</span></span>
 <span id="cb7-14"><span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"mydataset"</span></span></code></pre></div>
+font-style: inherit;">"niftydata"</span></span></code></pre></div>
 </div>
 <p>Do that for each data frame in your package, adding each skeleton to <code>R/data.R</code>. Edit the parts in ALL_CAPS. <code>sinew</code> also provides RStudio addins, available in the <code>Addins</code> menu. Read their documentation to learn how to use them.</p>
 <p>For a bit more detail on documenting data packages, see:</p>
@@ -2713,7 +2712,7 @@ font-style: inherit;">"mydataset"</span></span></code></pre></div>
 <p>The final step in creating a data package is to build the package along with the new documentation.</p>
 <p>In the <strong>Build</strong> tab, first select <code>Document</code> from the <code>More</code> menu – this will generate the documentation from from the roxygen markup you created above. Then click <code>Install and Restart</code> (or <code>Build and Reload</code>). You should now be able to access the help page for each data frame in the standard way:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">?mydataset</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">?niftydata</span></code></pre></div>
 </div>
 <p>You’re done! Just remember, when you change something, update the version number in the <code>DESCRIPTION</code> file and rebuild your package.</p>
 
@@ -2724,7 +2723,7 @@ font-style: inherit;">"mydataset"</span></span></code></pre></div>
   <category>stats</category>
   <guid>https://blog.edhagen.net/posts/2017-10-18-put-your-data-in-an-r-package/</guid>
   <pubDate>Wed, 18 Oct 2017 07:00:00 GMT</pubDate>
-  <media:content url="https://blog.edhagen.net/posts/2017-10-18-put-your-data-in-an-r-package/datapackage_screenshot.png" medium="image" type="image/png" height="71" width="144"/>
+  <media:content url="https://blog.edhagen.net/posts/2017-10-18-put-your-data-in-an-r-package/datapackage_screenshot.png" medium="image" type="image/png" height="74" width="144"/>
 </item>
 <item>
   <title>Monkey butts, menstrual cycles, sex, and the color pink. The statistical crisis in science</title>

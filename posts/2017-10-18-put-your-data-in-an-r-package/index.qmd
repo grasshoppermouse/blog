@@ -12,6 +12,9 @@ categories:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+*Updated: Feb 26, 2025*
+
 I used to write long R scripts that imported data files, created new variables, reshaped the data, reshaped it again, and spit out results along the way, all in one file.
 
 That worked so long as I never wanted to use that data again. But what if I did? Should I just tack on more code for the new analysis, and then even more code for yet more analyses? That approach will litter your environment with objects that are irrelevant for, and might even interfere with, a particular analysis. Should I copy all the files into a new directory and then hack away at the code? Now I have two copies of the data -- which one is definitive? Should I just treat the original data files as the data? Now I have to repeat the same initial processing steps every time I want to reuse that data.
@@ -56,19 +59,20 @@ install.packages("usethis")
 
 # Create new package. Directory must not exist. 
 # This also creates a new RStudio project.
-usethis::create_package("path/to/my/data/package/")
+usethis::create_package("path/to/my/nifty/data/package")
 ```
 
-Open your new data package using "Open project..." in RStudio. Then run this code from the console:
+Your new data package will open automatically in RStudio. If it doesn't, open it using "Open project..." in RStudio. Then run this code from the console:
 
 ```{r, eval=F}
 # Run this code after opening the new package in RStudio
 
 # Set up the data-raw directory and data processing script
-# You can use any name you want for your data
-usethis::use_data_raw(name = 'mydataset')
+# You can use any name you want for your script
+usethis::use_data_raw(name = 'niftydata')
 
-# This script in the R directory will contain the documentation.
+# Create a script in the R directory that will contain the
+# documentation, which I explain a bit later. 
 # You can use any name you want.
 file.create("R/data.R")
 
@@ -81,17 +85,16 @@ Put your data files into the `data-raw` folder. Your new package directory shoul
 
 ![Package layout](datapackage_screenshot.png)
 
-Write your data processing code in a `data-raw/mydataset.R` script. It would look something like this:
+Write your data processing code in a `data-raw/niftydata.R` script. It would look something like this:
 
 ```{r, eval=F}
-# data-raw/mydataset.R
+# data-raw/niftydata.R
 # Data import and processing pipeline
 
 library(readr)
 library(readxl)
 
-mydataset <- read_csv("data-raw/pendulum data.csv")
-demographics <- read_excel("data-raw/Demographics.xlsx")
+niftydata <- read_excel("data-raw/niftydata.xlsx")
 
 # Data cleaning code here...
 # (Do NOT put data analysis code here!)
@@ -100,7 +103,7 @@ demographics <- read_excel("data-raw/Demographics.xlsx")
 # Note that names are unquoted.
 # I like using overwrite = T so everytime I run the script the 
 # updated objects are saved, but the default is overwrite = F
-usethis::use_data(mydataset, demographics, overwrite = T)
+usethis::use_data(niftydata, overwrite = T)
 ```
 
 That last line writes your R data frames and other data objects to files in the `data` directory (not the `data-raw` directory!). The `data` directory will be created if it does not exist.
@@ -111,7 +114,7 @@ Edit your `DESCRIPTION` file as specified in Hadley Wickham's book on R packages
 
 You won't need `Imports` or `Suggests`.
 
-At this point you should confirm that you can build and install your package. You should see a **Build** tab in RStudio. Open it and click **Build and Install** (older RStudio versions) or **Install and Restart** (newer RStudio versions), which will build the package and install it in your package library. You should see your package in the **Packages** tab, and you should have access to the data frame objects in any script where you include: `library(mydatapackage)`.
+At this point you should confirm that you can build and install your package. You should see a **Build** tab in RStudio. Open it and click **Build and Install** (older RStudio versions) or **Install** (newer RStudio versions), which will build the package and install it in your package library. You should see your package in the **Packages** tab, and you should have access to the data frame objects in any script where you include: `library(niftydata)`.
 
 # Document your data
 
@@ -126,7 +129,7 @@ Open your currently blank `R/data.R` file, which is where you will add the docum
 Then use the `makeOxygen` function from the `sinew` package to create skeleton documentation, e.g., for the `mydataset` data frame:
 
 ```{r, eval=F}
-sinew::makeOxygen(mydataset, add_fields = "source")
+sinew::makeOxygen(niftydata, add_fields = "source")
 ```
 
 This will print out a skeleton that you copy and paste into your currently empty `R/data.R` file:
@@ -145,7 +148,7 @@ This will print out a skeleton that you copy and paste into your currently empty
 #'   \item{\code{Acceleration - resultant (m/s²)}}{double COLUMN_DESCRIPTION} 
 #'}
 #' @source \url{http://somewhere.important.com/}
-"mydataset"
+"niftydata"
 ```
 
 Do that for each data frame in your package, adding each skeleton to `R/data.R`. Edit the parts in ALL_CAPS. `sinew` also provides RStudio addins, available in the `Addins` menu. Read their documentation to learn how to use them.
@@ -161,7 +164,7 @@ The final step in creating a data package is to build the package along with the
 In the **Build** tab, first select `Document` from the `More` menu -- this will generate the documentation from from the roxygen markup you created above. Then click `Install and Restart` (or `Build and Reload`). You should now be able to access the help page for each data frame in the standard way: 
 
 ```{r, eval=F}
-?mydataset
+?niftydata
 ```
 
 You're done! Just remember, when you change something, update the version number in the `DESCRIPTION` file and rebuild your package.
