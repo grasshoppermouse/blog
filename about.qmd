@@ -6,6 +6,8 @@ about:
   links:
     - text: Department webpage
       href: https://anthro.vancouver.wsu.edu/people/hagen
+    - text: "{{< iconify simple-icons bluesky >}} Bluesky"
+      href: "https://bsky.app/profile/edhagen.net"
     - icon: twitter
       text: Twitter
       href: https://twitter.com/ed_hagen

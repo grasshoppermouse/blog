@@ -4,13 +4,18 @@ project:
 website:
   title: "Grasshoppermouse"
   site-url: https://blog.edhagen.net
+  description: "Blog posts and talk slides"
   twitter-card: true
   open-graph: true
   navbar:
     right:
       - about.qmd
+      - text: "{{< iconify simple-icons bluesky >}}"
+        href: "https://bsky.app/profile/edhagen.net"
       - icon: twitter
         href: https://twitter.com/ed_hagen
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme: litera
@@ -20,3 +25,5 @@ format:
 execute:
   freeze: auto
 
+bluesky-comments:
+  profile: did:plc:wadfbchvgyngydxdhms5fvq6

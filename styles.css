@@ -3,3 +3,19 @@
 .listing-description {
   font-size: .8em;
 }
+
+#title-slide .title {
+  font-size: 1.5em;
+  <!-- color: #b22222; -->
+  <!-- margin-bottom: 100px -->
+}
+.citation {
+  font-size: 1em;
+}
+.references {
+  font-size: 0.75em;
+}
+.reveal section div.center-h {
+  text-align: center;
+}
+.add-space{padding-right: 11%;}
