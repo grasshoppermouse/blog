@@ -1,0 +1,99 @@
+---
+title: "Twitter threads"
+author: 
+  name: "Ed Hagen"
+  affiliation: 
+    - name: Washington State University
+      department: Department of Anthropology
+date: "2025-05-18"
+image: thread.png
+description: "Links to my twitter threads since I joined twitter"
+draft: false
+---
+
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+library(jsonlite)
+
+archive_path <- "~/Documents/Misc/twitterstuff/twitterarchive/twitter-2024-09-01-b826014a3be886e00b25dd88cf610708cc6b326d0209ebe75a377564d8fe740a/data/tweets-copy.js"
+
+screen_name <- "ed_hagen"
+
+d0 <- fromJSON(archive_path)
+
+tweets <- 
+  d0$tweet |> 
+  mutate(created_at2 = parse_date_time(created_at, orders = "%a %b %d %H:%M:%S %z %Y")) |> 
+  arrange(created_at2)
+
+top_level <- is.na(tweets$in_reply_to_status_id)
+
+posts <- 
+  tweets[top_level,] |> 
+  split(tweets$id[top_level])
+
+replies <- 
+  tweets |> 
+  dplyr::filter(in_reply_to_screen_name == screen_name)
+
+for (i in 1:length(posts)){
+  while (T){
+    id <- last(posts[[i]]$id)
+    rs <- which(replies$in_reply_to_status_id == id)
+    if (length(rs) == 0) break
+    posts[[i]] <- bind_rows(posts[[i]], replies[rs,])
+  }
+}
+
+num_tweets <- map_int(posts, nrow)
+threads <- posts[num_tweets>1]
+
+ids <- map_chr(threads, \(x) x$id[1])
+
+# These are threads posted after I downloaded my twitter archive
+#  I originally used a short code, but now use another method
+newids <- 
+"{{< tweet ed_hagen 1921260022433989026 >}}
+{{< tweet ed_hagen 1920125741422825587 >}}
+{{< tweet ed_hagen 1917714960685359184 >}}
+{{< tweet ed_hagen 1911070467445932282 >}}
+{{< tweet ed_hagen 1908278623569949173 >}}
+{{< tweet ed_hagen 1905082536684126500 >}}
+{{< tweet ed_hagen 1903906149621190827 >}}
+{{< tweet ed_hagen 1865470420927025326 >}}
+{{< tweet ed_hagen 1859716008556233174 >}}
+{{< tweet ed_hagen 1855398741827875033 >}}
+{{< tweet ed_hagen 1853815811783184630 >}}
+{{< tweet ed_hagen 1832423877622014003 >}}"
+newids <- str_extract_all(newids, "\\d+")
+ids <- c(ids, rev(newids[[1]]))
+
+# Remove
+ids <- ids[!ids %in% c("1641597691632439297", "1567010039545868289")]
+
+html <- 
+'
+<blockquote class="twitter-tweet">
+  <a href="https://twitter.com/{screen_name}/status/{ids}"></a>
+</blockquote> 
+'
+
+out <- str_glue(html)
+
+twitter_script <- '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+
+```
+
+These are my `{r} length(out)` twitter threads from shortly after I joined twitter, `{r} round_date(min(tweets$created_at2), unit = 'day')`, until shortly before the publication of this blogpost (most recent first): 
+
+```{r}
+#| output: asis
+#| echo: false
+
+rev(out)
+cat(twitter_script)
+```
+

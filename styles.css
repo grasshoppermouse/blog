@@ -9,13 +9,16 @@
   <!-- color: #b22222; -->
   <!-- margin-bottom: 100px -->
 }
-.citation {
+/*.citation {
   font-size: 1em;
-}
+}*/
 .references {
   font-size: 0.75em;
 }
 .reveal section div.center-h {
   text-align: center;
+}
+.alert {
+  color: red;
 }
 .add-space{padding-right: 11%;}

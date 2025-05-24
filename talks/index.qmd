@@ -1,0 +1,7 @@
+---
+title: "Talk slides"
+listing: 
+  type: default
+  sort: "date"
+---
+

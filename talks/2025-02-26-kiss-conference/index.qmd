@@ -1,0 +1,186 @@
+---
+title: "The Pleistocene transition to meat-eating increased spillover of zoonotic diseases"
+author: 
+  name: "Ed Hagen"
+  affiliation: 
+    - name: Washington State University
+      department: Department of Anthropology
+date: "2025-02-26"
+image: images/bushmeat.jpg
+categories:
+  - slides
+description: "Talk on zoonotic spillovers, which often exhibit little-or-no human-to-human transmission, but like rabies, can be deadly. KISS conference, San Francisco Feb 2025"
+format:
+  clean-revealjs:
+    footer: "[🛖 Home](/index.qmd)"
+center: true
+embed-resources: false
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .title {
+        font-size: 0.9em;
+        color: #b22222;
+        margin-bottom: 100px
+      }
+      .citation {
+        font-size: 0.5em;
+      }
+      .references {
+        font-size: 0.75em;
+      }
+      .add-space{padding-right: 11%;}
+      </style>
+bibliography: references.bib
+---
+
+## My research: Evolved psychology of plant drug use
+
+![](images/drug_plants.png){fig-align=center}
+
+@FAO2019
+
+## My hypothesis
+
+Intensifying zoonotic pathogen pressure in the Pleistocene selected for increased pharmacological plant use
+
+## Rabies as a model zoonotic disease
+
+* Seven lyssaviruses infect humans
+* Transmission: bites from infected bats and carnivores
+* Infects the nervous system
+* 100% lethal (without immediate treatment)
+* 13K--59K annual deaths globally (mainly from rabid dogs)
+* [No human-to-human transmission]{style="color:red;"}
+
+## {background-color="black" background-image="images/Star-Trek-Mirror-Mirror-3.jpg"}
+
+## Evolution of the human diet 
+
+## Hominin Plio-Pleistocene ecology
+
+![](images/ecoDOLdiagram4.png){fig-align=center}
+
+## Miocene diet
+
+![](images/chimp-habituation-3-1024x683.jpeg){fig-align=center}
+
+
+## Hominin Plio-Pleistocene ecology
+
+![](images/ecoDOLdiagram4.png){fig-align=center}
+
+## Pliocene diet
+
+![](images/chimp_lucy.jpg){fig-align=center}
+
+## Pliocene diet
+
+![](images/dentition.jpg){fig-align=center}
+
+## Hominin Plio-Pleistocene ecology
+
+![](images/ecoDOLdiagram4.png){fig-align=center}
+
+## The transition to carnivory {background-color="black" background-image="images/aka_kids.jpg"}
+
+## The transition to carnivory
+
+![](images/cutmarks.jpg){fig-align=center}
+
+@dominguez2021early
+
+## Dramatic dietary shift
+
+![](images/proportion_meat.png){fig-align=center}
+
+## Plant vs. animal pathogens
+
+![](images/plant_animal_cells.png){fig-align=center}
+
+@kim2020crossing
+
+## Zoonotic virus entry & replication
+
+![](images/virusentry.png){fig-align=center}
+
+@palakurty2025viral
+
+## Most animal RNA viruses enter human cells
+
+![](images/41564_2024_1879_Fig2_HTML.png){fig-align=center}
+
+@dufloo2025receptor
+
+## Wild mammalian zoonotic reservoirs
+
+![](images/han2016_zoonoses.png){fig-align=center}
+
+@han2016global
+
+## Bushmeat spillover risk {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+* Ebola, HIV, and monkeypox, SARS-CoV-1, and possibly SARS-CoV-2 (Kurpiers et al., 2016; Peros et al., 2021). 
+
+* Systematic review: 133 reports of disease involving 60 pathogens in 58 bushmeat species, mostly mammals (95%), with some reptiles (4%) and birds (1%). 
+
+* The most common zoonotic pathogens were helminths (37%) and bacteria (33%), followed by viruses and protozoa (15% each) (Peros et al., 2021).
+:::
+
+::: {.column width="50%"}
+![](images/bushmeat.jpg)
+:::
+::::
+
+## Hunting spillover risk {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+* Congo Basin foragers (pygmies) are at higher risk of zoonotic spillover than neighboring farmers
+* Simian foamy virus (SFV)
+* Human T-lymphotropic virus type 1 (HTLV-1)
+* Monkeypox
+* Ebola (highest prevalence of antibodies ever reported: 18.7% vs. 2-3.5%)
+* Severe bites from a non-human primate are major risk factor for infection
+:::
+
+::: {.column width="50%"}
+![](images/akadude.jpg)
+:::
+::::
+
+## RNA virus tissue tropism and transmission
+
+![](images/tropism.png)
+
+@brierley2019
+
+## RNA virus <span style="color:red;">virulence</span>
+
+Leaves: correct classifications. 
+
+![](images/pbio.3000206.g002.png)
+
+@brierley2019
+
+## Zoonotic virus case fatality rates
+
+![](images/casefatalityrates.png)
+
+@guth2019
+
+## Concluding remarks {.smaller}
+
+* The human niche involved fewer anti-infective plant foods and more infective animal foods
+* Theories often emphasize meat spoilage but ignore spillover risk
+* Zoonotic pathogens often have poor transmissibility but high virulence
+* A single lifetime infection of a rabies-like pathogen would have had an enormous impact on fitness
+* Theories of behavioral immunity need to consider less risk from sick people and more risk from bites, cuts, insect vectors, and raw meat.
+
+---
+
+![](images/DRC.png)
+
+## References

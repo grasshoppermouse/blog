@@ -1,0 +1,206 @@
+---
+title: "Create a webpage listing all your twitter threads"
+author: "Ed Hagen"
+date: "2025-05-18"
+image: tweets.js.png
+description: "Notes on how to import your tweets into R and create a webpage listing all your threads"
+draft: false
+---
+
+If you've put a lot of effort into your twitter threads over the years, it would be nice to have a webpage that links to each one. Here are my notes on how to do it using `R` and `rmarkdown` or [Quarto](https://quarto.org). These notes will get you started but they're not a complete recipe -- you will have to fill in some details on your own.
+
+First, request an archive of your data from your [account settings page](https://x.com/settings/account) on twitter (now **X**):
+
+![](settings.png)
+
+Twitter might take a couple of days to generate this for you. The archive comes with a nifty web interface (which you won't be using here).
+
+Second, your tweets are in the  `tweets.js` file inside the `data` directory inside the archive directory (`twitter-2025-xx-yy-zzzzz/data/tweets.js`). Open this large `json` file in your favorite text editor, delete the part I highlighted in blue here, and save this in a new file (e.g., `tweets-copy.js`):
+
+![](tweets.js.png)
+
+Third, import this `json` file into `R`:
+
+```{r}
+#| message: false
+library(tidyverse)
+library(jsonlite)
+
+# Set these to your values
+screen_name <- "ed_hagen"
+archive_path <- "~/Documents/Misc/twitterstuff/twitterarchive/twitter-2024-09-01-b826014a3be886e00b25dd88cf610708cc6b326d0209ebe75a377564d8fe740a/data/tweets-copy.js"
+
+d0 <- fromJSON(archive_path)
+
+tweets <- 
+  # tweet data frame: each row is one tweet
+  d0$tweet |> 
+  # convert twitter dates to R dates to sort on date
+  mutate(created_at2 = parse_date_time(created_at, orders = "%a %b %d %H:%M:%S %z %Y")) |> 
+  arrange(created_at2)
+
+# This is a complex data frame
+# Some columns are lists, or lists of data frames
+glimpse(tweets)
+
+```
+
+Fourth, many of my `{r} nrow(tweets)` tweets are replies to other users, whereas the tweets I want for this project are my top level tweets along with my replies to my top level tweets (i.e., my threads). Top level tweets are identified by an `NA` in the `in_reply_to_status_id` column of the `tweets` data frame:
+
+```{r}
+top_level <- is.na(tweets$in_reply_to_status_id)
+table(top_level)
+
+# Create a list where each element is a single-row
+# data frame for each top-level tweet. In the next chunk
+# we will append the associated reply tweets to these
+# data frames as additional rows, i.e., each data frame 
+# will be one thread.
+posts <- 
+  tweets[top_level,] |> 
+  split(tweets$id[top_level])
+
+# Get the replies to self (substitute your screen name)
+replies <- 
+  tweets |> 
+  dplyr::filter(in_reply_to_screen_name == screen_name)
+```
+
+Fifth, we need to link your replies to yourself to the proper top-level tweets, and in the proper order. This is how I did it:
+
+```{r}
+# Add rows to each data frame, where each row
+# is one tweet in the thread, in chronological order.
+# The first row is your original post, and the remaining
+# rows are your replies
+for (i in 1:length(posts)){
+  while (T){
+    id <- last(posts[[i]]$id)
+    rs <- which(replies$in_reply_to_status_id == id)
+    if (length(rs) == 0) break
+    posts[[i]] <- bind_rows(posts[[i]], replies[rs,])
+  }
+}
+```
+
+At this point you could do a number of things, such as rendering each thread yourself. The full text of each tweet is in the `full_text` column. Each tweet also has an `entities` data frame with hash tags, media urls (which are also in your archive), and mentions. Retweets are identified with an "RT" at the beginning of the full text.
+
+Here I'm instead going to filter on threads, which I'll define as tweets with one or more replies by me:
+
+```{r}
+# Number of tweets in each thread
+num_tweets <- map_int(posts, nrow)
+
+# Number of threads, i.e., two or more tweets
+sum(num_tweets>1)
+threads <- posts[num_tweets>1]
+```
+
+The easiest way to render your threads is to embed them in webpage using the following html that includes your screen name and top-level tweet `id`:
+
+```{r}
+# Get the ids of the first tweet in each thread
+ids <- map_chr(threads, \(x) x$id[1])
+
+html <- 
+'
+<blockquote class="twitter-tweet">
+  <a href="https://twitter.com/{screen_name}/status/{ids}"></a>
+</blockquote> 
+'
+
+# Create a vector of html blockquotes
+# that reference each top level tweet
+out <- str_glue(html)
+out[1:2]
+
+# You will need to append this at
+# the end of all the blockquote tags
+twitter_script <- '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+```
+
+At this point, you could write `out` to a file:
+
+```{r}
+#| eval: false
+# This isn't a complete html file
+write_lines(c(out, twitter_script), file = "myhtmlfragment.html")
+```
+
+To instead render it within an `rmarkdown` or `quarto` file, set chunk options `output: asis` and `echo: false`:
+
+```{{r}}
+#| output: asis
+#| echo: false
+
+# Render the threads, plus the
+# necessary script from twitter
+out
+cat(twitter_script)
+```
+
+Here are the first three of my threads:
+
+```{r}
+#| output: asis
+#| echo: false
+
+out[1:3]
+cat(twitter_script)
+```
+
+Here is most of the code in one place:
+
+```{r}
+#| eval: false
+
+library(tidyverse)
+library(jsonlite)
+
+# Set these to your values
+screen_name <- "my_screen_name"
+archive_path <- "path/to/my/twitter-2025-archive-xx-yy-zz/data/tweets-copy.js"
+
+d0 <- fromJSON(archive_path)
+
+tweets <- 
+  d0$tweet |> 
+  mutate(created_at2 = parse_date_time(created_at, orders = "%a %b %d %H:%M:%S %z %Y")) |> 
+  arrange(created_at2)
+
+top_level <- is.na(tweets$in_reply_to_status_id)
+
+posts <- 
+  tweets[top_level,] |> 
+  split(tweets$id[top_level])
+
+replies <- 
+  tweets |> 
+  dplyr::filter(in_reply_to_screen_name == screen_name)
+
+for (i in 1:length(posts)){
+  while (T){
+    id <- last(posts[[i]]$id)
+    rs <- which(replies$in_reply_to_status_id == id)
+    if (length(rs) == 0) break
+    posts[[i]] <- bind_rows(posts[[i]], replies[rs,])
+  }
+}
+
+num_tweets <- map_int(posts, nrow)
+threads <- posts[num_tweets>1]
+
+ids <- map_chr(threads, \(x) x$id[1])
+
+html <- 
+'
+<blockquote class="twitter-tweet">
+  <a href="https://twitter.com/{screen_name}/status/{ids}"></a>
+</blockquote> 
+'
+
+out <- str_glue(html)
+
+twitter_script <- '<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+```
+

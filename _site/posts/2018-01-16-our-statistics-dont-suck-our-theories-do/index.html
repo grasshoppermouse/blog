@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.340">
+<meta name="generator" content="quarto-1.6.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ed Hagen">
 <meta name="dcterms.date" content="2018-01-16">
 
-<title>Grasshoppermouse - Our statistics don’t suck, our theories do</title>
+<title>Our statistics don’t suck, our theories do – Grasshoppermouse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,17 +37,24 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-c9cbc2358325bdd38aa52540c1950e20.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,21 +63,50 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Grasshoppermouse - Our statistics don’t suck, our theories do">
-<meta property="og:description" content="">
+<meta property="og:title" content="Our statistics don’t suck, our theories do – Grasshoppermouse">
+<meta property="og:description" content="Blog posts and talk slides">
 <meta property="og:image" content="https://blog.edhagen.net/posts/2018-01-16-our-statistics-dont-suck-our-theories-do/F11.large.jpg">
-<meta property="og:site-name" content="Grasshoppermouse">
-<meta name="twitter:title" content="Grasshoppermouse - Our statistics don’t suck, our theories do">
-<meta name="twitter:description" content="">
+<meta property="og:site_name" content="Grasshoppermouse">
+<meta name="twitter:title" content="Our statistics don’t suck, our theories do – Grasshoppermouse">
+<meta name="twitter:description" content="Blog posts and talk slides">
 <meta name="twitter:image" content="https://blog.edhagen.net/posts/2018-01-16-our-statistics-dont-suck-our-theories-do/F11.large.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -78,33 +114,46 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Grasshoppermouse</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">Ed Hagen</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Ed Hagen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks/"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/edhagen.net"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="simple-icons:bluesky" aria-label="Icon bluesky from simple-icons Iconify.design set." title="Icon bluesky from simple-icons Iconify.design set."></iconify-icon></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/ed_hagen" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/ed_hagen"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -151,6 +200,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <blockquote class="blockquote">
 <p><em>Every genuine test of a theory is an attempt to falsify it, or to refute it.</em> Karl Popper, 1963.</p>
 </blockquote>
@@ -165,13 +215,17 @@ ul.task-list li input[type="checkbox"] {
 <p>Further, the rejection of a nil <span class="math inline">\(H_0\)</span> (which we already know to be false) is exceedingly weak evidence in favor of our pet hypothesis, <span class="math inline">\(H_1\)</span>. First, rejection of a nil is also probably consistent with many other hypotheses. Worse, if <span class="math inline">\(H_1\)</span> predicts, e.g., the mean of X is greater than 0, the chance of being right is 50-50. Even with this incredibly weak standard, lots of social science studies <a href="http://science.sciencemag.org/content/349/6251/aac4716">don’t replicate</a>.</p>
 <p>We social scientists might be forgiven for concluding that NHST is deeply flawed. We would be wrong. The problem, instead, is our weak theories.</p>
 <p>In the natural sciences, such as physics and chemistry, theories typically predict numerical values for various parameters. Sometimes the predicted value might be 0. Under Einstein’s theory of <a href="https://en.wikipedia.org/wiki/Special_relativity">special relativity</a>, for instance, the speed of light in the direction of the earth’s motion <a href="https://en.wikipedia.org/wiki/Michelson–Morley_experiment">will not differ</a> from the speed of light perpendicular to the earth’s motion. Other times, the predicted values are different from 0. Einstein’s theory of <a href="">general relativity</a>, for example, predicts that the sun will bend star light by a <a href="https://en.wikipedia.org/wiki/Tests_of_general_relativity">specific (non-zero) amount</a>. In either case, the predicted value is a substantive <span class="math inline">\(H_0\)</span> (not a nil) that can be meaningfully tested with NHST.</p>
-<p>Unlike rejecting a nil, which social scientists usually take as evidence supporting their theory, rejecting a substantive <span class="math inline">\(H_0\)</span> <em>rejects</em> the theory! If the difference of the speed of light in one direction vs.&nbsp;another is greater than 0 <span class="math inline">\((p &lt; 3 \times 10^{-7})\)</span>, then special relativity is wrong!<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> If the sun bends light more or less than the predicted amount <span class="math inline">\((p &lt; 3 \times 10^{-7})\)</span> then general relativity is wrong!<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> In the natural sciences, NHST is often a powerful tool to <em>challenge</em> theories, not support them (see <a href="#fig-NHST">Figure&nbsp;1</a>).</p>
+<p>Unlike rejecting a nil, which social scientists usually take as evidence supporting their theory, rejecting a substantive <span class="math inline">\(H_0\)</span> <em>rejects</em> the theory! If the difference of the speed of light in one direction vs.&nbsp;another is greater than 0 <span class="math inline">\((p &lt; 3 \times 10^{-7})\)</span>, then special relativity is wrong!<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> If the sun bends light more or less than the predicted amount <span class="math inline">\((p &lt; 3 \times 10^{-7})\)</span> then general relativity is wrong!<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> In the natural sciences, NHST is often a powerful tool to <em>challenge</em> theories, not support them (see <a href="#fig-NHST" class="quarto-xref">Figure&nbsp;1</a>).</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fig-NHST" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="index_files/figure-html/fig-NHST-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="figure-caption">Figure&nbsp;1: Testing nils vs.&nbsp;substantive nulls. Black vertical line: null. Red vertical line: mean of data. <strong>A</strong>: Rejecting the nil that the mean = 0 is taken as support for a theory predicting that the mean has some value &gt; 0. <strong>B</strong>: Rejecting the substantive null that the mean = 0 rejects the theory. <strong>C</strong>: Failing to reject the substantive null that the mean = 3 fails to reject the theory. All data simulated.</figcaption>
+<div id="fig-NHST" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-NHST-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="index_files/figure-html/fig-NHST-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-NHST-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Testing nils vs.&nbsp;substantive nulls. Black vertical line: null. Red vertical line: mean of data. <strong>A</strong>: Rejecting the nil that the mean = 0 is taken as support for a theory predicting that the mean has some value &gt; 0. <strong>B</strong>: Rejecting the substantive null that the mean = 0 rejects the theory. <strong>C</strong>: Failing to reject the substantive null that the mean = 3 fails to reject the theory. All data simulated.
+</figcaption>
 </figure>
 </div>
 </div>
@@ -184,19 +238,27 @@ ul.task-list li input[type="checkbox"] {
 <p>Most theories in the social sciences, including my own, are so weak that they can only predict that a value will be positive or negative, nothing more (e.g., Figure 1A). Such vague predictions make it harder to falsify these theories, therefore impeding development of better theories.</p>
 <p>Yet it is certainly possible to develop social science theories that predict specific values, and thus expose themselves to meaningful challenges with NHST.</p>
 <p>My graduate student Aaron Lightner and I, for example, recently missed an opportunity to do better science by following standard practice and testing a nil, when we now realize we should have also tested a substantive null. We conducted a classic framing effect study in which we predicted that participants would make different monetary offers in an ultimatum game if it was framed as a currency exchange than if it was “unframed.” We set up our statistical test in the standard social science way. <span class="math inline">\(H_0\)</span> was a “nil”: <em>no difference in mean offers in the framed vs.&nbsp;unframed condition</em>.</p>
-<p>We found a huge effect size (<span class="math inline">\(d\sim2\)</span>; see <a href="#fig-effectsizes">Figure&nbsp;2</a>, and our p-value was very small <span class="math inline">\((p = 1.8 \times 10^{-31})\)</span>. We therefore rejected the nil and concluded that there was a difference in mean offers. <a href="http://dx.doi.org/10.1098/rsos.170543">Publication</a>!</p>
-<div id="fig-effectsizes" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="rsos170543f13.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure&nbsp;2: Effect sizes (absolute values of Cohen’s d) from this study (denoted by ’**’) and a representative sample of previous framing studies. Colours represent game type and bars indicate 95% CI. From Lightner et al.&nbsp;2017: http://dx.doi.org/10.1098/rsos.170543</figcaption>
+<p>We found a huge effect size (<span class="math inline">\(d\sim2\)</span>; see <a href="#fig-effectsizes" class="quarto-xref">Figure&nbsp;2</a>, and our p-value was very small <span class="math inline">\((p = 1.8 \times 10^{-31})\)</span>. We therefore rejected the nil and concluded that there was a difference in mean offers. <a href="http://dx.doi.org/10.1098/rsos.170543">Publication</a>!</p>
+<div id="fig-effectsizes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-effectsizes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="rsos170543f13.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-effectsizes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Effect sizes (absolute values of Cohen’s d) from this study (denoted by ’**’) and a representative sample of previous framing studies. Colours represent game type and bars indicate 95% CI. From Lightner et al.&nbsp;2017: http://dx.doi.org/10.1098/rsos.170543
+</figcaption>
 </figure>
 </div>
 <p>We could have put our theory to a much more severe test, however, by proposing a substantive <span class="math inline">\(H_0\)</span>. In our study, participants self-reported what they thought was a fair offer, and they also made actual monetary offers. Our scientific (not statistical) hypothesis was that actual offers would match self-reported fair offers. These, in turn, would match a cultural norm for offers in currency exchange that differed from offers usually seen in the ultimatum game. If a participant reported that 3% was a fair offer, for instance, then he or she should have offered 3%.</p>
-<p>As our substantive <span class="math inline">\(H_0\)</span>, we therefore should have proposed this: <em>There will be no difference between actual offers and self-reported fair offers</em>. If we had, we would have found that the probability of our data under such an <span class="math inline">\(H_0\)</span> was very small<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, leading us to reject <span class="math inline">\(H_0\)</span>, and therefore to reject our theory. Specifically, our data showed that although many actual offers were exactly, or very close to, self-reported fair offers (dots that fall on, or close to, the diagonal line), as our theory predicted, many other actual offers differed substantially from self-reported fair offers (dots that are far from the diagonal line), contrary to our prediction (<a href="#fig-results">Figure&nbsp;3</a>):</p>
-<div id="fig-results" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="F11.large.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figure&nbsp;3: Self-reported fair offers vs.&nbsp;actual offers in a framed ultimatum game experiment. There were two framed conditions: banker and customer. From Lightner et al.&nbsp;2017: http://dx.doi.org/10.1098/rsos.170543</figcaption>
+<p>As our substantive <span class="math inline">\(H_0\)</span>, we therefore should have proposed this: <em>There will be no difference between actual offers and self-reported fair offers</em>. If we had, we would have found that the probability of our data under such an <span class="math inline">\(H_0\)</span> was very small<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, leading us to reject <span class="math inline">\(H_0\)</span>, and therefore to reject our theory. Specifically, our data showed that although many actual offers were exactly, or very close to, self-reported fair offers (dots that fall on, or close to, the diagonal line), as our theory predicted, many other actual offers differed substantially from self-reported fair offers (dots that are far from the diagonal line), contrary to our prediction (<a href="#fig-results" class="quarto-xref">Figure&nbsp;3</a>):</p>
+<div id="fig-results" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="F11.large.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Self-reported fair offers vs.&nbsp;actual offers in a framed ultimatum game experiment. There were two framed conditions: banker and customer. From Lightner et al.&nbsp;2017: http://dx.doi.org/10.1098/rsos.170543
+</figcaption>
 </figure>
 </div>
 <p>We don’t even need to compute a p-value to see that we can reject our substantive <span class="math inline">\(H_0\)</span>. Our scientific theory is wrong.</p>
@@ -251,18 +313,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -294,11 +345,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/blog\.edhagen\.net");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -308,8 +396,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -321,7 +418,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -365,6 +584,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -390,6 +610,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -450,6 +696,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

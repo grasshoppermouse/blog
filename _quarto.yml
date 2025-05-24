@@ -10,6 +10,8 @@ website:
   navbar:
     right:
       - about.qmd
+      - text: Talks
+        href: talks/
       - text: "{{< iconify simple-icons bluesky >}}"
         href: "https://bsky.app/profile/edhagen.net"
       - icon: twitter
