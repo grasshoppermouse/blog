@@ -2,6 +2,6 @@
 title: "Talk slides"
 listing: 
   type: default
-  sort: "date"
+  sort: "date desc"
 ---
 

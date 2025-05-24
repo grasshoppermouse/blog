@@ -9,7 +9,7 @@ date: "2025-02-26"
 image: images/bushmeat.jpg
 categories:
   - slides
-description: "Talk on zoonotic spillovers, which often exhibit little-or-no human-to-human transmission, but like rabies, can be deadly. KISS conference, San Francisco Feb 2025"
+description: "Talk on zoonotic spillovers, which, like rabies, often exhibit little-or-no human-to-human transmission but can be deadly. KISS conference, San Francisco Feb 2025"
 format:
   clean-revealjs:
     footer: "[🛖 Home](/index.qmd)"
