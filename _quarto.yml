@@ -7,6 +7,7 @@ website:
   description: "Blog posts and talk slides"
   twitter-card: true
   open-graph: true
+  draft-mode: unlinked
   navbar:
     right:
       - about.qmd
@@ -28,4 +29,4 @@ execute:
   freeze: auto
 
 bluesky-comments:
-  profile: did:plc:wadfbchvgyngydxdhms5fvq6
+  profile: did:plc:wadfbchvgyngydxdhms5fvq6 # edhagen.net
