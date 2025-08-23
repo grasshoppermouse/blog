@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>misc – Grasshoppermouse</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-fd3b4a189d4cf907189c4d9bf7c99d35.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Grasshoppermouse">
+<meta property="og:description" content="Blog posts and talk slides">
+<meta property="og:site_name" content="Grasshoppermouse">
+<meta name="twitter:title" content="Grasshoppermouse">
+<meta name="twitter:description" content="Blog posts and talk slides">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Grasshoppermouse</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Ed Hagen</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../talks/"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app/profile/edhagen.net"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="simple-icons:bluesky" aria-label="Icon bluesky from simple-icons Iconify.design set." title="Icon bluesky from simple-icons Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/ed_hagen"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<blockquote class="blockquote">
+<p>What if we were interested in the effect of childhood diet on height? Or about the length of the femur (our largest leg bone) relative to the overall height? If we break the sample pool into male and female before we take our measurements, we might miss some very important variation that is not related to sex, or we might see the variation as sex-related when it might not be.</p>
+<p>Most work on sex biology is based on specific assumptions about “sex differences” and thus is framed as a female vs.&nbsp;male comparison. Researchers rarely ask the initial question about the overall patterns of variation of the specific trait or variable being measured (height, muscle strength, hormone levels, etc.) for the study subject pool. Instead, the subject pool is usually divided into “male” and “female,” without any concrete definition of those terms beyond self-reporting of assigned sex at birth (based on genitals), before the data collection starts. The problem is that if one assumes there is a difference and sets up the research project to look for that difference, the likelihood of finding difference is pretty high.3 (pp.&nbsp;76-77).</p>
+</blockquote>
+<p>This is just false. In fact, one of the earliest and most famous studies of height, by Francis Galton, aimed to investigate the relationship between the heights of parents and their adult children, and it <em>controlled</em> for sex (by multiplying female heights by 1.08 to account for the 8% sex difference in height in Galton’s data). Researchers</p>
+<blockquote class="blockquote">
+<p>To assume that everyone who has a vagina, clitoris, and labia, or a penis and scrotum is a uniform kind of human relative to the “other” kind is insufficient and ill-informed. (p.&nbsp;45).</p>
+</blockquote>
+<p>It also introduces two terms. After defining “gender” as the “norms and expectations for behavior and appearance associated with aspects of sex biology (p.&nbsp;42)”, Fuentes says he’ll instead refer to “gender/sex” “to reflect the intertwined biocultural reality of bodies and experiences more accurately. (p.&nbsp;45)”. As I mentioned, he will also use these terms:</p>
+<blockquote class="blockquote">
+<p>A “3G female” is a human who has XX twenty-third chromosomes, ovaries, and a clitoris/vagina/labia. A “3G male” is a human who is XY and has testes and a penis/scrotum. (p.&nbsp;46).</p>
+</blockquote>
+<!-- Ironically, Fuentes' assigns a much larger role to sex than any biologist I'm aware of. For Fuentes, the fact that (in humans) the overlap in the distributions of height among adult men and women is evidence that sex is a spectrum. My view, and I suspect the view of many other life scientists, is that sex is one contributor to height, but there are others, like childhood nutrition and genetic variation, that have nothing to do with sex. -->
+<section id="notes" class="level1">
+<h1>Notes</h1>
+<p>“A focus on means obscures the likely more biologically relevant realities and dynamics of variation in human bodies and minds. If one seeks to validate assumptions about difference by looking only for difference, then that is all one sees. The patterns of variation in a forest are often more important than the average height of certain types of trees. The same goes for humans and human societies.” (p.&nbsp;121).</p>
+<p>But what are they??? Fuentes never tells us.</p>
+<p>Fuentes: “The problem is that this monogamy package does not exist.”</p>
+<p><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ajpa.24017">Fernandez-Duque et al.</a>: “We stress the need for more high-quality natural history data, and we urge researchers to be cautious about the uncritical use of variables of uncertain internal validity.”</p>
+<section id="ch.-3-humans-are-messy" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-3-humans-are-messy">Ch. 3: Humans are messy</h2>
+<section id="gender-norms" class="level3">
+<h3 class="anchored" data-anchor-id="gender-norms">Gender norms</h3>
+<p>Introduces term “gender/sex”, which would obviously be unique to humans.</p>
+</section>
+</section>
+<section id="ch.-4-humans-then" class="level2">
+<h2 class="anchored" data-anchor-id="ch.-4-humans-then">Ch. 4: Humans then</h2>
+<p>This section is on hominin evolution. Secondarily altricial infants and postnatal brain growth -&gt; cooperation, but why brain increase???</p>
+<blockquote class="blockquote">
+<p>Before we explore primates further, a quick note: in keeping with the typical terminology in primate studies, in the rest of this section we’ll use the term “male” for small-gamete producers and “female” for large-gamete producers. This shorthand is meant to reflect the biology associated with 3G females and 3G males, not anything about specific behavioral roles or patterns. There is little known about the physiology of intersex nonhuman primates, except that the frequency of such variation is probably similar to that in humans. However, there are few, if any, studies that have looked specifically at variation in 3G categories in primates, but we do know that there is substantial biological and behavioral variation within the categories of “male” and “female” across and within many primate species.</p>
+</blockquote>
+<p>Awkward sentences like:</p>
+<blockquote class="blockquote">
+<p>For example, unlike many mammals, human adult 3G-male bodies change physiologically in the presence of infants, most strongly when they are engaged in caretaking of them.(p.&nbsp;62).</p>
+</blockquote>
+<p>And</p>
+<blockquote class="blockquote">
+<p>energetic investments in the genus Homo indicate that we cannot model an understanding of human sex biology simply by separating small- and large-gamete producers assuming a fixed and massive difference of investment in reproductive effort. (pp.&nbsp;62-63).</p>
+</blockquote>
+<p>Insulting to researchers:</p>
+<blockquote class="blockquote">
+<p>If we break the sample pool into male and female before we take our measurements, we might miss some very important variation that is not related to sex, or we might see the variation as sex-related when it might not be. The immediate breaking of a sample pool into male and female is a pattern of data presentation, analyses, and discussion that sometimes makes effective and accurate conversation about, and understanding of, human variation difficult. (p.&nbsp;76)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>there are not two distinct sex morphs of the human body. (p.&nbsp;80).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>While there are typical human-wide patterns of deposition, specific patterns of where and how fat gets laid down vary by geography, populations, 3G sex, age, familial groups, and individuals.29 The pattern of fat deposition is the same for 3G sexes until puberty, when 3G females usually begin to increase total fat mass, eventually developing about 10 percent more total fat, on average, than a 3G male of the same height and weight.30 Deposition location also varies, with adult 3G females depositing more fat around the chest area and gluteofemoral region and 3G males more around the abdomen and the internal organs (usually). These patterns are on average, and there is a huge range of variation from individual to individual, and across the entire species.31 For example, breasts in humans with testes and no ovaries or uterus are not uncommon. Approximately 30 to 60 percent of 3G males experience a degree of adipose (and glandular tissue, see below) deposition in their chest leading to the developments of breasts at some point during their lifetimes (called either gynecomastia or pseudogynecomastia or both).32 In humans who menstruate and become pregnant, pregnancy and menopause are both associated with changes in fat mass and its patterns of deposition, but the specifics of how this pattern plays out vary dramatically across geographic and cultural contexts. There is mounting evidence that multiple X and Y chromosome genes (plus many other genes), epigenetic processes, sociocultural stressors, and trauma influence specific adipose deposition and metabolism. And there are even mosaic effects (where a person has two or more genetically different sets of cells in their body) on different adipose locations within the same individual.33 Adipose deposition, fat, while showing some key average patterns, is quite variable across and within 3G-sex categories in humans. (pp.&nbsp;87-88).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Menstruating people and people who could menstruate make up half of humanity and thus a core aspect of sex biology. (p.&nbsp;97)</p>
+</blockquote>
+<p>Why half?</p>
+<blockquote class="blockquote">
+<p>For example, the SRY gene on the Y chromosome is assumed to be a TDF (testes determining factor) and known to steer the developing embryo toward the formation of testes. (p.&nbsp;105).</p>
+</blockquote>
+<p>What does the “S” in “SRY” stand for? According to the discoverers who named it: “This gene has been termed SRY (for sex-determining region Y) and proposed to be a candidate for the elusive testis-determining gene, TDF” (<a href="https://www.nature.com/articles/346240a0">Sinclair et al., 1990</a>). Interestingly, sequences present in XX males and absent in XY females were instrumental in tracking down SRY.</p>
+<blockquote class="blockquote">
+<p>There is some gender/sex-related variation in self-reported perspectives on sexuality, but this variation is not simply a reflection of an “evolved difference” stemming from gamete sizes and reproductive (p.&nbsp;118).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>In 2020, the Republican governor of the US state of Tennessee, Bill Lee, signed a bill to ensure that foster care and adoption agencies could exclude LGBTQ families and others based on “religious beliefs.”10 By 2024, there were at least thirteen states in the United States that had similar laws.11 The laws are based on false beliefs about what is biologically “natural,” and therefore “right” for humans. These laws assume that only heterosexual pairings of certain types of people (cisgender) provide appropriate and successful conditions for the rearing of children. This is factually incorrect, as the children of LGBTQ parents fare just as well as children of non-LGBTQ parents.12 But these beliefs and real legal structures are not about the data or facts; rather, they reflect a deep commitment to the logic of the sex-biology binary: if female bodies are made for reproduction and caretaking, and male bodies for protection and provisioning, then the biological (natural) basis for family is a heterosexual male and female couple. (p.&nbsp;129).</p>
+</blockquote>
+<p>But wait, Fuentes just stated that these laws were based on religious beliefs, not scientific ones.</p>
+<p>Regarding including females in drug testing:</p>
+<blockquote class="blockquote">
+<p>A third explanation for possible differences in outcomes is that “men” and “women” are not discrete biological categories, so testing pharmaceuticals in the categories “men” and “women” is not effectively assessing the range of human biological variation (the actual people) taking the drugs. Finally, human bodies and their physiologies are shaped by their lived experiences, so gendered cultural facets may affect how bodies and physiologies respond to drugs. (p.&nbsp;133)</p>
+</blockquote>
+<p>Fuentes really goes off the rails writing about variation in drug metabolism, implausibly claiming that challenges determining proper drug dosing are due to the binary sex concept.</p>
+<p>Commerical PBPK software promo:</p>
+<p><a href="https://www.youtube.com/watch?v=_9scvYBEpIg&amp;t=853s" class="uri">https://www.youtube.com/watch?v=_9scvYBEpIg&amp;t=853s</a></p>
+<blockquote class="blockquote">
+<p>While sex biology plays a core role in pregnancy, a mountain of data supports the assertion that the individual experience of pregnancy, like so much else in human lives, strongly intertwines with social, economic, political, racialized, and related aspects.40 Even something as specific as where one gives birth can have dramatic impacts on bodies and lives.41 Pregnancy, like so much of the human, is also biocultural. There is a substantial range of physiological variation between individuals who can and do get pregnant in terms of length of gestation (which varies by as much as many weeks), hypertensive disorders, labor/delivery experience, and much more.42 Given this range of variation in biology, and the experience and context of pregnancy and birth, rather than seeing women, people who can get pregnant, and people who do get pregnant as a monolithic category, it makes better scientific and social sense to examine the patterns and processes of the variation across and among those who do get pregnant to better facilitate healthy outcomes. (p.&nbsp;138).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The data are clear; the medical world should think beyond a sex binary as the only way to ask questions about health. (p.&nbsp;140).</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/blog\.edhagen\.net");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
