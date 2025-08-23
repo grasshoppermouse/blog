@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Grasshoppermouse"
+  title: "Grasshoppermouse [![DOI](https://zenodo.org/badge/635082007.svg)](https://doi.org/10.5281/zenodo.16930458)"
   site-url: https://blog.edhagen.net
   description: "Blog posts and talk slides"
   twitter-card: true
