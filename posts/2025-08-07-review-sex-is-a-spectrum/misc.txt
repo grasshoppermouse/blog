@@ -1,0 +1,92 @@
+> What if we were interested in the effect of childhood diet on height? Or about the length of the femur (our largest leg bone) relative to the overall height? If we break the sample pool into male and female before we take our measurements, we might miss some very important variation that is not related to sex, or we might see the variation as sex-related when it might not be.
+>
+> Most work on sex biology is based on specific assumptions about “sex differences” and thus is framed as a female vs. male comparison. Researchers rarely ask the initial question about the overall patterns of variation of the specific trait or variable being measured (height, muscle strength, hormone levels, etc.) for the study subject pool. Instead, the subject pool is usually divided into “male” and “female,” without any concrete definition of those terms beyond self-reporting of assigned sex at birth (based on genitals), before the data collection starts. The problem is that if one assumes there is a difference and sets up the research project to look for that difference, the likelihood of finding difference is pretty high.3 (pp. 76-77).
+
+This is just false. In fact, one of the earliest and most famous studies of height, by Francis Galton, aimed to investigate the relationship between the heights of parents and their adult children, and it *controlled* for sex (by multiplying female heights by 1.08 to account for the 8% sex difference in height in Galton's data). Researchers
+
+
+
+>To assume that everyone who has a vagina, clitoris, and labia, or a penis and scrotum is a uniform kind of human relative to the “other” kind is insufficient and ill-informed. (p. 45).
+
+
+It also introduces two terms. After defining "gender" as the "norms and expectations for behavior and appearance associated with aspects of sex biology (p. 42)", Fuentes says he'll instead refer to "gender/sex" "to reflect the intertwined biocultural reality of bodies and experiences more accurately. (p. 45)". As I mentioned, he will also use these terms:
+
+> A “3G female” is a human who has XX twenty-third chromosomes, ovaries, and a clitoris/vagina/labia. A “3G male” is a human who is XY and has testes and a penis/scrotum. (p. 46).
+
+
+
+
+
+<!-- Ironically, Fuentes' assigns a much larger role to sex than any biologist I'm aware of. For Fuentes, the fact that (in humans) the overlap in the distributions of height among adult men and women is evidence that sex is a spectrum. My view, and I suspect the view of many other life scientists, is that sex is one contributor to height, but there are others, like childhood nutrition and genetic variation, that have nothing to do with sex. -->
+
+
+
+
+# Notes
+
+"A focus on means obscures the likely more biologically relevant realities and dynamics of variation in human bodies and minds. If one seeks to validate assumptions about difference by looking only for difference, then that is all one sees. The patterns of variation in a forest are often more important than the average height of certain types of trees. The same goes for humans and human societies." (p. 121). 
+
+But what are they??? Fuentes never tells us.
+
+Fuentes: "The problem is that this monogamy package does not exist."
+
+[Fernandez-Duque et al.](https://onlinelibrary.wiley.com/doi/full/10.1002/ajpa.24017): "We stress the need for more high-quality natural history data, and we urge researchers to be cautious about the uncritical use of variables of uncertain internal validity."
+
+## Ch. 3: Humans are messy
+
+### Gender norms
+
+Introduces term "gender/sex", which would obviously be unique to humans.
+
+## Ch. 4: Humans then
+
+This section is on hominin evolution. Secondarily altricial infants and postnatal brain growth -> cooperation, but why brain increase???
+
+>Before we explore primates further, a quick note: in keeping with the typical terminology in primate studies, in the rest of this section we’ll use the term “male” for small-gamete producers and “female” for large-gamete producers. This shorthand is meant to reflect the biology associated with 3G females and 3G males, not anything about specific behavioral roles or patterns. There is little known about the physiology of intersex nonhuman primates, except that the frequency of such variation is probably similar to that in humans. However, there are few, if any, studies that have looked specifically at variation in 3G categories in primates, but we do know that there is substantial biological and behavioral variation within the categories of “male” and “female” across and within many primate species.
+
+Awkward sentences like:
+
+>For example, unlike many mammals, human adult 3G-male bodies change physiologically in the presence of infants, most strongly when they are engaged in caretaking of them.(p. 62).
+
+And
+
+>energetic investments in the genus Homo indicate that we cannot model an understanding of human sex biology simply by separating small- and large-gamete producers assuming a fixed and massive difference of investment in reproductive effort. (pp. 62-63).
+
+Insulting to researchers:
+
+>If we break the sample pool into male and female before we take our measurements, we might miss some very important variation that is not related to sex, or we might see the variation as sex-related when it might not be. The immediate breaking of a sample pool into male and female is a pattern of data presentation, analyses, and discussion that sometimes makes effective and accurate conversation about, and understanding of, human variation difficult. (p. 76)
+
+> there are not two distinct sex morphs of the human body. (p. 80).
+
+> While there are typical human-wide patterns of deposition, specific patterns of where and how fat gets laid down vary by geography, populations, 3G sex, age, familial groups, and individuals.29 The pattern of fat deposition is the same for 3G sexes until puberty, when 3G females usually begin to increase total fat mass, eventually developing about 10 percent more total fat, on average, than a 3G male of the same height and weight.30 Deposition location also varies, with adult 3G females depositing more fat around the chest area and gluteofemoral region and 3G males more around the abdomen and the internal organs (usually). These patterns are on average, and there is a huge range of variation from individual to individual, and across the entire species.31 For example, breasts in humans with testes and no ovaries or uterus are not uncommon. Approximately 30 to 60 percent of 3G males experience a degree of adipose (and glandular tissue, see below) deposition in their chest leading to the developments of breasts at some point during their lifetimes (called either gynecomastia or pseudogynecomastia or both).32 In humans who menstruate and become pregnant, pregnancy and menopause are both associated with changes in fat mass and its patterns of deposition, but the specifics of how this pattern plays out vary dramatically across geographic and cultural contexts. There is mounting evidence that multiple X and Y chromosome genes (plus many other genes), epigenetic processes, sociocultural stressors, and trauma influence specific adipose deposition and metabolism. And there are even mosaic effects (where a person has two or more genetically different sets of cells in their body) on different adipose locations within the same individual.33 Adipose deposition, fat, while showing some key average patterns, is quite variable across and within 3G-sex categories in humans. (pp. 87-88).
+
+>Menstruating people and people who could menstruate make up half of humanity and thus a core aspect of sex biology. (p. 97)
+
+Why half?
+
+>For example, the SRY gene on the Y chromosome is assumed to be a TDF (testes determining factor) and known to steer the developing embryo toward the formation of testes. (p. 105).
+
+What does the "S" in "SRY" stand for? According to the discoverers who named it: "This gene has been termed SRY (for sex-determining region Y) and proposed to be a candidate for the elusive testis-determining gene, TDF" ([Sinclair et al., 1990](https://www.nature.com/articles/346240a0)). Interestingly, sequences present in XX males and absent in XY females were instrumental in tracking down SRY.
+
+>There is some gender/sex-related variation in self-reported perspectives on sexuality, but this variation is not simply a reflection of an “evolved difference” stemming from gamete sizes and reproductive (p. 118).
+
+
+
+>In 2020, the Republican governor of the US state of Tennessee, Bill Lee, signed a bill to ensure that foster care and adoption agencies could exclude LGBTQ families and others based on “religious beliefs.”10 By 2024, there were at least thirteen states in the United States that had similar laws.11 The laws are based on false beliefs about what is biologically “natural,” and therefore “right” for humans. These laws assume that only heterosexual pairings of certain types of people (cisgender) provide appropriate and successful conditions for the rearing of children. This is factually incorrect, as the children of LGBTQ parents fare just as well as children of non-LGBTQ parents.12 But these beliefs and real legal structures are not about the data or facts; rather, they reflect a deep commitment to the logic of the sex-biology binary: if female bodies are made for reproduction and caretaking, and male bodies for protection and provisioning, then the biological (natural) basis for family is a heterosexual male and female couple. (p. 129).
+
+But wait, Fuentes just stated that these laws were based on religious beliefs, not scientific ones.
+
+Regarding including females in drug testing:
+
+> A third explanation for possible differences in outcomes is that “men” and “women” are not discrete biological categories, so testing pharmaceuticals in the categories “men” and “women” is not effectively assessing the range of human biological variation (the actual people) taking the drugs. Finally, human bodies and their physiologies are shaped by their lived experiences, so gendered cultural facets may affect how bodies and physiologies respond to drugs. (p. 133)
+
+Fuentes really goes off the rails writing about variation in drug metabolism, implausibly claiming that challenges determining proper drug dosing are due to the binary sex concept. 
+
+Commerical PBPK software promo:
+
+<https://www.youtube.com/watch?v=_9scvYBEpIg&t=853s>
+
+> While sex biology plays a core role in pregnancy, a mountain of data supports the assertion that the individual experience of pregnancy, like so much else in human lives, strongly intertwines with social, economic, political, racialized, and related aspects.40 Even something as specific as where one gives birth can have dramatic impacts on bodies and lives.41 Pregnancy, like so much of the human, is also biocultural. There is a substantial range of physiological variation between individuals who can and do get pregnant in terms of length of gestation (which varies by as much as many weeks), hypertensive disorders, labor/delivery experience, and much more.42 Given this range of variation in biology, and the experience and context of pregnancy and birth, rather than seeing women, people who can get pregnant, and people who do get pregnant as a monolithic category, it makes better scientific and social sense to examine the patterns and processes of the variation across and among those who do get pregnant to better facilitate healthy outcomes. (p. 138).
+
+> The data are clear; the medical world should think beyond a sex binary as the only way to ask questions about health. (p. 140).
+

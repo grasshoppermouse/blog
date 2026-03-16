@@ -1,0 +1,142 @@
+socname,soc.id,latitude,longitude,biome,subsistence,allomaternal,fathercare,fixity,storage,polygny,inheritance,pathogen,endstarve,shortstarve,seasonstarve,temp.mean,temp.var,temp.pred,precip.mean,precip.var,precip.pred
+Nama_Hottentot,SCCS1,-27.5,17,Deserts & Xeric Shrublands,Pastoralism,2,3,1,1,3,7,8,3,2,3,19.4732,10.59263669,0.6694714,17684.075,386520648,0.5521601
+Kung_Bushmen,SCCS2,-19.83,20.58,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Gathering,2,4,1,1,3,1,10,1,3,4,21.0331065,14.1185644,0.6681885,89005.311,12332083886,0.4761769
+Thonga,SCCS3,-25.83,32.33,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,2,4,1,5,7,11,1,2,3,18.2768863,8.90745031,0.7186626,134197.583,12418251664,0.6349707
+Mbundu,SCCS5,-12.25,16.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Extensive agriculture,3,3,5,1,5,2,15,2,2,3,17.6767546,3.34892943,0.741032,122664.129,13661008540,0.5698258
+Bemba,SCCS7,-10.5,30.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Extensive agriculture,2,2,4,1,3,3,15,,2,5,17.6649793,8.76530501,0.7513975,126297.477,20553738597,0.7195587
+Nyakyusa,SCCS8,-9.5,34,Inland Water,Intensive agriculture,3,2,4,1,5,6,17,2,2,1,17.7196606,7.99422996,0.7520339,110479.414,14085952159,0.7285086
+Hadza,SCCS9,-3.75,35.18,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Gathering,2,2,1,1,2,6,16,2,2,3,19.2069738,2.78635761,0.7414988,86607.659,10440323091,0.6679243
+Luguru,SCCS10,-6.83,37.67,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Extensive agriculture,2,3,5,2,3,5,14,,2,2,21.0401826,4.3258226,0.8088863,116820.557,5819966558,0.7079845
+Kikuyu,SCCS11,-0.67,37.17,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Intensive agriculture,3,2,5,3,5,7,19,,2,3,18.2439287,1.41920847,0.7725354,48525.62,2391993146,0.6696487
+Ganda,SCCS12,0.33,32.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Intensive agriculture,3,1,5,2,5,7,18,1,2,2,21.6710711,1.03612113,0.7797014,136714.306,15279696081,0.6045725
+Mbuti,SCCS13,1.5,28.33,Tropical & Subtropical Moist Broadleaf Forests,Hunting,3,4,1,1,3,7,17,2,1,1,21.4538823,0.29461569,0.8167957,246503.223,8474274385,0.7845385
+Nkundo_Mongo,SCCS14,-0.75,19.17,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,3,5,1,5,6,18,,,,22.9959144,0.27338684,0.8198086,196079.763,7122628458,0.7877248
+Banen,SCCS15,4.67,10.8,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,3,5,2,5,7,20,1,1,1,21.9249527,0.81157559,0.8091319,202490.323,13427796171,0.7453517
+Tiv,SCCS16,7.25,9,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Extensive agriculture,4,3,5,1,5,7,17,,2,5,23.5594357,1.91335105,0.7704636,150153.625,12760382786,0.6502245
+Ibo,SCCS17,5.5,7.33,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,4,3,5,1,5,7,19,,2,4,24.5112997,1.50982647,0.7840916,138728.195,8374543041,0.7056658
+Fon,SCCS18,7.2,1.91,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Extensive agriculture,1,1,5,2,5,7,18,,2,3,25.2021651,1.41010954,0.772019,118937.908,7891901482,0.6723369
+Ashanti,SCCS19,7,-1.5,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,2,5,2,5,3,18,3,2,3,24.0345462,1.59896379,0.7697197,116987.996,6752452184,0.6961044
+Mende,SCCS20,7.83,-12,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,3,5,2,5,6,17,2,2,4,25.0346681,1.3482422,0.81718,235053.32,57923937221,0.6976083
+Tallensi,SCCS23,10.66,-0.57,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Intensive agriculture,3,3,5,1,5,6,21,,2,3,26.2262842,3.81140077,0.7272879,87246.741,8784440210,0.6343774
+Songhai,SCCS24,16.58,-1.67,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Intensive agriculture,3,3,5,1,2,4,17,,2,3,27.1102328,29.92172658,0.6691539,18839.649,777977038,0.5791415
+Pastoral_Fulani,SCCS25,15,7.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Pastoralism,3,3,1,2,5,7,15,1,2,5,24.649394,20.945364,0.6750865,35297.963,2377791781,0.5809819
+Hausa,SCCS26,10.5,7.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Intensive agriculture,2,3,5,3,5,4,18,1,2,3,23.4056225,2.7527748,0.7362203,117300.838,12917203638,0.6267204
+Azande,SCCS28,5.08,28.25,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Extensive agriculture,1,2,5,1,5,6,20,3,2,5,22.2349062,1.24861524,0.7761698,177589.062,12359177298,0.7069244
+Fur_Darfur,SCCS29,13.5,25.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Intensive agriculture,2,1,5,2,3,7,13,,2,3,22.3814694,12.98935722,0.6791441,41067.347,2447820351,0.5556933
+Shilluk,SCCS31,9.75,31.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Extensive agriculture,2,3,5,2,5,7,16,4,2,4,25.4938369,3.94937667,0.7593796,103070.946,7214008844,0.6840276
+MISSING_Kafa_Kaffa,SCCS33,7.27,36.5,Montane Grasslands & Shrublands,Intensive agriculture,2,2,5,3,5,7,19,,2,3,17.8628242,1.66206099,0.7712841,122950.508,9764798501,0.5835721
+Masai,SCCS34,-3.5,36.75,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Pastoralism,2,1,1,1,5,7,16,1,2,3,18.6923635,3.28556643,0.7570096,71294.368,4960612801,0.6960663
+Konso,SCCS35,5.25,37.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Intensive agriculture,1,2,5,3,3,7,12,,2,3,21.9512518,3.6001648,0.737533,71439.836,3899447287,0.5554009
+Somali,SCCS36,9,47.25,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Pastoralism,2,2,1,1,5,4,15,3,2,5,22.8921658,6.74899593,0.7235502,38064.715,1958075071,0.5980099
+Amhara,SCCS37,12.5,37.75,Montane Grasslands & Shrublands,Intensive agriculture,2,2,5,2,1,7,15,3,2,5,19.5597824,3.8420585,0.7225353,73701.398,7102274111,0.5195609
+Kenuzi_Nubians,SCCS39,23,39.11,Deserts & Xeric Shrublands,Intensive agriculture,2,1,5,2,3,4,15,2,2,3,26.5718615,23.91153492,0.725292,6403.367,185140467,0.24934
+Teda,SCCS40,20.5,17.5,Deserts & Xeric Shrublands,Intensive agriculture,2,3,1,2,4,4,10,4,2,5,21.8128363,45.56660607,0.6416273,5593.444,156975917,0.3039394
+Egyptians,SCCS43,24.75,33,Flooded Grasslands & Savannas,Intensive agriculture,2,2,5,2,2,4,16,3,2,3,23.6406708,55.98120443,0.6577331,2906.474,61013724,0.3510855
+Hebrews,SCCS44,31.18,34.92,Deserts & Xeric Shrublands,Intensive agriculture,2,3,5,1,5,7,13,,2,3,19.9428251,29.52890209,0.6987645,11135.911,181511368,0.4977265
+Rwala_Bedouin,SCCS46,33.25,38.5,Deserts & Xeric Shrublands,Pastoralism,2,2,1,1,5,7,12,,2,3,16.0574881,80.1892964,0.622996,13405.264,193864145,0.459266
+Turks,SCCS47,39.33,34.25,Temperate Broadleaf & Mixed Forests,Intensive agriculture,3,3,5,2,2,4,12,,2,4,10.2595497,72.20179292,0.6118006,56880.294,1443732695,0.6177965
+Romans,SCCS49,41.67,13.5,"Mediterranean Forests, Woodlands & Scrub",Intensive agriculture,6,3,5,2,1,5,11,,2,3,15.29122,39.62786863,0.6539501,55817.227,1651724949,0.5879874
+Basques,SCCS50,43.25,-1.67,Temperate Broadleaf & Mixed Forests,Intensive agriculture,4,3,5,3,1,4,9,,2,3,13.9475968,15.00595113,0.6910227,72670.799,1866041422,0.6415318
+Irish,SCCS51,53.5,-10,Temperate Broadleaf & Mixed Forests,Intensive agriculture,5,2,5,3,1,7,9,2,2,4,11.2498484,8.42223181,0.7481786,132987.157,3491045078,0.7670805
+Lapps,SCCS52,68.7,21.5,Boreal Forests/Taiga,Pastoralism,2,4,1,2,1,5,7,2,2,5,-2.8595506,91.64819994,0.5217446,65438.053,713389583,0.7316915
+Russians,SCCS54,52.67,41.33,Temperate Broadleaf & Mixed Forests,Intensive agriculture,4,4,5,3,1,,10,,2,3,7.6406975,133.6090259,0.5256558,57571.641,673849541,0.6729123
+Armenians,SCCS56,40,44.5,"Temperate Grasslands, Savannas & Shrublands",Intensive agriculture,3,3,5,2,1,4,11,,,,6.7520187,94.95406046,0.5831406,47323.331,947079950,0.6538148
+Punjabi_West,SCCS59,32.5,74,Deserts & Xeric Shrublands,Intensive agriculture,4,3,5,1,1,7,13,,2,4,24.8242802,82.82722977,0.6131921,52186.412,4649930144,0.3974769
+Santal,SCCS62,23.5,87.17,Tropical & Subtropical Dry Broadleaf Forests,Intensive agriculture,2,3,5,1,2,7,15,,2,5,24.7434425,33.0366254,0.6420943,113006.544,14510681796,0.4864045
+Uttar_Pradesh,SCCS63,25.92,83,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,3,4,5,2,2,7,15,4,2,3,26.0068343,50.37229997,0.632567,83071.755,9639772522,0.4469101
+Burusho,SCCS64,36.43,74.58,Ice,Intensive agriculture,2,3,5,1,2,,11,,2,5,-10.2237102,135.0992607,0.5757114,76644.636,2968959468,0.6006207
+Khalka_Mongols,SCCS66,47.17,96.08,Deserts & Xeric Shrublands,Pastoralism,3,3,2,2,1,7,7,2,2,5,-3.5900684,243.6511698,0.5529297,33814.207,537695285,0.6666599
+Lepcha,SCCS68,27.5,89,Montane Grasslands & Shrublands,Intensive agriculture,3,4,5,2,2,7,12,1,2,5,8.3030995,39.42342866,0.6963848,253037.729,96491128664,0.5342849
+Garo,SCCS69,26,91,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,4,5,3,4,2,17,,2,2,22.9314399,26.6076007,0.6768337,116149.27,15283382412,0.5036312
+Lakher,SCCS70,22.33,93,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,3,5,2,2,7,16,,2,4,22.0863553,18.32906196,0.7215597,110430.32,13169633272,0.5859443
+Burmese,SCCS71,22,95.67,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,4,3,5,1,1,5,16,1,1,1,23.2495074,16.7040508,0.6936687,101497.279,13002196174,0.5346754
+Vietnamese,SCCS73,20.5,106.25,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,3,4,5,2,3,5,14,3,2,5,20.920884,31.54052685,0.6946323,113964.149,10912991575,0.6203752
+Rhade,SCCS74,13,108,Tropical & Subtropical Dry Broadleaf Forests,Extensive agriculture,3,3,4,2,2,,14,2,2,4,22.6208591,3.60924767,0.7578528,165967.101,14764314666,0.7228929
+Khmer,SCCS75,13,103.83,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,2,4,5,2,4,,14,,,,24.0671012,5.45412918,0.7493492,164642.861,18111569925,0.6873454
+Siamese,SCCS76,14,100.85,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,4,3,5,1,2,5,14,1,1,1,24.0637294,8.55065351,0.7105091,149789.934,20087073747,0.6684142
+Semang,SCCS77,5,101.25,Tropical & Subtropical Moist Broadleaf Forests,Gathering,3,4,1,1,2,5,14,3,3,4,25.2207326,0.61969356,0.8308618,241032.264,23289771427,0.6826399
+Nicobarese,SCCS78,7,93.75,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,4,5,1,2,5,8,1,1,1,26.9916072,0.83063416,0.8165915,172234.78,18646177090,0.6038347
+Andamanese,SCCS79,12,93,Tropical & Subtropical Moist Broadleaf Forests,Two or more sources,3,4,2,2,1,,13,1,1,1,26.210325,2.3780315,0.8057586,159977.039,31205924957,0.589805
+Vedda,SCCS80,7.75,81.25,Tropical & Subtropical Dry Broadleaf Forests,Gathering,2,4,2,1,1,7,13,,,,26.4247277,0.9474826,0.8233631,184632.91,20512809565,0.632752
+Tanala,SCCS81,-22,48,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,2,3,3,2,5,5,17,2,,,21.0837045,5.84148337,0.7820519,117686.558,10140991395,0.6402876
+Negri_Sembilan,SCCS82,2.58,102.25,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,2,3,5,2,4,3,12,,1,1,24.6154599,0.21490263,0.8368225,251551.505,15764910441,0.7280917
+Javanese,SCCS83,-7.7,112.22,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,2,3,5,3,3,5,14,,,,25.556965,0.43491497,0.8140938,188300.976,15377980634,0.6544889
+Balinese,SCCS84,-8.5,115.33,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,3,4,5,2,4,7,12,2,2,3,26.482285,0.55478247,0.8358914,177016.724,15887286508,0.6257006
+Badjau,SCCS86,5,120,Tropical & Subtropical Moist Broadleaf Forests,Fishing,2,4,1,2,1,,11,,2,3,26.8997985,0.21954646,0.8426284,210298.768,9218356714,0.6997919
+Toradja,SCCS87,-2,121,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,2,5,2,3,5,16,3,2,3,22.7431439,0.15200987,0.8425344,245748.539,14773302749,0.6696798
+Tobelorese,SCCS88,2,127.94,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,3,5,2,1,4,13,,,,27.2529994,0.07599246,0.8522084,199822.187,7304426635,0.6706316
+Alorese,SCCS89,-8.33,124.67,Tropical & Subtropical Dry Broadleaf Forests,Extensive agriculture,5,4,5,3,4,,15,3,2,4,26.6310136,0.49654541,0.8344563,168015.154,23833377925,0.6041453
+Tiwi,SCCS90,-11.38,131,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Gathering,2,4,1,1,5,,12,1,1,1,26.9476835,1.69145188,0.8090618,148308.813,27168025880,0.6047422
+Aranda,SCCS91,-24.25,133.5,Deserts & Xeric Shrublands,Gathering,2,3,1,1,5,7,9,1,3,3,20.7521167,36.607207,0.591495,61707.63,3710057302,0.4523781
+Orokaiva,SCCS92,-8.5,148,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,4,5,1,4,,14,,2,4,22.7300257,0.90534243,0.8280015,201767.227,11885522336,0.7318587
+Kapauku,SCCS94,-4,136,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,2,5,3,5,,11,2,2,1,23.9744337,0.36026778,0.8491957,330068.136,29213650732,0.6535506
+Kwoma,SCCS95,-4.17,142.67,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,1,3,5,3,5,7,11,3,2,3,20.5163251,0.22724034,0.8395235,375291.934,23857301913,0.7583075
+Manus,SCCS96,-2.17,147.17,Tropical & Subtropical Moist Broadleaf Forests,Fishing,3,3,5,1,2,1,13,2,2,3,27.7104086,0.16042182,0.8422327,219223.792,10765114054,0.6251058
+New_Ireland,SCCS97,-2.71,151,Tropical & Subtropical Moist Broadleaf Forests,Two or more sources,4,4,5,1,4,2,14,2,2,1,27.6167916,0.19086066,0.8390507,211328.2,10332446044,0.6170579
+Trobrianders,SCCS98,-8.54,151.01,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,4,5,5,3,3,2,11,1,2,3,26.7324015,0.81005551,0.8481109,206628.763,12473689601,0.6723012
+Siuai,SCCS99,-6.76,155.45,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,4,5,3,3,5,15,2,2,1,27.2690119,0.2837929,0.8591397,289372.465,16864903667,0.7216719
+Tikopia,SCCS100,-12.29,168.83,Tropical & Subtropical Moist Broadleaf Forests,Two or more sources,3,4,5,2,4,,9,,2,4,27.235349,0.64273127,0.8448517,239613.603,15697970977,0.6778571
+Pentecost,SCCS101,-15.95,168.22,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,3,5,3,4,6,15,,2,3,26.1113374,2.01137901,0.8277053,173785.626,13387756112,0.6327942
+Mbau_Fijians,SCCS102,-18,178.58,Tropical & Subtropical Moist Broadleaf Forests,Fishing,2,2,5,3,3,7,12,3,1,1,25.2401811,2.82113465,0.8055978,157112.266,10103352827,0.619672
+Maori,SCCS104,-35.33,174.17,Temperate Broadleaf & Mixed Forests,Extensive agriculture,3,5,5,2,3,7,7,1,1,1,17.0360815,9.37874371,0.777041,96335.553,2880919131,0.6211737
+Marquesans,SCCS105,-8.92,-140.17,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,4,5,3,2,4,11,,2,3,26.8132039,0.29773087,0.7878674,154798.143,22176393604,0.6385034
+Western_Samoans,SCCS106,-13.94,-171.77,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,3,5,2,3,,12,1,2,1,26.9885041,0.62352804,0.8449784,219723.263,12213542079,0.6778291
+Marshallese,SCCS108,6.28,169.49,Tropical & Subtropical Moist Broadleaf Forests,Fishing,3,3,5,2,4,1,11,,2,3,27.540148,0.08296764,0.8561032,302548.229,17777078999,0.6959807
+Trukese,SCCS109,7.34,151.6,Tropical & Subtropical Moist Broadleaf Forests,Two or more sources,3,4,5,2,2,7,14,1,2,1,27.5982975,0.08623288,0.8542491,281260.562,18619153518,0.697769
+Yapese,SCCS110,9.52,138.16,Tropical & Subtropical Dry Broadleaf Forests,Extensive agriculture,2,4,5,1,3,3,11,2,2,3,27.5468059,0.15106073,0.8431438,240615.972,11339982121,0.6851114
+Palauans,SCCS111,7.5,134.5,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,4,5,3,4,7,12,1,2,1,27.6587122,0.0848751,0.860106,268661.446,14321391631,0.6964213
+Ifugao,SCCS112,16.83,121.17,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,3,3,5,2,2,5,13,,2,4,25.1604549,3.01713228,0.7757586,167495.608,21137694128,0.6374297
+Chinese,SCCS114,31,120.08,Temperate Broadleaf & Mixed Forests,Intensive agriculture,2,3,5,2,1,7,14,2,2,3,14.8942974,95.6285943,0.6481735,124585.931,8847579178,0.5906324
+Manchu,SCCS115,50,125.5,Temperate Broadleaf & Mixed Forests,Intensive agriculture,2,3,5,2,1,7,8,,2,4,-0.5557774,262.9025704,0.5682574,53252.189,3547577607,0.6171937
+Koreans,SCCS116,37.6,126.42,Temperate Broadleaf & Mixed Forests,Intensive agriculture,2,3,5,1,1,7,12,2,2,5,10.6437931,100.1607204,0.6760339,79581.195,6186705294,0.5710903
+Japanese,SCCS117,34.67,133.67,Temperate Broadleaf & Mixed Forests,Intensive agriculture,3,3,5,3,1,7,16,2,2,4,14.391613,67.50235953,0.6997467,132984.244,7394435303,0.6567826
+Ainu,SCCS118,42.83,143,Temperate Conifer Forests,Fishing,3,3,3,2,3,7,9,1,2,1,6.8774212,108.1514634,0.610078,105774.093,3293987850,0.7025157
+Chukchee,SCCS121,66.5,179.6,Tundra,Pastoralism,2,3,2,1,4,7,8,2,2,3,-13.5316026,158.9184121,0.4673705,50583.29,715301571,0.6230833
+Ingalik,SCCS122,62.5,-159.5,Boreal Forests/Taiga,Fishing,2,3,3,3,3,7,7,,2,3,-4.2291817,126.0806708,0.4570296,58884.317,886700089,0.6640506
+Copper_Eskimo,SCCS124,68.72,-112.53,Tundra,Fishing,2,4,2,2,2,5,7,1,2,2,-14.2963464,287.366131,0.4347013,23707.466,183123377,0.6769876
+Montagnais,SCCS125,50,-74,Boreal Forests/Taiga,Hunting,2,3,2,1,2,7,7,,2,4,0.2781487,175.2285117,0.533263,77742.711,1142304198,0.735906
+Micmac,SCCS126,46.99,-65,Temperate Broadleaf & Mixed Forests,Hunting,2,3,2,1,3,,7,,2,4,5.8115576,118.0401354,0.580415,99384.767,1638214920,0.7087675
+Saulteaux,SCCS127,52,-95.5,Boreal Forests/Taiga,Two or more sources,3,2,2,1,3,,7,3,2,5,1.4795705,226.2556592,0.5039384,42363.336,506258689,0.6828212
+Slave,SCCS128,62,-122,Boreal Forests/Taiga,Hunting,3,4,3,2,3,1,7,,3,3,-3.3086201,202.3651863,0.4721663,31319.667,263255952,0.6789874
+Kaska,SCCS129,60,-131,Boreal Forests/Taiga,Fishing,2,3,2,1,3,7,7,3,3,5,-5.328891,108.7804831,0.4830303,81754.226,1398625820,0.711216
+Eyak,SCCS130,60.5,-145,Temperate Conifer Forests,Fishing,2,4,3,3,3,3,7,,2,4,-0.8033036,39.3437819,0.541455,174457.357,6981751820,0.6678058
+Bellacoola,SCCS132,52.33,-126.5,Temperate Conifer Forests,Fishing,2,3,5,3,4,7,7,1,,,2.3530523,48.66593005,0.5419184,192758.486,16364533162,0.6741577
+MISSING_Twana,SCCS133,47.43,-123.25,Temperate Conifer Forests,Fishing,3,4,2,2,4,1,7,1,2,3,9.4772309,24.45688573,0.6065579,124285.276,10458341660,0.6493796
+MISSING_Yurok,SCCS134,41.5,-124,Temperate Conifer Forests,Fishing,2,2,5,2,2,5,7,,1,1,11.889409,13.44053522,0.6513489,101372.276,10790474701,0.5877504
+MISSING_Pomo_Eastern,SCCS135,39,-123,"Mediterranean Forests, Woodlands & Scrub",Gathering,2,3,3,2,2,7,7,2,2,5,14.3915143,15.66268573,0.6665679,63918.089,6496817890,0.4882418
+Yokuts_Lake,SCCS136,35,-119.5,"Mediterranean Forests, Woodlands & Scrub",Gathering,2,3,3,2,2,,8,1,1,1,16.7334158,28.76947647,0.6188898,32750.645,2700143356,0.419393
+Paiute_North,SCCS137,43.5,-119,Deserts & Xeric Shrublands,Gathering,3,3,2,1,3,1,7,3,2,5,6.5254135,77.45744578,0.5515266,57502.659,1405122767,0.6112465
+MISSING_Klamath,SCCS138,42.63,-121.67,Temperate Conifer Forests,Fishing,2,3,2,1,4,1,8,2,2,3,7.6266236,49.63424628,0.5681314,133841.31,15025939486,0.5820812
+MISSING_Kutenai,SCCS139,49,-116.67,Temperate Conifer Forests,Fishing,3,3,2,3,2,7,7,1,1,1,3.7215405,90.63468293,0.5392962,79176.668,2644522890,0.6268508
+Hidatsa,SCCS141,47,-101,"Temperate Grasslands, Savannas & Shrublands",Intensive agriculture,3,2,3,2,5,7,7,,2,5,6.8193157,187.5572978,0.5088788,37897.458,766656465,0.6334813
+MISSING_Omaha,SCCS143,41.43,-96.5,"Temperate Grasslands, Savannas & Shrublands",Two or more sources,3,3,3,2,4,7,7,,,,11.5336129,161.093025,0.5247709,53964.645,1387105739,0.6165696
+Creek,SCCS145,32.93,-86,Temperate Broadleaf & Mixed Forests,Extensive agriculture,2,2,3,2,4,7,9,,,,16.3063216,56.28147902,0.6219066,104125.265,2746224264,0.6521241
+Comanche,SCCS147,34,-101.5,"Temperate Grasslands, Savannas & Shrublands",Hunting,3,2,1,2,5,1,7,2,3,3,14.7524153,94.75370732,0.5686412,60381.725,1583535098,0.5753826
+Chiricahua,SCCS148,32,-109.5,Deserts & Xeric Shrublands,Gathering,3,4,1,2,4,1,9,1,2,3,14.3942238,69.94469182,0.6059251,44151.732,1165794130,0.5198146
+Zuni,SCCS149,35.67,-108.75,Deserts & Xeric Shrublands,Intensive agriculture,4,4,5,2,1,5,7,,2,3,9.8218942,102.5514047,0.5793196,41598.727,789133236,0.5558235
+Havasupai,SCCS150,35.83,-112.17,Temperate Conifer Forests,Intensive agriculture,2,3,2,2,3,1,8,,2,3,12.197379,95.48394104,0.588109,39414.618,1623479162,0.4460646
+Papago,SCCS151,32,-112,Deserts & Xeric Shrublands,Intensive agriculture,3,3,3,1,4,1,11,3,2,5,21.6480191,62.26395819,0.6146125,24749.74,704821052,0.4035318
+Huichol,SCCS152,22,-105,Tropical & Subtropical Dry Broadleaf Forests,Extensive agriculture,2,4,5,3,3,5,12,,2,3,23.3096885,3.69404825,0.8014859,140587.693,16962515259,0.5895521
+Quiche,SCCS155,15,-91,Tropical & Subtropical Coniferous Forests,Extensive agriculture,2,3,5,2,1,7,15,2,1,1,23.9288848,3.02717205,0.7776267,90766.666,9210797676,0.6761473
+Miskito,SCCS156,15,-83,Mangroves,Gathering,2,4,5,1,3,,13,2,2,4,25.8824254,0.97778266,0.8564054,75804.738,3617435018,0.7151062
+Cuna_Tule,SCCS158,9.25,-78.5,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,3,5,3,2,,13,1,3,,25.6332145,0.3460346,0.8448838,156628.372,21744630225,0.7542035
+Goajiro,SCCS159,11.92,-71.75,Deserts & Xeric Shrublands,Pastoralism,3,3,1,3,5,2,16,,2,5,26.1300809,1.22491729,0.8584675,25502.396,690620975,0.695439
+Haitians,SCCS160,18.83,-72.17,Tropical & Subtropical Moist Broadleaf Forests,Intensive agriculture,2,2,5,2,5,5,16,4,2,5,26.0276258,1.78221289,0.8365005,47850.058,1380097250,0.6548859
+Callinago,SCCS161,15.41,-61.27,Tropical & Subtropical Moist Broadleaf Forests,Fishing,1,1,4,3,4,,17,1,,,25.5068284,1.41036712,0.85329,41612.623,1681700105,0.637897
+Warrau,SCCS162,9.08,-62,Tropical & Subtropical Moist Broadleaf Forests,Gathering,2,4,2,1,5,,14,1,3,1,25.9856239,0.78284099,0.8339884,60798.893,2053100779,0.7760311
+Yanomamo,SCCS163,2.42,-65,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,4,4,1,5,,13,,2,1,23.1813676,0.3519482,0.7939747,190459.49,18950462637,0.6920742
+Saramacca,SCCS165,3.5,-55.75,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,1,5,2,5,3,14,2,2,3,24.8409506,1.81595168,0.7246819,98884.885,7982395717,0.7266873
+Mundurucu,SCCS166,-6.5,-56.5,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,2,5,1,3,1,14,2,2,1,24.2449712,0.93374715,0.7858707,192012.623,20091075180,0.7316233
+Cubeo_Tucano,SCCS167,1.25,-70.5,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,3,5,2,3,7,11,2,2,4,23.7144744,0.23064808,0.8083925,248037.871,8701186359,0.8168949
+Cayapa,SCCS168,1,-79,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,3,5,3,1,,12,2,1,1,22.7002321,0.25642897,0.7838219,256564.747,16219626157,0.7301438
+Jivaro,SCCS169,-3,-78,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,3,4,1,5,7,18,1,1,1,20.9818056,0.81420681,0.776108,118612.379,8841008874,0.7132441
+Aymara,SCCS172,-16,-65.75,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,2,5,1,1,7,13,4,2,5,18.0911313,4.04627016,0.7468894,233882.146,31254400384,0.6588666
+Siriono,SCCS173,-14.5,-63.5,Tropical & Subtropical Moist Broadleaf Forests,Hunting,2,3,2,1,3,1,16,3,3,4,27.3904033,2.74335567,0.69975,99838.912,6801139023,0.6279401
+MISSING_Nambicuara,SCCS174,-13,-58.75,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Gathering,3,5,2,1,4,1,12,3,2,4,23.9102413,3.26658324,0.7241917,120205.152,11398012340,0.6229844
+MISSING_Timbira,SCCS176,-6.5,-46,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Extensive agriculture,2,4,4,1,1,5,16,,,,25.2718145,2.96213785,0.7293565,245475.614,70161254041,0.6425821
+Tupinamba,SCCS177,-22.79,-44.5,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,2,4,4,1,4,,18,,2,3,19.4158981,8.01692794,0.7264639,119486.36,9477828432,0.6501963
+Shavante,SCCS179,-13.5,-51.5,"Tropical & Subtropical Grasslands, Savannas & Shrublands",Gathering,3,4,2,1,5,1,20,1,1,1,25.2337248,3.67620674,0.7062466,118024.232,15093364988,0.5850097
+Aweikoma,SCCS180,-28,-50,Tropical & Subtropical Moist Broadleaf Forests,Hunting,3,4,1,1,3,1,15,1,2,5,17.0358601,11.75161344,0.6846133,137273.047,4735082752,0.6846414
+Cayua,SCCS181,-23.5,-55,Tropical & Subtropical Moist Broadleaf Forests,Extensive agriculture,3,4,2,2,3,,12,,3,3,22.6192118,11.09474538,0.6627324,113613.632,8296807517,0.6171012
+Mapuche,SCCS184,-38.5,-72.58,"Mediterranean Forests, Woodlands & Scrub",Intensive agriculture,3,4,5,1,4,7,8,2,2,4,11.7397433,12.11903845,0.7294356,72565.777,4295021417,0.6149443
+Yahgan,SCCS186,-55.5,-69.5,Temperate Broadleaf & Mixed Forests,Fishing,3,4,1,1,2,1,7,1,3,1,4.2495528,3.62011784,0.7188429,107757.569,671652292,0.8177549

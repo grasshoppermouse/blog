@@ -9,7 +9,7 @@
 <link>https://blog.edhagen.net/</link>
 <atom:link href="https://blog.edhagen.net/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog posts and talk slides</description>
-<generator>quarto-1.7.32</generator>
+<generator>quarto-1.8.26</generator>
 <lastBuildDate>Fri, 22 Aug 2025 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Review of Sex Is a Spectrum: The Biological Limits of the Binary by Agustín Fuentes</title>
@@ -21,12 +21,14 @@
 
 
 
+<p><em>Updated March 16, 2026 with minor edits for clarity, and an addendum (Section&nbsp;7)</em></p>
+<hr>
 <blockquote class="blockquote">
 <p><strong>Sex Is a Spectrum offers a bold new paradigm for understanding the biology of sex….</strong></p>
 <p>- Marketing blurb on Amazon.com</p>
 </blockquote>
-<p>Even as he voyaged on the Beagle, Darwin’s social profile was rising. Letters he sent home were read at scientific societies in London, as were parts of his journal, and a prominent geologist gushed that “he will have a great name among the Naturalists of Europe” <span class="citation" data-cites="darwin1835">(Darwin 1835)</span>. Darwin’s accounts of his voyage, published a few years after his return, further bolstered his reputation. Books on travel and exploration were popular at the time, and Darwin was apparently a fan, bringing several with him on his five year expedition <span class="citation" data-cites="tallmadge1980">(Tallmadge 1980)</span>. Darwin’s <em>The Voyage of the Beagle</em>, framed as a journey from the known to the unknown to bring back new knowledge, was very well received.</p>
-<p>Darwin could have doubled down on his growing reputation as an explorer-scientist, giving talks and writing books on strange new worlds and the incredible diversity of the animals and peoples inhabiting them. Instead, pursuing a hint he dropped in <em>The Voyage</em> (see Figure&nbsp;1), he sought the causal principles underlying this diversity, giving us two: natural selection and its important variant, sexual selection. These two principles go a long way toward explaining the diversity of all life on earth.</p>
+<p>Even as he voyaged on the Beagle, Darwin’s social profile was rising. Letters he sent home were read at scientific societies in London, as were parts of his journal, and a prominent geologist <a href="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-288.xml">gushed</a> that “he will have a great name among the Naturalists of Europe” <span class="citation" data-cites="darwin1835">(Darwin 1835)</span>. Darwin’s accounts of his voyage, published a few years after his return, further bolstered his reputation. Books on travel and exploration were popular at the time, and Darwin was apparently a fan, bringing several with him on his five year expedition <span class="citation" data-cites="tallmadge1980">(Tallmadge 1980)</span>. Darwin’s <a href="https://www.gutenberg.org/ebooks/944"><em>The Voyage of the Beagle</em></a>, framed as a journey from the known to the unknown to bring back new knowledge, was very well received.</p>
+<p>Darwin could have doubled down on his growing reputation as an explorer-scientist, giving talks and writing books on strange new worlds and the incredible diversity of the animals and peoples inhabiting them. Instead, pursuing a hint he dropped in <em>The Voyage</em> (see Figure&nbsp;1), he sought the causal principles underlying this diversity, giving us two: natural selection and its important variant, sexual selection. These two principles go a long way toward explaining the diversity of all life on earth. Darwin’s approach – seeking to explain diversity, and not merely to describe it – is fundamental to the biological sciences</p>
 <div id="fig-finches" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-finches-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -37,19 +39,19 @@ Figure&nbsp;1: “The most curious fact is the perfect gradation in the size of 
 </figcaption>
 </figure>
 </div>
-<p>Agustín Fuentes, an anthropologist at Princeton, whose previous book was <em>Race, monogamy, and other lies they told you: Busting myths about human nature</em>, opens his new book, <em>Sex is a Spectrum</em> (hereafter, SIAS), with a description of the strange physiology of the bluehead wrasse, a sequential hermaphrodite:</p>
+<p>Agustín Fuentes, an anthropologist at Princeton, whose previous book was <a href="https://www.ucpress.edu/books/race-monogamy-and-other-lies-they-told-you-second-edition/paper"><em>Race, monogamy, and other lies they told you: Busting myths about human nature</em></a>, opens his new book, <a href="https://press.princeton.edu/books/hardcover/9780691249414/sex-is-a-spectrum"><em>Sex is a Spectrum</em></a> (hereafter, SIAS), with a description of the strange physiology of the bluehead wrasse, a sequential hermaphrodite:</p>
 <blockquote class="blockquote">
 <p>Imagine you are a fish called the bluehead wrasse, living off the coast of Florida. As you grow up, you, just like all to the other bluehead wrasse your age and size, develop one set of reproductive organs. You are what we’d call female, so you produce eggs. There is only one very large member of your group, and they are the group male, so produce sperm. But over the next few weeks you grow really fast, becoming the second-largest fish on your reef. Then the male gets eaten. Almost immediately your body starts to change, your reproductive organs mold, shift, and alter their form. You become the group’s sperm producer. As a bluehead wrasse, you can have one body and one set of DNA, but multiple forms of reproductive biology across your lifetime.</p>
 </blockquote>
-<p>What Fuentes fails to provide is any explanation, other than a vaguely group-functional need to “become the group’s sperm producer,” for why many wrasse and other teleost fish species are sequential or simultaneous hermaphrodites. He could have looked up the literature on this as easily as I did <span class="citation" data-cites="avise_2009">(e.g., Avise and Mank 2009)</span>, and maybe he did, but if he did, he chose not to tell his readers.</p>
-<p>And that’s the pattern Fuentes follows in SIAS, which is long on descriptions of biological variation but very short on explanations, either those put forward in the scientific literature, or his own. Yet his Introduction promises, at least for humans, to deliver a “new narrative” about the biology of sex:</p>
+<p>Yet Fuentes fails to provide any explanation, other than a vaguely group-functional need to “become the group’s sperm producer,” for why many wrasse and other teleost fish species are sequential or simultaneous hermaphrodites. He could have looked up the literature on this as easily as I did <span class="citation" data-cites="avise_2009">(e.g., Avise and Mank 2009)</span>, and maybe he did, but if he did, he chose not to tell his readers.</p>
+<p>The aim of science is not to merely describe the world, but to explain it. SIAS is long on descriptions of biological variation like the bluehead wrasse, but very short on explanations, either the many put forward in the scientific literature, or new ones. Yet Fuentes’ Introduction promises, at least for humans, to deliver a “new narrative” about the biology of sex:</p>
 <blockquote class="blockquote">
 <p>We have to understand what it means that everything about humans is a supercomplicated blend of biology and culture. We need to combine our knowledge of biology, sex, and the human experience into a new narrative. My goal in this book is to put forward this new narrative and show how the biology of sex actually works, what it does and does not tell us, and how we might incorporate this knowledge into our education, lives, and laws. (p.&nbsp;3).</p>
 </blockquote>
-<p>The tl;dr of my review is that he doesn’t deliver a new narrative, nor any theoretical or conceptual insights or advances beyond “everything about humans is a supercomplicated blend of biology and culture.”</p>
+<p>The tl;dr of my review is that SIAS is not so much an unscientific book as an ascientific one. Fuentes is strangely uninterested in <em>explaining</em> biological variation. He doesn’t deliver a new narrative, nor any new theoretical or conceptual insights or advances. The most he offers is that “everything about humans is a supercomplicated blend of biology and culture.”</p>
 <section id="preface-theoretical-background" class="level1">
 <h1>Preface: Theoretical background</h1>
-<p>To assess whether Fuentes identifies important biological limits of the sex binary as his title promises, I’ve written this somewhat lengthy preface to explain (1) why most evolutionary biologists define the sexes as anisogamy, (2) the current thinking about how anisogamy might have evolved, and (3) the implications for the evolution of anisogamous species. In other words, what would science be giving up if it ditched the binary sex concept? (Caveat emptor: I am a consumer of this literature, not a producer, and I don’t specialize in the evolution of sex or anisogamy.)</p>
+<p>To assess whether Fuentes identifies important biological limits of the sex binary as his title promises, I’ve written this somewhat lengthy preface to explain (1) why most evolutionary biologists define the sexes as anisogamy, (2) the current thinking about how anisogamy might have evolved, and (3) the causal role of anisogamy in the evolution of millions of eukaryotic species, including humans. In other words, what would science be giving up if it ditched the binary sex concept? You can skip this background material and go directly to my review by clicking here: Section&nbsp;2 (Caveat emptor: I am a consumer of this literature, not a producer, and I don’t specialize in the evolution of sex or anisogamy.)</p>
 <p>The Earth formed about 4.5 billion years ago <span class="citation" data-cites="halliday2023">(Halliday and Canup 2023)</span>, and based on fossil evidence life arose by 3.7 billion years ago, and perhaps much earlier <span class="citation" data-cites="dodd2017">(Dodd et al. 2017)</span>. One genetics-based estimate inferred that the last universal common ancestor (LUCA) of all life was similar to modern-day prokaryotes and had evolved by 4.2 billion years ago <span class="citation" data-cites="moody_2024">(Moody et al. 2024)</span>. LUCA subsequently gave rise to the two top-level domains of life, the single-celled <em>Archaea</em> and <em>Bacteria</em>.</p>
 <p>The evolution of sex commenced with the later evolution of eukaryotes, which have a more complex cellular structure. Eukaryotes were traditionally considered one of the three top-level domains of all life, but are now believed to have evolved from <em>Archaea</em> and then subsequently evolved a symbiosis with a bacterium (the origin of mitochondria), some 1.8-2.7 billion years ago <span class="citation" data-cites="vosseberg_2024">(Vosseberg et al. 2024)</span>. See Figure&nbsp;2.</p>
 <div id="fig-LECA" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -63,9 +65,9 @@ Figure&nbsp;2: The tree of life, showing the chimeric origin of the eukaryotic l
 </figure>
 </div>
 <p>The eukaryotes include all multicellular plants, animals, and fungi, but most eukaryotic species are protists – a diverse group of single-celled organisms <span class="citation" data-cites="burki_2020">(Burki et al. 2020)</span>.</p>
-<p>Whereas <em>Archaea</em> and <em>Bacteria</em> species reproduce clonally via cell division, almost all eukaryotes, including single-cell protists, reproduce sexually, at least some of the time. This apparently included the last eukaryotic common ancestor (LECA), meaning that sex is ancestral in the eukaryotes <span class="citation" data-cites="speijer2015">(Speijer et al. 2015)</span>. Sexual reproduction is defined as the meiotic formation of haploid reproductive cells (gametes), where a gamete from one individual fuses with a gamete from (typically) another individual (the two parents) to form a diploid cell (the zygote, i.e., offspring).<sup>1</sup></p>
+<p>Whereas <em>Archaea</em> and <em>Bacteria</em> species reproduce clonally via cell division, almost all eukaryotes, including single-cell protists, reproduce sexually, at least some of the time. This apparently included the last eukaryotic common ancestor (LECA), meaning that sex is ancestral in the eukaryotes <span class="citation" data-cites="speijer2015">(Speijer, Lukeš, and Eliáš 2015)</span>. Sexual reproduction is defined as the meiotic formation of haploid reproductive cells (gametes), where a gamete from one individual fuses with a gamete from (typically) another individual (the two parents) to form a diploid cell (the zygote, i.e., offspring).<sup>1</sup></p>
 <p>Note that <em>two</em> parents play a central role in sex, as this is the ultimate reason there are two sexes in many species. Note also that sex is largely conserved through deep time – perhaps a billion years or more – and across millions of eukaryotic species, including humans. The theoretical scope of sex and its related concepts is vast.</p>
-<p>There is no consensus on why sex evolved or has been maintained by selection across such a diverse range of species. Fuentes provides a brief account of one of the influential theories, but there are many others. This Wikipedia article provides an overview <span class="citation" data-cites="Evolution_of_sexual_reproduction">(Wikipedia 2025a)</span>.</p>
+<p>There is no consensus on why sex evolved or has been maintained by selection across such a diverse range of species. Fuentes provides a brief account of one of the influential theories, but there are many others. This Wikipedia <a href="https://en.wikipedia.org/wiki/Evolution_of_sexual_reproduction">article</a> provides an overview.</p>
 <p>Sexual reproduction does not necessarily involve females and males. Before discussing the evolution of the two sexes, I need to introduce the concept of a “game” from game theory. A game comprises one or more players, their possible moves (also often termed options, choices, alternatives, or actions) at each of a number of stages, the information they have at each stage, and the payoffs for each player for each path through the game. The extensive form of the ultimatum game, which will probably be familiar to most readers, is depicted in Figure&nbsp;3.</p>
 <div id="fig-ultimatum" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -73,19 +75,20 @@ Figure&nbsp;2: The tree of life, showing the chimeric origin of the eukaryotic l
 <img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/ultimatum-game.svg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ultimatum-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: The Ultimatum Game. Player 1 can offer any amount between $0-10 to player 2. Player 2 can Accept the offer, in which case Player 1 keeps the remainder, or Reject it, in which case each player gets $0. For more details, see <span class="citation" data-cites="Ultimatum_game">Wikipedia (2025b)</span>.
+Figure&nbsp;3: The Ultimatum Game. Player 1 can offer any amount between $0-10 to player 2. Player 2 can Accept the offer, in which case Player 1 keeps the remainder, or Reject it, in which case each player gets $0. For more details, see this Wikipedia <a href="https://en.wikipedia.org/wiki/Ultimatum_game">article</a>.
 </figcaption>
 </figure>
 </div>
 <p>The distinction between the players, and their options in the game, will be important shortly. In general, the possible options for players can be continuous, as for player 1 in the ultimatum game, or discrete (binary, for example), as for player 2. A <em>strategy</em> is a specification of the option a player will choose at each stage given the information she has at that stage. Strategies thus map information to actions. A key focus of game theory is to determine the optimal strategies for all players, i.e., the strategies that will maximize their payoffs given the strategies of the other players. (As an aside, the “solution” to the ultimatum game in Figure&nbsp;3 is that player 1 should make the smallest positive offer ($0.01), and player 2 should accept it because these strategies maximize the payoff for each player, given the strategy of the other player.)</p>
 <p>In evolutionary game theory, one of the most popular frameworks for theorizing about organism traits, a game represents a situation faced by individuals in a population who can respond in different ways (their options), where the payoff is fitness (reproductive success). Mathematical analysis of the game aims to determine the strategies that will evolve by natural selection. The game concept can be applied not only to the evolution of behavioral traits but also to the evolution of physiological and morphological traits, such as gamete type and gamete size.</p>
 <p>To reproduce sexually, a eukaryotic organism must produce a gamete – a cell containing half the number of chromosomes of the somatic cell<sup>2</sup> – which must then encounter and fuse with a gamete from (typically) another member of its species (the two parents) to form a zygote (the offspring).<sup>3</sup></p>
-<p>In most species, gametes have “types”, and only fuse with gametes of a different “type” (termed mating types).<sup>4</sup> In evolutionary game theory terms, producing gametes is a “game”, the players are the potential parents, gamete “type” is a “choice” that each potential parent must make from a set of options, and the number of mating type options is determined by, e.g., the number of alleles at one or more mating type loci, with new options introduced by mutations. The number of mating types is typically two, but in some species ranges into the thousands. The evolution of mating types is still a matter of debate <span class="citation" data-cites="constable_2018">(for one recent account, see Constable and Kokko 2018)</span>.</p>
+<p>In most species, gametes have “types”, and only fuse with gametes of a different “type” (termed <a href="https://en.wikipedia.org/wiki/Mating_type">mating types</a>).<sup>4</sup> In evolutionary game theory terms, producing gametes is a “game”, the players are the potential parents, gamete “type” is a “choice” that each potential parent must make from a set of options, and the number of mating type options is determined by, e.g., the number of alleles at one or more mating type loci, with new options introduced by mutations. The number of mating types is typically two, but in some species ranges into the thousands. The evolution of mating types is still a matter of debate <span class="citation" data-cites="constable_2018">(for one recent account, see Constable and Kokko 2018)</span>.</p>
 <p>Gamete size is another critical “choice” in the gamete production game that each potential parent must make from a set of options. Gametes must survive long enough to encounter and fuse with another gamete, and the resulting zygote must be able to successfully survive and reproduce, all of which require sufficient provisions from the parents. Organisms could, in principle, choose to produce gametes that are all the same size (termed <em>isogamy</em>), gametes that have a continuous spectrum of sizes, or gametes that have a discrete number of sizes, such as two: large and small (termed <em>anisogamy</em>). A general pattern (albeit one with several exceptions) is that single-celled eukaryotes are isogamous with two mating types, whereas multicellular eukaryotes are anisogamous, producing either small gametes that only fuse with large ones, or large ones that only fuse with small ones.</p>
 <p>It is a strikingly consistent pattern that despite enormous phenotypic variation that includes sponges, arthropods, vertebrates, and plants, most multicellular eukaryotes produce exactly two types of gametes – small and large. These two types have therefore been taken by most evolutionary biologists as the definition of the sexes: small gametes are by definition male, and large ones female.</p>
 <p>I want to draw out an implication that I think is not as widely recognized as it should be: in its most general form, which is meant to apply to the evolution of millions of multicellular species over deep time, the sex “binary” is <em>not</em> a scheme to classify the potential parents (the “players”). Instead, it refers to the number of options for each potential parent in their gamete production game. In isogamous species, each potential parent produces gametes of the same size, i.e., each has only one gamete size option (no binary). Many species (mostly but not exclusively plants) are simultaneous hermaphrodites. In these species, each potential parent produces both large and small gametes. Hence, the potential parents cannot be classified as either male or female, but their gamete size options can be. In sequential hermaphrodites, such as the bluehead wrasse and many other fish species, potential parents produce one gamete size (typically the large one), and then some undergo substantial physiological changes to produce the other size. In yet other species, including humans, the gamete production game still has two options (large and small), but the “choice” is made early in development via a genetic or environmental randomization device (in humans, the 50% probability of inheriting an X or Y chromosome from the father), committing each potential parent to produce either large gametes or small ones, but not both (termed <em>gonochorism</em>).</p>
 <p>Importantly, gamete production is not the only game in town. Organisms have evolved to play many “games,” such as territorial defense, predation, predator evasion, parasitism, parasite defense, and so forth. This means that although gamete production will have an important impact on the evolution of the phenotype (including the behavioral phenotype), many other factors will too.</p>
-<p>Turning back to the two sexes and their evolution: given that organisms could, in principle, produce gametes with a continuum of sizes, a key question in evolutionary biology is why most multicellular organisms only have two options: large and small. One of the most influential evolutionary game theoretic accounts of the evolution of anisogamy assumes that producing gametes consumes limited resources, so sexually reproducing organisms have a choice between producing fewer large gametes or more small ones. <span class="citation" data-cites="bulmer_2002">Bulmer and Parker (2002)</span> explain:</p>
+<p>Turning back to the two sexes and their evolution: given that organisms could, in principle, produce gametes with a continuum of sizes, a key question in evolutionary biology is why most multicellular organisms only have two options: large and small.</p>
+<p>One of the most influential evolutionary game theoretic accounts of the evolution of anisogamy assumes that producing gametes consumes limited resources, so sexually reproducing organisms have a choice between producing fewer large gametes or more small ones. <span class="citation" data-cites="bulmer_2002">Bulmer and Parker (2002)</span> explain:</p>
 <blockquote class="blockquote">
 <p>Parker et al.&nbsp;(1972) proposed that males and females originated through disruptive selection acting on an ancestral isogamous (i.e.&nbsp;single sex) population. This arises from three very simple assumptions as follows.</p>
 <ol type="i">
@@ -96,6 +99,7 @@ Figure&nbsp;3: The Ultimatum Game. Player 1 can offer any amount between $0-10 t
 <p>In this model, the most frequent fusions would be between the smallest (S) gametes, but the resulting zygotes would experience low viability compared with zygotes arising from the fusion of large gametes (O). Thus, S-producers succeed by gaining most fusions with O gametes, and O-producers succeed because they generate zygotes with high viability, having more energy for development. Individuals producing intermediate-sized gametes (I), though originally commonest, decrease in frequency relative to S- and O-producers, resulting in a population consisting of proto-males and proto-females.</p>
 </blockquote>
 <p>Note that in this scenario, the gamete size options were initially a continuum, and then, perhaps coincident with the evolution of multicellularity, evolved to be discrete (binary).</p>
+<p>In summary, sexual reproduction entails the fusion of two gametes from two parents. In a broad range of species, these two gametes come in two types: large and small (anisogamy).</p>
 <p>The evolution of anisogamy had many evolutionary consequences, not least of which was sexual selection. One scenario from <span class="citation" data-cites="parker2014">Parker (2014)</span>, which he terms the “sexual cascade”, is depicted in Figure&nbsp;4.</p>
 <div id="fig-cascade" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -107,7 +111,7 @@ Figure&nbsp;4: The sexual cascade (succession of evolutionary events leading to 
 </figcaption>
 </figure>
 </div>
-<p>So far, I’ve discussed steps A and B in Figure&nbsp;4. Step C, known as the Fisher condition, is critical to understanding why the ratio of females to males is close to 1:1 (unity) in many species, including humans, but can deviate from 1:1 in others, a topic investigated in sex allocation theory <span class="citation" data-cites="frank1990">(Frank 1990)</span>. Understanding and measuring sex ratios is key for the conservation of endangered species.</p>
+<p>So far, I’ve discussed steps A and B in Figure&nbsp;4. Step C, known as the Fisher condition, is critical to understanding why the ratio of females to males is close to 1:1 (unity) in many species, including humans, but can deviate from 1:1 in others, a topic investigated in sex allocation theory <span class="citation" data-cites="frank1990">(Frank 1990)</span>. Understanding and measuring sex ratios is key for the <a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C48&amp;q=%22sex+ratio%22+endangered&amp;btnG=">conservation of endangered species</a>.</p>
 <p>With the evolution of multicellularity in step D, organisms invest in specialized gonadal tissues, with consequent high levels of sperm competition in some species with, e.g., communal spawning, but reduced sperm competition others with noncommunal spawning. In step E, copulation evolves in some species, which reduces sperm competition but increases precopulatory (mating) competition and sexual selection, and the evolution of Darwinian sex roles. See <span class="citation" data-cites="parker2014">Parker (2014)</span> for details.</p>
 <p>The take-homes from this preface are:</p>
 <ol type="1">
@@ -123,10 +127,10 @@ Figure&nbsp;4: The sexual cascade (succession of evolutionary events leading to 
 <blockquote class="blockquote">
 <p>The idea of biologically distinct sexes only became common in the eighteenth century. From the early Greek ideas about sex of Aristotle and Hippocrates and the Roman anatomical ideas of Galen through the Renaissance, and into the start of the eighteenth century, science and the medical world did not consider females and males as two separate kinds of biologies or beings. Rather, they were seen as hierarchically ranked (male above female) versions of the human form. This was termed the “one sex model.”8 But from the eighteenth into the nineteenth century, the belief in a “two sex” model, with males and females reflecting different biologies, emerged, but it had no specific definitional focus. It is from this newer two-sex worldview that the hypothesis of differences in gamete size as the key to female and male distinction emerged. (SIAS, p.&nbsp;9).</p>
 </blockquote>
-<p>Laqueur’s model, detailed in his book <em>Making Sex: Body and Gender from the Greeks to Freud</em>, is based in part on the claim of Galen, one of the most important medical theorists in antiquity, that “all the parts, then, that men have, women have too, the difference between them lying in only one thing… , namely, that in women the parts are within [the body], whereas in men they are outside….” <span class="citation" data-cites="Park_2023">(quoted in Park 2023, p 157)</span>.</p>
-<p>Laqueur’s model has numerous critics. For example, the <em>Myth of the “One-Sex” Body</em> by the Harvard historian of science Katharine Park struck me (admittedly not an historian) as a convincing take-down of Laqueur’s one-sex model <span class="citation" data-cites="Park_2023">(Park 2023)</span>. This particular criticism, one of many, stood out for me:</p>
+<p>Laqueur’s model, detailed in his book <em>Making Sex: Body and Gender from the Greeks to Freud</em>, is based in part on the claim of Galen, one of the most influential medical theorists in antiquity, that “all the parts, then, that men have, women have too, the difference between them lying in only one thing… , namely, that in women the parts are within [the body], whereas in men they are outside….” <span class="citation" data-cites="Park_2023">(quoted in Park 2023, p 157)</span>.</p>
+<p>Laqueur’s model has <a href="https://en.wikipedia.org/wiki/One-sex_and_two-sex_theories#Criticism">numerous critics</a>. For example, the <em>Myth of the “One-Sex” Body</em> by the Harvard historian of science Katharine Park struck me (admittedly not an historian) as a convincing take-down of Laqueur’s one-sex model <span class="citation" data-cites="Park_2023">(Park 2023)</span>. This particular criticism, one of many, stood out for me:</p>
 <blockquote class="blockquote">
-<p>While immersed in Galenic medical theory, [Al-Raz̄ı̄a and al-Majus̄ı̄w] were closely attuned to the realities of their patients’ bodies, including differences between the illnesses suffered by their male and female clients, alongside which qualified anatomical similarities between the male and female genitals paled in importance. Because men neither menstruated, miscarried, nor gave birth, the main pathological conditions related to these functions were unique to women, including hypermenorrhea and amenorrhea, obstetrical fistula, vaginal and perineal tears, and uterine prolapse.34 While it was theoretically possible to shoehorn these conditions into a system shaped by strict parallels between the male and female genitals, the stark differences between the illnesses associated with each set of structures muted their similarities. It is hard to imagine any context in which a homology between the scrotum and the uterus could prove helpful for the treatment of either organ. <span class="citation" data-cites="Park_2023">(Park 2023, p. 161)</span></p>
+<p>While immersed in Galenic medical theory, [Al-Raz̄ı̄a and al-Majus̄ı̄w] were closely attuned to the realities of their patients’ bodies, including differences between the illnesses suffered by their male and female clients, alongside which qualified anatomical similarities between the male and female genitals paled in importance. Because men neither menstruated, miscarried, nor gave birth, the main pathological conditions related to these functions were unique to women, including hypermenorrhea and amenorrhea, obstetrical fistula, vaginal and perineal tears, and uterine prolapse.34 While it was theoretically possible to shoehorn these conditions into a system shaped by strict parallels between the male and female genitals, the stark differences between the illnesses associated with each set of structures muted their similarities. It is hard to imagine any context in which a homology between the scrotum and the uterus could prove helpful for the treatment of either organ. <span class="citation" data-cites="Park_2023">(Park 2023, 161)</span></p>
 </blockquote>
 <p>Although Park credits Laqueur for opening up an important topic in the history of early medicine, her conclusion doesn’t pull any punches:</p>
 <blockquote class="blockquote">
@@ -142,7 +146,7 @@ Figure&nbsp;4: The sexual cascade (succession of evolutionary events leading to 
 <blockquote class="blockquote">
 <p>The first two [mathematical] models confirm that gamete number asymmetry alone creates asymmetry in Bateman gradients as Bateman’s assertion suggests, while the third model demonstrates that if fertilisation is efficient, this outcome remains valid despite the asymmetric roles of female as gamete recipient and male as gamete donor. However, inefficient fertilisation can push Bateman gradients towards equality under external fertilisation and reverse them under internal fertilisation. Overall, the results show that despite interesting exceptions, Bateman’s assertion is correct under relatively general conditions.</p>
 </blockquote>
-<p>Empirically, Bateman’s original 1948 experiment with fruit flies had problems, as Fuentes points out, and a previous replication attempt failed to support Bateman’s hypothesis. However, a recent replication of Bateman’s experiment, modified to address the original problems <span class="citation" data-cites="davies2023">(Davies et al. 2023)</span>, supported Bateman:</p>
+<p>Empirically, Bateman’s original 1948 experiment with fruit flies had problems, as Fuentes points out, and a previous replication attempt failed to support Bateman’s hypothesis. However, a recent replication of Bateman’s experiment, modified to address the original problems <span class="citation" data-cites="davies2023">(Davies, Janicke, and Morrow 2023)</span>, supported Bateman:</p>
 <blockquote class="blockquote">
 <p>(a) males had significantly more variation in number of mates compared with females and (b) males had significantly more individual variation in total number of offspring. We also find a significantly steeper Bateman gradient for males compared to females, suggesting that sexual selection is operating more intensely in males. However, female remating was limited, providing the opportunity for future study to further explore female reproductive success in correlation with higher levels of remating.</p>
 </blockquote>
@@ -176,59 +180,76 @@ Figure&nbsp;4: The sexual cascade (succession of evolutionary events leading to 
 <p>In many bird species, there is sexual dimorphism (differences in the shapes, sizes, and/or colors of bodies) between large- and small-gamete producers, but what form that takes is not consistent or in a single pattern across all species. Body-size differences between large- and small-gamete producers often relate to aspects of social and mating systems, to the patterns of parental care, and to aspects of the specific ecologies of that species. (pp.&nbsp;30-31)</p>
 </blockquote>
 <p>Relate how? Fuentes provides no clue.</p>
-<p>The mammal examples are monogamous primates and naked mole rats, with no explanations, and the spotted hyena pseudopenis, with no explanations except that it is “mediated by a very complex interplay between a range of multiple hormones” (p.&nbsp;33). For Fuentes, it seems, biology is merely a cabinet of curiosities. See Figure&nbsp;5.</p>
+<p>The mammal examples are monogamous primates and naked mole rats, with no explanations, and the spotted hyena pseudopenis, with no explanations except that it is “mediated by a very complex interplay between a range of multiple hormones” (p.&nbsp;33). For Fuentes, it seems, biology is merely a <a href="https://en.wikipedia.org/wiki/Cabinet_of_curiosities">cabinet of curiosities</a>. See Figure&nbsp;5.</p>
 <div id="fig-curiosities" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-curiosities-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/RitrattoMuseoFerranteImperato.jpg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-curiosities-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;5: Fold-out engraving from Ferrante Imperato’s Dell’Historia Naturale (Naples 1599), the earliest illustration of a natural history cabinet <span class="citation" data-cites="Cabinet_of_curiosities">(Wikipedia 2025c)</span>.
+Figure&nbsp;5: Fold-out engraving from Ferrante Imperato’s Dell’Historia Naturale (Naples 1599), the earliest illustration of a natural history cabinet <span class="citation" data-cites="Cabinet_of_curiosities">(Wikipedia 2025)</span>.
 </figcaption>
 </figure>
 </div>
-<p>To be clear, existing explanations for most of Fuentes’ examples are still debated, sometimes heavily, yet the point of studying biological variation is to propose and test explanations.<sup>6</sup> Fuentes’ “new narrative” has provided nothing except well-known examples of biological variation minus possible explanations for that variation that have been put forward by others, nor does he provide any explanations of his own.</p>
+<p>To be clear, existing explanations for most of Fuentes’ examples of biological variation are still debated, sometimes heavily<sup>6</sup>, yet the point of science, any science, is to propose and test explanations. Fuentes’ “new narrative” has provided nothing except well-known examples of biological variation minus the explanations for that variation that have been put forward by others, nor does he provide any explanations of his own.</p>
 </section>
 <section id="chapters-3-7-humans-are-messy-etc." class="level1">
 <h1>Chapters 3-7: Humans are Messy [etc.]</h1>
-<!-- Fuentes kicks off his discussion of humans, the focus of the rest of his book, with the case of a Copper Age skeleton incorrectly sexed as male due to cultural bias, a reprise of Laqueur's questionable history of Western sex concepts, and a quote from a paper by @mclaughlin2023: -->
-<!-- > The best current data and analyses produce a contemporary understanding that a “reliance on strict binary categories of sex fails to accurately capture the diverse and nuanced nature of sex.3”  (p. 40). -->
-<!-- I went through the @mclaughlin2023 paper a year ago on twitter, and despite their intent, the authors actually reinforce the case for binary biological sex [@hagen2024]. -->
-<!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">1. According to some, this article provides strong empirical evidence for nonbinary biological sex, so I took a look.<br><br>tl;dr: ironically, the article reinforces the case for binary biological sex. 🧵<a href="https://t.co/7hpZyg7zNf">https://t.co/7hpZyg7zNf</a></p>&mdash; Ed Hagen (@ed_hagen) <a href="https://twitter.com/ed_hagen/status/1777725043877056636?ref_src=twsrc%5Etfw">April 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+<p>Fuentes kicks off his discussion of humans, the focus of the rest of his book, with the case of a Copper Age skeleton incorrectly sexed as male due to cultural bias, a reprise of Laqueur’s questionable history of Western sex concepts, and a quote from a paper by <span class="citation" data-cites="mclaughlin2023">McLaughlin et al. (2023)</span>:</p>
+<blockquote class="blockquote">
+<p>The best current data and analyses produce a contemporary understanding that a “reliance on strict binary categories of sex fails to accurately capture the diverse and nuanced nature of sex.3” (p.&nbsp;40).</p>
+</blockquote>
+<p>I went through the <span class="citation" data-cites="mclaughlin2023">McLaughlin et al. (2023)</span> paper a year ago on twitter, and despite their intent, the authors actually reinforce the case for binary biological sex:</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+</p><ol type="1">
+<li>According to some, this article provides strong empirical evidence for nonbinary biological sex, so I took a look.<br><br>tl;dr: ironically, the article reinforces the case for binary biological sex. 🧵<a href="https://t.co/7hpZyg7zNf">https://t.co/7hpZyg7zNf</a>
+<p></p>
+— Ed Hagen (<span class="citation" data-cites="ed_hagen">(<strong>ed_hagen?</strong>)</span>) <a href="https://twitter.com/ed_hagen/status/1777725043877056636?ref_src=twsrc%5Etfw">April 9, 2024</a>
+</li></ol></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <p>Fuentes’ central theme is that humans are “biocultural”:</p>
 <blockquote class="blockquote">
 <p>Although we are biological organisms, the totality of the human experience cannot be reduced to either specific innate (biological) or external (environmental/cultural) influences. It is a synthesis of both: humans are biocultural. (p.&nbsp;41)</p>
 </blockquote>
 <p>For Fuentes, a biocultural account of gender and sex requires deliberately conflating these distinct concepts as “gender/sex” to “reflect the intertwined biocultural reality of bodies and experiences more accurately” (p.&nbsp;45). Biological anthropologists Phil Walker and Della Cook <span class="citation" data-cites="walker1998">(1998, p 255)</span> critique this approach better than I could in an article titled “Gender and Sex: Vive la Difference”:</p>
-<blockquote class="blockquote">
-<p>A failure to make the distinction between gender and sex is analytically incapacitating in a field such as physical anthropology, whose strength lies in the integration of biological and culturual information.</p>
-</blockquote>
-<!-- ![From @walker1998](walker-cook.png){#fig-walkercook} -->
-<p>The importance of distinguishing between gender and sex is nicely illustrated by a case highlighted by Fuentes in which the biological sex and elaborate burial of a Copper Age skeleton did not align with contemporary conceptions of gender roles.</p>
+<!-- > A failure to make the distinction between gender and sex is analytically incapacitating in a field such as physical anthropology, whose strength lies in the integration of biological and culturual information. -->
+<div id="fig-walkercook" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-walkercook-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/walker-cook.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-walkercook-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: From <span class="citation" data-cites="walker1998">Walker and Cook (1998)</span>
+</figcaption>
+</figure>
+</div>
+<p>The importance of distinguishing between gender and sex is nicely illustrated by the case highlighted by Fuentes in which the biological sex and elaborate burial of a Copper Age skeleton did not align with contemporary conceptions of gender roles.</p>
 <p>Fuentes then presents a fairly standard account of human evolution since our divergence from chimpanzees in which he rightly emphasizes the importance of cooperative child rearing (alloparenting), evidence for which comes from work with contemporary hunter-gatherer and other groups that also typically exhibit marked sexual divisions of labor. Although Fuentes briefly mentions sexual divisions of labor, he downplays it:</p>
 <blockquote class="blockquote">
 <p>In some contemporary human societies, men (the gender) do hunt large game more than women (the gender), and in many societies, mothers, grandmothers, and sisters are the main individuals charged with childcare. However, assumptions about such role differentiation and its patterns in the human past, especially in the context of hunting and caretaking, are challenged via a range of archeological, fossil, and recent ethnographic analyses. (p.&nbsp;70).</p>
 </blockquote>
 <p>One of the papers he cites that supposedly challenges a sexual division of labor in the human past is <span class="citation" data-cites="kuhn2006">Kuhn and Stiner (2006)</span>, who argue that, due to its fitness advantages, it was precisely the sexual division of labor in human populations expanding out of tropical Africa that might explain why they replaced Neanderthals. Another paper Fuentes cites here, <span class="citation" data-cites="Anderson_2023">Anderson et al. (2023)</span>, had fatal flaws in its data collection and analysis <span class="citation" data-cites="venkataraman2024">(Venkataraman et al. 2024)</span>.</p>
-<p>Fuentes also doesn’t cite the hugely influential work of Hillard Kaplan and colleagues that emphasizes the importance of a sexual division of labor in human evolution <span class="citation" data-cites="kaplan2000 kaplan2009">(e.g., Kaplan et al. 2000, 2009)</span>. Their basic idea is that, whereas ape mothers provide all the calories for their infants, who are able to provision themselves on plant foods in just a few years, human mothers invest heavily in child care and foraging for plant foods and small game that are reliable but lower return, and men forage for high risk, high return game, producing a surplus, and the combined calories provision multiple offspring who take the better part of two decades to acquire these complex foraging skills. A recent <em>Science</em> paper by <span class="citation" data-cites="kraft2021">Kraft et al. (2021)</span>, also not cited by Fuentes, presents evidence for the foregoing scenario. See Figure&nbsp;6. Note that women generally provide enough calories to support themselves (with exceptions) and men produce a surplus (with exceptions). In short, it was the sexual division of labor that underpinned the “cultural” part of our biocultural species.</p>
+<p>Fuentes also doesn’t cite the hugely influential work of Hillard Kaplan and colleagues that emphasizes the importance of a sexual division of labor in human evolution <span class="citation" data-cites="kaplan2000 kaplan2009">(e.g., Kaplan et al. 2000; Kaplan, Hooper, and Gurven 2009)</span>. Their basic idea is that, whereas ape mothers provide all the calories for their infants, who are able to provision themselves on plant foods in just a few years, human mothers invest heavily in child care and foraging for plant foods and small game that are reliable but lower return, and men forage for high risk, high return game, producing a surplus, and the combined calories provision multiple offspring who take the better part of two decades to acquire these complex foraging skills. This scenario is backup up by recent <em>Science</em> paper <span class="citation" data-cites="kraft2021">(Kraft et al. 2021)</span>, also not cited by Fuentes. See Figure&nbsp;7. Note that women generally provide enough calories to support themselves (with exceptions) and men produce a surplus (with exceptions). In short, it was the sexual division of labor that underpinned the “cultural” part of our biocultural species.</p>
 <div id="fig-energy" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-energy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/plot_energy.svg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-energy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6: Daily per capita adult energy production by females and males across ten contemporary hunter-gatherer populations. Boxplots in the top panel indicate the distributions of female, male, and total production depicted in the bottom panel. Total (pair bond): average production of one adult female plus one adult male. Grey bars indicate the range of average female (lower) to male (higher) total energy expenditure (TEE) for chimpanzees (left) and adult Hadza (right) measured using doubly labeled water. Dotted line indicates total TEE for one Hadza female + one male. Chimpanzee energy production is assumed to equal total energy expenditure (i.e., no surplus production other than for lactation). Data from <span class="citation" data-cites="kraft2021">Kraft et al. (2021)</span> and <span class="citation" data-cites="pontzer2015">Pontzer et al. (2015)</span>.
+Figure&nbsp;7: Daily per capita adult energy production by females and males across ten contemporary hunter-gatherer populations. Boxplots in the top panel indicate the distributions of female, male, and total production depicted in the bottom panel. Total (pair bond): average production of one adult female plus one adult male. Grey bars indicate the range of average female (lower) to male (higher) total energy expenditure (TEE) for chimpanzees (left) and adult Hadza (right) measured using doubly labeled water. Dotted line indicates total TEE for one Hadza female + one male. Chimpanzee energy production is assumed to equal total energy expenditure (i.e., no surplus production other than for lactation). Data from <span class="citation" data-cites="kraft2021">Kraft et al. (2021)</span> and <span class="citation" data-cites="pontzer2015">Pontzer et al. (2015)</span>.
 </figcaption>
 </figure>
 </div>
-<p>Figure&nbsp;7 and Figure&nbsp;8 display data supporting the importance of allocare in hunter-gatherers and other traditional societies, but also show that mothers do by far the most infant care, usually followed by older siblings.</p>
+<p>Figure&nbsp;8 and Figure&nbsp;9 display data supporting the importance of allocare in hunter-gatherers and other traditional societies, but also show that mothers do by far the most infant care, usually followed by older siblings.</p>
 <div id="fig-allocare" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-allocare-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/1-s2.0-S003193841830115X-gr1_lrg.jpg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-allocare-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;7: Percent of direct care received by an infant that is provided by mothers and allo-caretakers. Siblings indicates total care provided by one or more siblings of the infant. Figure from <span class="citation" data-cites="Kramer_2018">Kramer and Veile (2018)</span>
+Figure&nbsp;8: Percent of direct care received by an infant that is provided by mothers and allo-caretakers. Siblings indicates total care provided by one or more siblings of the infant. Figure from <span class="citation" data-cites="Kramer_2018">Kramer and Veile (2018)</span>
 </figcaption>
 </figure>
 </div>
@@ -240,7 +261,7 @@ Figure&nbsp;7: Percent of direct care received by an infant that is provided by 
 <img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/index_files/figure-html/fig-allocare2-1.png" class="img-fluid figure-img" width="1056">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-allocare2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;8: Variation in allomaternal infant care in 141 societies. Colors represent the main sources of subsistence. Data from <span class="citation" data-cites="Martin_2020">Martin et al. (2020)</span>.
+Figure&nbsp;9: Variation in allomaternal infant care in 141 societies. Colors represent the main sources of subsistence. Data from <span class="citation" data-cites="Martin_2020">Martin et al. (2020)</span>.
 </figcaption>
 </figure>
 </div>
@@ -257,7 +278,7 @@ Figure&nbsp;8: Variation in allomaternal infant care in 141 societies. Colors re
 <p>[It] is not totally clear what role size difference as a category is playing relative to 3G sex as category of comparison…But some patterns of between 3G category measured strength still exist, to some degree, when comparisons are made between same height and weight 3G-female and 3G-male individuals. (pp.&nbsp;81-82)</p>
 <p>The pattern of fat deposition is the same for 3G sexes until puberty, when 3G females usually begin to increase total fat mass, eventually developing about 10 percent more total fat, on average, than a 3G male of the same height and weight. (p.&nbsp;87).</p>
 </blockquote>
-<p>Sex differences in body composition (amounts and distributions of fat and muscle mass) provide a strong clue that women and men were engaged in different activities over the course of human evolution (on average!). Fuentes draws on NHANES data, so I will too. Regarding percent body fat, there is an increase in females after puberty, as Fuentes notes, and a decrease in males. See Figure&nbsp;9.</p>
+<p>Sex differences in body composition (amounts and distributions of fat and muscle mass) provide a strong clue that women and men were engaged in different activities over the course of human evolution (on average!). Fuentes draws on NHANES data, so I will too. Regarding percent body fat, there is an increase in females after puberty, as Fuentes notes, and a decrease in males. See Figure&nbsp;10.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-fat" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -266,13 +287,13 @@ Figure&nbsp;8: Variation in allomaternal infant care in 141 societies. Colors re
 <img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/index_files/figure-html/fig-fat-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;9: Total Percent Fat vs.&nbsp;age in females (red) and males (purple), measured with Whole Body Dual-Energy X-ray Absorptiometry. Data from NHANES 2011-2014, a representative sample of the U.S. civilian noninstitutionalized population. Transparency represents the sampling weight for that individual. N = 9577.
+Figure&nbsp;10: Total Percent Fat vs.&nbsp;age in females (red) and males (purple), measured with Whole Body Dual-Energy X-ray Absorptiometry. Data from NHANES 2011-2014, a representative sample of the U.S. civilian noninstitutionalized population. Transparency represents the sampling weight for that individual. N = 9577.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Regarding upper body strength, there is a bit more than “some degree” of sex difference, even when accounting for sex differences in height, which I’ve done here by plotting the two against each other (and it’s possible that sex differences in height and upper body strength evolved together). See Figure&nbsp;10.</p>
+<p>Regarding upper body strength, there is a bit more than “some degree” of sex difference, even when accounting for sex differences in height, which I’ve done here by plotting the two against each other (and it’s possible that sex differences in height and upper body strength evolved together). See Figure&nbsp;11.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-grip" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -281,13 +302,13 @@ Figure&nbsp;9: Total Percent Fat vs.&nbsp;age in females (red) and males (purple
 <img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/index_files/figure-html/fig-grip-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-grip-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;10: <strong>Top</strong>: Grip strength vs.&nbsp;age in females (red) and males (purple). <strong>Bottom</strong>: Grip strength vs.&nbsp;height in adult females and males, ages 18-60. Data from NHANES 2011-2014, a representative sample of the U.S. civilian noninstitutionalized population. Grip strength is the sum of both hands. Each dot is one individual. Transparency represents the sampling weight for that individual. N = 7563.
+Figure&nbsp;11: <strong>Top</strong>: Grip strength vs.&nbsp;age in females (red) and males (purple). <strong>Bottom</strong>: Grip strength vs.&nbsp;height in adult females and males, ages 18-60. Data from NHANES 2011-2014, a representative sample of the U.S. civilian noninstitutionalized population. Grip strength is the sum of both hands. Each dot is one individual. Transparency represents the sampling weight for that individual. N = 7563.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>The proximate cause of the sex difference in strength is likely the pubertal surge in testosterone levels in males relative to females (but in adults, variation in strength is mostly unrelated to variation in testosterone). See Figure&nbsp;11.</p>
+<p>The proximate cause of the sex difference in strength is likely the pubertal surge in testosterone levels in males relative to females (but in adults, variation in strength is mostly unrelated to variation in testosterone). See Figure&nbsp;12.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div id="fig-testosterone" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -296,7 +317,7 @@ Figure&nbsp;10: <strong>Top</strong>: Grip strength vs.&nbsp;age in females (red
 <img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/index_files/figure-html/fig-testosterone-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-testosterone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;11: Total serum testosterone vs.&nbsp;age in individuals age 6-80+. Females (red) and males (purple). Data from NHANES 2011-2014, a representative sample of the U.S. civilian noninstitutionalized population. Each dot is one individual; transparency represents the sampling weight for that individual. To better display small values, data clipped at T &lt; 1000 (top) or log 10 transformed (bottom). N = 14385.
+Figure&nbsp;12: Total serum testosterone vs.&nbsp;age in individuals age 6-80+. Females (red) and males (purple). Data from NHANES 2011-2014, a representative sample of the U.S. civilian noninstitutionalized population. Each dot is one individual; transparency represents the sampling weight for that individual. To better display small values, data clipped at T &lt; 1000 (top) or log 10 transformed (bottom). N = 14385.
 </figcaption>
 </figure>
 </div>
@@ -344,127 +365,153 @@ Figure&nbsp;11: Total serum testosterone vs.&nbsp;age in individuals age 6-80+. 
 <p>Fuentes is right that these are important issues, but science can’t resolve them. Science can provide valuable information to policy makers and the public, and Fuentes does: there is no evidence for a “gay gene”, for example, and children raised in LGBTQ families fare just as well as those raised in non-LGBTQ families. But grounding a moral framework in science is a recipe for disaster. If SIAS is science, then it might be wrong, just as explanations based on anisogamy might be wrong. If the rights of, e.g., LBGTQ folks were grounded in SIAS and it turns out to be wrong, their rights could collapse (and the same goes for grounding rights in anisogamy).</p>
 <p><em>Human rights don’t depend on which scientific views turn out to be correct.</em></p>
 <p>Despite my criticisms, I suspect Fuentes and I agree more than we disagree. First, we agree that scientific theories grounded in binary sex are subject to criticism (and the criticisms have improved the theories). For example, <span class="citation" data-cites="de_Vries_2023">Vries and Lehtonen (2023)</span> acknowledge “the majority of causal models in sexual selection theory do make sex-specific assumptions beyond the definition of the sexes, and do not clearly define the sexes,” with common assumptions being that only males display and only females choose, and/or that female fecundity doesn’t depend on male abundance but male fecundity does depend on female abundance.</p>
-<p>I suspect we also agree that the physiological and psychological similarities between human females and males far outweigh the differences, that sex is but one of many factors that impact phenotypes, that for many traits sex doesn’t account for most individual variation or even much at all, that across species the impact of sex on physical and behavioral traits varies a lot, and that much about the diversity of life, human and nonhuman, remains to be explained.</p>
+<p>I suspect we also agree that the physiological and psychological similarities between human females and males far outweigh the differences, that sex is but one of many factors that impact phenotypes, that for many traits sex doesn’t account for most individual variation or even much at all, that across species the impact of sex on physical and behavioral traits varies a lot, and that much about the diversity of life, human and nonhuman, remains to be explained. In that regard, SIAS, with its strange disinterest in explanations, is not so much an unscientific book as an ascientific one.</p>
+</section>
+<section id="sec-addendum" class="level1">
+<h1>Addendum</h1>
+<p>After I posted this review, my colleague David Puts pointed out that Fuentes’ figure of adult heights by sex, which leads off Chapter 5, can’t be right: there aren’t that many US adults shorter than 4’ or taller than 7’ (see Figure&nbsp;13, left). It turns out Fuentes’ data were made up. Fuentes cites a <a href="https://www.huffpost.com/entry/the-science-of-difference-lets-do-it-right_b_5372859">blogpost</a> by Anne Fausto-Sterling as the source for his figure, claiming the data are from the CDC, but Fausto-Sterling doesn’t provide her source (and she doesn’t mention the CDC). I did a google image search for the figure, and it seems to have originated from this <a href="https://perrystreetpalace.wordpress.com/2012/09/06/on-gender-essentialism-in-public-schools-bell-curves-and-cpd/">2012 blogpost</a> by Iris Vander Pluym. See Figure&nbsp;13, right:</p>
+<div id="fig-fuentesheight" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fuentesheight-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/fuentes height plot.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fuentesheight-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: Left: Figure from Chapter 5 of Sex is a Spectrum. Right: Figure from Iris Vander Pluym (2012).
+</figcaption>
+</figure>
+</div>
+<p>Vander Pluym is crystal clear that the data are completely made up:</p>
+<blockquote class="blockquote">
+<p>Let’s pretend we are doing a Super Secret Scientific Study of human height. For an entire day we surreptitiously shoot giant laser beams from the Palace turrets at every adult walking on Perry Street, and our badass ray guns measure and record for us the exact height of every person we zap….(Amazingly, the variety in height of all these imaginary people walking down Perry Street today turns out to be perfectly representative of everyone in the entire country! I am seriously that good with imaginary data!).</p>
+</blockquote>
+<p>This figure based on imaginary data misrepresents reality in two ways: the distributions are too broad, thus indicating too many very short and very tall US adults, and the distributions overlap much more than the actual distributions. I used the NHANES data I described earlier to plot the height distributions of US women and men between 20 and 60 years old, and they overlap, of course, but not as much as in the figure used by Fuentes. See Figure&nbsp;14.</p>
+<div id="fig-height" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-height-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://blog.edhagen.net/posts/2025-08-07-review-sex-is-a-spectrum/height.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-height-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;14: Height distributions of adult US women and men, ages 20-60 from NHANES 2011-2014 (N=7595). Density bandwidth used the default values. Dotted lines represent the 5th, 50th, and 95th percentiles for US 30-39 year old men and women, CDC data Aug 2021-2023.
+</figcaption>
+</figure>
+</div>
 
 
 
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
 <div id="ref-Anderson_2023" class="csl-entry">
-Anderson, A., Chilczuk, S., Nelson, K., Ruther, R., &amp; Wall-Scheffler, C. (2023). The myth of man the hunter: Women’s contribution to the hunt across ethnographic contexts. <em>PLOS ONE</em>, <em>18</em>(6), e0287101. <a href="https://doi.org/10.1371/journal.pone.0287101">https://doi.org/10.1371/journal.pone.0287101</a>
+Anderson, Abigail, Sophia Chilczuk, Kaylie Nelson, Roxanne Ruther, and Cara Wall-Scheffler. 2023. <span>“The Myth of Man the Hunter: Women’s Contribution to the Hunt Across Ethnographic Contexts.”</span> Edited by Raven Garvey. <em>PLOS ONE</em> 18 (6): e0287101. <a href="https://doi.org/10.1371/journal.pone.0287101">https://doi.org/10.1371/journal.pone.0287101</a>.
 </div>
 <div id="ref-avise_2009" class="csl-entry">
-Avise, J. C., &amp; Mank, J. E. (2009). Evolutionary perspectives on hermaphroditism in fishes. <em>Sexual Development</em>, <em>3</em>(2-3), 152–163. <a href="https://doi.org/10.1159/000223079">https://doi.org/10.1159/000223079</a>
+Avise, J. C., and J. E. Mank. 2009. <span>“Evolutionary Perspectives on Hermaphroditism in Fishes.”</span> <em>Sexual Development</em> 3 (2-3): 152–63. <a href="https://doi.org/10.1159/000223079">https://doi.org/10.1159/000223079</a>.
 </div>
 <div id="ref-bulmer_2002" class="csl-entry">
-Bulmer, M. G., &amp; Parker, G. A. (2002). The evolution of anisogamy: A game-theoretic approach. <em>Proceedings of the Royal Society of London. Series B: Biological Sciences</em>, <em>269</em>(1507), 2381–2388. <a href="https://doi.org/10.1098/rspb.2002.2161">https://doi.org/10.1098/rspb.2002.2161</a>
+Bulmer, M. G., and G. A. Parker. 2002. <span>“The Evolution of Anisogamy: A Game-Theoretic Approach.”</span> <em>Proceedings of the Royal Society of London. Series B: Biological Sciences</em> 269 (1507): 2381–88. <a href="https://doi.org/10.1098/rspb.2002.2161">https://doi.org/10.1098/rspb.2002.2161</a>.
 </div>
 <div id="ref-burki_2020" class="csl-entry">
-Burki, F., Roger, A. J., Brown, M. W., &amp; Simpson, A. G. B. (2020). The new tree of eukaryotes. <em>Trends in Ecology &amp; Evolution</em>, <em>35</em>(1), 43–55. <a href="https://doi.org/10.1016/j.tree.2019.08.008">https://doi.org/10.1016/j.tree.2019.08.008</a>
+Burki, Fabien, Andrew J. Roger, Matthew W. Brown, and Alastair G. B. Simpson. 2020. <span>“The New Tree of Eukaryotes.”</span> <em>Trends in Ecology &amp; Evolution</em> 35 (1): 43–55. <a href="https://doi.org/10.1016/j.tree.2019.08.008">https://doi.org/10.1016/j.tree.2019.08.008</a>.
 </div>
 <div id="ref-constable_2018" class="csl-entry">
-Constable, G. W. A., &amp; Kokko, H. (2018). The rate of facultative sex governs the number of expected mating types in isogamous species. <em>Nature Ecology &amp; Evolution</em>, <em>2</em>(7), 1168–1175. <a href="https://doi.org/10.1038/s41559-018-0580-9">https://doi.org/10.1038/s41559-018-0580-9</a>
+Constable, George W. A., and Hanna Kokko. 2018. <span>“The Rate of Facultative Sex Governs the Number of Expected Mating Types in Isogamous Species.”</span> <em>Nature Ecology &amp; Evolution</em> 2 (7): 1168–75. <a href="https://doi.org/10.1038/s41559-018-0580-9">https://doi.org/10.1038/s41559-018-0580-9</a>.
 </div>
 <div id="ref-darwin1835" class="csl-entry">
-Darwin, S. (1835). <span class="nocase">Darwin Correspondence Project, Letter no. 288</span>. <a href="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-288.xml" class="uri">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-288.xml</a>.
+Darwin, Susan. 1835. <span>“<span class="nocase">Darwin Correspondence Project, Letter no. 288</span>.”</span> <a href="https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-288.xml" class="uri">https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-288.xml</a>.
 </div>
 <div id="ref-davies2023" class="csl-entry">
-Davies, N., Janicke, T., &amp; Morrow, E. H. (2023). Evidence for stronger sexual selection in males than in females using an adapted method of <span class="nocase">Bateman’s</span> classic study of <span class="nocase">Drosophila melanogaster</span>. <em>Evolution</em>, <em>77</em>(11), 2420–2430. <a href="https://doi.org/10.1093/evolut/qpad151">https://doi.org/10.1093/evolut/qpad151</a>
+Davies, Natasha, Tim Janicke, and Edward H Morrow. 2023. <span>“Evidence for Stronger Sexual Selection in Males Than in Females Using an Adapted Method of <span class="nocase">Bateman’s</span> Classic Study of <span class="nocase">Drosophila melanogaster</span>.”</span> <em>Evolution</em> 77 (11): 2420–30. <a href="https://doi.org/10.1093/evolut/qpad151">https://doi.org/10.1093/evolut/qpad151</a>.
 </div>
 <div id="ref-dodd2017" class="csl-entry">
-Dodd, M. S., Papineau, D., Grenne, T., Slack, J. F., Rittner, M., Pirajno, F., et al. (2017). Evidence for early life in earth’s oldest hydrothermal vent precipitates. <em>Nature</em>, <em>543</em>(7643), 60–64.
+Dodd, Matthew S, Dominic Papineau, Tor Grenne, John F Slack, Martin Rittner, Franco Pirajno, Jonathan O’Neil, and Crispin TS Little. 2017. <span>“Evidence for Early Life in Earth’s Oldest Hydrothermal Vent Precipitates.”</span> <em>Nature</em> 543 (7643): 60–64.
 </div>
 <div id="ref-frank1990" class="csl-entry">
-Frank, S. A. (1990). Sex allocation theory for birds and mammals. <em>Annual Review of Ecology and Systematics</em>, 13–55. <a href="https://www.jstor.org/stable/2097017">https://www.jstor.org/stable/2097017</a>
+Frank, Steven A. 1990. <span>“Sex Allocation Theory for Birds and Mammals.”</span> <em>Annual Review of Ecology and Systematics</em>, 13–55. <a href="https://www.jstor.org/stable/2097017">https://www.jstor.org/stable/2097017</a>.
 </div>
 <div id="ref-gould2011" class="csl-entry">
-Gould, S. J. (2011). <em>Rocks of ages: Science and religion in the fullness of life</em>. Ballantine Books.
+Gould, Stephen Jay. 2011. <em>Rocks of Ages: Science and Religion in the Fullness of Life</em>. Ballantine Books.
 </div>
 <div id="ref-halliday2023" class="csl-entry">
-Halliday, A. N., &amp; Canup, R. M. (2023). The accretion of planet earth. <em>Nature Reviews Earth &amp; Environment</em>, <em>4</em>(1), 19–35.
+Halliday, Alex N, and Robin M Canup. 2023. <span>“The Accretion of Planet Earth.”</span> <em>Nature Reviews Earth &amp; Environment</em> 4 (1): 19–35.
 </div>
 <div id="ref-Janicke_2016" class="csl-entry">
-Janicke, T., Häderer, I. K., Lajeunesse, M. J., &amp; Anthes, N. (2016). Darwinian sex roles confirmed across the animal kingdom. <em>Science Advances</em>, <em>2</em>(2). <a href="https://doi.org/10.1126/sciadv.1500983">https://doi.org/10.1126/sciadv.1500983</a>
+Janicke, Tim, Ines K. Häderer, Marc J. Lajeunesse, and Nils Anthes. 2016. <span>“Darwinian Sex Roles Confirmed Across the Animal Kingdom.”</span> <em>Science Advances</em> 2 (2). <a href="https://doi.org/10.1126/sciadv.1500983">https://doi.org/10.1126/sciadv.1500983</a>.
 </div>
 <div id="ref-kaplan2000" class="csl-entry">
-Kaplan, H. S., Hill, K., Lancaster, J., &amp; Hurtado, A. M. (2000). A theory of human life history evolution: Diet, intelligence, and longevity. <em>Evolutionary Anthropology: Issues, News, and Reviews: Issues, News, and Reviews</em>, <em>9</em>(4), 156–185. <a href="https://doi.org/10.1002/1520-6505(2000)9:4%3C156::AID-EVAN5%3E3.0.CO;2-7">https://doi.org/10.1002/1520-6505(2000)9:4%3C156::AID-EVAN5%3E3.0.CO;2-7</a>
+Kaplan, Hillard S, Kim Hill, Jane Lancaster, and A Magdalena Hurtado. 2000. <span>“A Theory of Human Life History Evolution: Diet, Intelligence, and Longevity.”</span> <em>Evolutionary Anthropology: Issues, News, and Reviews: Issues, News, and Reviews</em> 9 (4): 156–85. <a href="https://doi.org/10.1002/1520-6505(2000)9:4%3C156::AID-EVAN5%3E3.0.CO;2-7">https://doi.org/10.1002/1520-6505(2000)9:4%3C156::AID-EVAN5%3E3.0.CO;2-7</a>.
 </div>
 <div id="ref-kaplan2009" class="csl-entry">
-Kaplan, H. S., Hooper, P. L., &amp; Gurven, M. (2009). The evolutionary and ecological roots of human social organization. <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>, <em>364</em>(1533), 3289–3299.
+Kaplan, Hillard S, Paul L Hooper, and Michael Gurven. 2009. <span>“The Evolutionary and Ecological Roots of Human Social Organization.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 364 (1533): 3289–99.
 </div>
 <div id="ref-kraft2021" class="csl-entry">
-Kraft, T. S., Venkataraman, V. V., Wallace, I. J., Crittenden, A. N., Holowka, N. B., Stieglitz, J., et al. (2021). The energetics of uniquely human subsistence strategies. <em>Science</em>, <em>374</em>(6575), eabf0130. <a href="https://doi.org/10.1126/science.abf013">https://doi.org/10.1126/science.abf013</a>
+Kraft, Thomas S, Vivek V Venkataraman, Ian J Wallace, Alyssa N Crittenden, Nicholas B Holowka, Jonathan Stieglitz, Jacob Harris, et al. 2021. <span>“The Energetics of Uniquely Human Subsistence Strategies.”</span> <em>Science</em> 374 (6575): eabf0130. <a href="https://doi.org/10.1126/science.abf013">https://doi.org/10.1126/science.abf013</a>.
 </div>
 <div id="ref-Kramer_2018" class="csl-entry">
-Kramer, K. L., &amp; Veile, A. (2018). Infant allocare in traditional societies. <em>Physiology &amp;amp; Behavior</em>, <em>193</em>, 117–126. <a href="https://doi.org/10.1016/j.physbeh.2018.02.054">https://doi.org/10.1016/j.physbeh.2018.02.054</a>
+Kramer, Karen L., and Amanda Veile. 2018. <span>“Infant Allocare in Traditional Societies.”</span> <em>Physiology &amp;Amp; Behavior</em> 193 (September): 117–26. <a href="https://doi.org/10.1016/j.physbeh.2018.02.054">https://doi.org/10.1016/j.physbeh.2018.02.054</a>.
 </div>
 <div id="ref-kuhn2006" class="csl-entry">
-Kuhn, S., &amp; Stiner, M. (2006). What’s a mother to do? <span>The</span> division of labor among <span>Neandertals</span> and modern humans in <span>Eurasia</span>. <em>Current anthropology</em>, <em>47</em>(6), 953–981. <a href="https://doi.org/10.1086/507197">https://doi.org/10.1086/507197</a>
+Kuhn, StevenL, and MaryC Stiner. 2006. <span>“What’s a Mother to Do? <span>The</span> Division of Labor Among <span>Neandertals</span> and Modern Humans in <span>Eurasia</span>.”</span> <em>Current Anthropology</em> 47 (6): 953–81. <a href="https://doi.org/10.1086/507197">https://doi.org/10.1086/507197</a>.
 </div>
 <div id="ref-laqueur1992" class="csl-entry">
-Laqueur, T. (1992). <em>Making sex: Body and gender from the <span class="nocase">Greeks to Freud</span></em>. Harvard University Press.
+Laqueur, Thomas. 1992. <em>Making Sex: Body and Gender from the <span class="nocase">Greeks to Freud</span></em>. Harvard University Press.
 </div>
 <div id="ref-lassek2009" class="csl-entry">
-Lassek, W. D., &amp; Gaulin, S. J. (2009). Costs and benefits of fat-free muscle mass in men: Relationship to mating success, dietary requirements, and native immunity. <em>Evolution and Human Behavior</em>, <em>30</em>(5), 322–328. <a href="https://doi.org/10.1016/j.evolhumbehav.2009.04.002">https://doi.org/10.1016/j.evolhumbehav.2009.04.002</a>
+Lassek, William D, and Steven JC Gaulin. 2009. <span>“Costs and Benefits of Fat-Free Muscle Mass in Men: Relationship to Mating Success, Dietary Requirements, and Native Immunity.”</span> <em>Evolution and Human Behavior</em> 30 (5): 322–28. <a href="https://doi.org/10.1016/j.evolhumbehav.2009.04.002">https://doi.org/10.1016/j.evolhumbehav.2009.04.002</a>.
 </div>
 <div id="ref-lassek2022" class="csl-entry">
-Lassek, W. D., &amp; Gaulin, S. J. (2022). Substantial but misunderstood human sexual dimorphism results mainly from sexual selection on males and natural selection on females. <em>Frontiers in Psychology</em>, <em>13</em>, 859931. <a href="https://doi.org/10.3389/fpsyg.2022.859931">https://doi.org/10.3389/fpsyg.2022.859931</a>
+———. 2022. <span>“Substantial but Misunderstood Human Sexual Dimorphism Results Mainly from Sexual Selection on Males and Natural Selection on Females.”</span> <em>Frontiers in Psychology</em> 13: 859931. <a href="https://doi.org/10.3389/fpsyg.2022.859931">https://doi.org/10.3389/fpsyg.2022.859931</a>.
 </div>
 <div id="ref-Lehtonen_2022" class="csl-entry">
-Lehtonen, J. (2022). Bateman gradients from first principles. <em>Nature Communications</em>, <em>13</em>(1). <a href="https://doi.org/10.1038/s41467-022-30534-x">https://doi.org/10.1038/s41467-022-30534-x</a>
+Lehtonen, Jussi. 2022. <span>“Bateman Gradients from First Principles.”</span> <em>Nature Communications</em> 13 (1). <a href="https://doi.org/10.1038/s41467-022-30534-x">https://doi.org/10.1038/s41467-022-30534-x</a>.
 </div>
 <div id="ref-Lehtonen_2014" class="csl-entry">
-Lehtonen, J., &amp; Parker, G. A. (2014). Gamete competition, gamete limitation, and the evolution of the two sexes. <em>MHR: Basic science of reproductive medicine</em>, <em>20</em>(12), 1161–1168. <a href="https://doi.org/10.1093/molehr/gau068">https://doi.org/10.1093/molehr/gau068</a>
+Lehtonen, Jussi, and Geoff A. Parker. 2014. <span>“Gamete Competition, Gamete Limitation, and the Evolution of the Two Sexes.”</span> <em>MHR: Basic Science of Reproductive Medicine</em> 20 (12): 1161–68. <a href="https://doi.org/10.1093/molehr/gau068">https://doi.org/10.1093/molehr/gau068</a>.
 </div>
 <div id="ref-Martin_2020" class="csl-entry">
-Martin, J. S., Ringen, E. J., Duda, P., &amp; Jaeggi, A. V. (2020). Harsh environments promote alloparental care across human societies. <em>Proceedings of the Royal Society B: Biological Sciences</em>, <em>287</em>(1933). <a href="https://doi.org/10.1098/rspb.2020.0758">https://doi.org/10.1098/rspb.2020.0758</a>
+Martin, J. S., E. J. Ringen, P. Duda, and A. V. Jaeggi. 2020. <span>“Harsh Environments Promote Alloparental Care Across Human Societies.”</span> <em>Proceedings of the Royal Society B: Biological Sciences</em> 287 (1933). <a href="https://doi.org/10.1098/rspb.2020.0758">https://doi.org/10.1098/rspb.2020.0758</a>.
+</div>
+<div id="ref-mclaughlin2023" class="csl-entry">
+McLaughlin, JF, Kinsey M Brock, Isabella Gates, Anisha Pethkar, Marcus Piattoni, Alexis Rossi, and Sara E Lipshutz. 2023. <span>“Multivariate Models of Animal Sex: Breaking Binaries Leads to a Better Understanding of Ecology and Evolution.”</span> <em>Integrative and Comparative Biology</em> 63 (4): 891–906. <a href="https://doi.org/10.1093/icb/icad027">https://doi.org/10.1093/icb/icad027</a>.
 </div>
 <div id="ref-moody_2024" class="csl-entry">
-Moody, E. R. R., Álvarez-Carretero, S., Mahendrarajah, T. A., Clark, J. W., Betts, H. C., Dombrowski, N., et al. (2024). The nature of the last universal common ancestor and its impact on the early earth system. <em>Nature Ecology &amp; Evolution</em>, <em>8</em>(9), 1654–1666. <a href="https://doi.org/10.1038/s41559-024-02461-1">https://doi.org/10.1038/s41559-024-02461-1</a>
+Moody, Edmund R. R., Sandra Álvarez-Carretero, Tara A. Mahendrarajah, James W. Clark, Holly C. Betts, Nina Dombrowski, Lénárd L. Szánthó, et al. 2024. <span>“The Nature of the Last Universal Common Ancestor and Its Impact on the Early Earth System.”</span> <em>Nature Ecology &amp; Evolution</em> 8 (9): 1654–66. <a href="https://doi.org/10.1038/s41559-024-02461-1">https://doi.org/10.1038/s41559-024-02461-1</a>.
 </div>
 <div id="ref-muller2002" class="csl-entry">
-Muller, M. N., &amp; Wrangham, R. (2002). Sexual mimicry in hyenas. <em>The Quarterly review of biology</em>, <em>77</em>(1), 3–16. <a href="https://doi.org/10.1086/339199">https://doi.org/10.1086/339199</a>
+Muller, Martin N, and Richard Wrangham. 2002. <span>“Sexual Mimicry in Hyenas.”</span> <em>The Quarterly Review of Biology</em> 77 (1): 3–16. <a href="https://doi.org/10.1086/339199">https://doi.org/10.1086/339199</a>.
 </div>
 <div id="ref-Park_2023" class="csl-entry">
-Park, K. (2023). The myth of the "one-sex" body. <em>Isis</em>, <em>114</em>(1), 150–175. <a href="https://doi.org/10.1086/723726">https://doi.org/10.1086/723726</a>
+Park, Katharine. 2023. <span>“The Myth of the "One-Sex" Body.”</span> <em>Isis</em> 114 (1): 150–75. <a href="https://doi.org/10.1086/723726">https://doi.org/10.1086/723726</a>.
 </div>
 <div id="ref-parker2014" class="csl-entry">
-Parker, G. A. (2014). The sexual cascade and the rise of pre-ejaculatory (<span>Darwinian</span>) sexual selection, sex roles, and sexual conflict. <em>Cold Spring Harbor perspectives in biology</em>, <em>6</em>(10), a017509. <a href="https://cshperspectives.cshlp.org/content/6/10/a017509.full">https://cshperspectives.cshlp.org/content/6/10/a017509.full</a>
+Parker, Geoff A. 2014. <span>“The Sexual Cascade and the Rise of Pre-Ejaculatory (<span>Darwinian</span>) Sexual Selection, Sex Roles, and Sexual Conflict.”</span> <em>Cold Spring Harbor Perspectives in Biology</em> 6 (10): a017509. <a href="https://cshperspectives.cshlp.org/content/6/10/a017509.full">https://cshperspectives.cshlp.org/content/6/10/a017509.full</a>.
 </div>
 <div id="ref-pontzer2015" class="csl-entry">
-Pontzer, H., Raichlen, D. A., Wood, B. M., Emery Thompson, M., Racette, S. B., Mabulla, A. Z., &amp; Marlowe, F. W. (2015). Energy expenditure and activity among <span>Hadza</span> hunter-gatherers. <em>American Journal of Human Biology</em>, <em>27</em>(5), 628–637.
+Pontzer, Herman, David A Raichlen, Brian M Wood, Melissa Emery Thompson, Susan B Racette, Audax ZP Mabulla, and Frank W Marlowe. 2015. <span>“Energy Expenditure and Activity Among <span>Hadza</span> Hunter-Gatherers.”</span> <em>American Journal of Human Biology</em> 27 (5): 628–37.
 </div>
 <div id="ref-smith2025" class="csl-entry">
-Smith, C. B., &amp; Hagen, E. H. (2025). Strength, mating success, and immune and nutritional costs in a population sample of US women and men: A registered report. <em>Evolution and Human Behavior</em>, <em>46</em>(1), 106647. <a href="https://doi.org/10.1016/j.evolhumbehav.2024.106647">https://doi.org/10.1016/j.evolhumbehav.2024.106647</a>
+Smith, Caroline B, and Edward H Hagen. 2025. <span>“Strength, Mating Success, and Immune and Nutritional Costs in a Population Sample of US Women and Men: A Registered Report.”</span> <em>Evolution and Human Behavior</em> 46 (1): 106647. <a href="https://doi.org/10.1016/j.evolhumbehav.2024.106647">https://doi.org/10.1016/j.evolhumbehav.2024.106647</a>.
 </div>
 <div id="ref-speijer2015" class="csl-entry">
-Speijer, D., Lukeš, J., &amp; Eliáš, M. (2015). Sex is a ubiquitous, ancient, and inherent attribute of eukaryotic life. <em>Proceedings of the National Academy of Sciences</em>, <em>112</em>(29), 8827–8834. <a href="https://doi.org/10.1073/pnas.1501725112">https://doi.org/10.1073/pnas.1501725112</a>
+Speijer, Dave, Julius Lukeš, and Marek Eliáš. 2015. <span>“Sex Is a Ubiquitous, Ancient, and Inherent Attribute of Eukaryotic Life.”</span> <em>Proceedings of the National Academy of Sciences</em> 112 (29): 8827–34. <a href="https://doi.org/10.1073/pnas.1501725112">https://doi.org/10.1073/pnas.1501725112</a>.
 </div>
 <div id="ref-tallmadge1980" class="csl-entry">
-Tallmadge, J. (1980). From chronicle to quest: <span>The</span> shaping of <span class="nocase">Darwin’s</span> "<span class="nocase">Voyage of the Beagle</span>". <em>Victorian Studies</em>, <em>23</em>(3), 325–345. <a href="https://www.jstor.org/stable/3827338">https://www.jstor.org/stable/3827338</a>
+Tallmadge, John. 1980. <span>“From Chronicle to Quest: <span>The</span> Shaping of <span class="nocase">Darwin’s</span> "<span class="nocase">Voyage of the Beagle</span>".”</span> <em>Victorian Studies</em> 23 (3): 325–45. <a href="https://www.jstor.org/stable/3827338">https://www.jstor.org/stable/3827338</a>.
 </div>
 <div id="ref-venkataraman2024" class="csl-entry">
-Venkataraman, V. V., Hoffman, J., Farquharson, K., Davis, H. E., Hagen, E. H., Hames, R. B., et al. (2024). Female foragers sometimes hunt, yet gendered divisions of labor are real: A comment on <span>Anderson</span> et al.(2023) the myth of man the hunter. <em>Evolution and Human Behavior</em>, <em>45</em>(4), 106586.
+Venkataraman, Vivek V, Jordie Hoffman, Kyle Farquharson, Helen Elizabeth Davis, Edward H Hagen, Raymond B Hames, Barry S Hewlett, et al. 2024. <span>“Female Foragers Sometimes Hunt, yet Gendered Divisions of Labor Are Real: A Comment on <span>Anderson</span> Et Al.(2023) the Myth of Man the Hunter.”</span> <em>Evolution and Human Behavior</em> 45 (4): 106586.
 </div>
 <div id="ref-vosseberg_2024" class="csl-entry">
-Vosseberg, J., Hooff, J. J. E. van, Köstlbacher, S., Panagiotou, K., Tamarit, D., &amp; Ettema, T. J. G. (2024). The emerging view on the origin and early evolution of eukaryotic cells. <em>Nature</em>, <em>633</em>(8029), 295–305. <a href="https://doi.org/10.1038/s41586-024-07677-6">https://doi.org/10.1038/s41586-024-07677-6</a>
+Vosseberg, Julian, Jolien J. E. van Hooff, Stephan Köstlbacher, Kassiani Panagiotou, Daniel Tamarit, and Thijs J. G. Ettema. 2024. <span>“The Emerging View on the Origin and Early Evolution of Eukaryotic Cells.”</span> <em>Nature</em> 633 (8029): 295–305. <a href="https://doi.org/10.1038/s41586-024-07677-6">https://doi.org/10.1038/s41586-024-07677-6</a>.
 </div>
 <div id="ref-de_Vries_2023" class="csl-entry">
-Vries, C. de, &amp; Lehtonen, J. (2023). Sex-specific assumptions and their importance in models of sexual selection. <em>Trends in Ecology &amp; Evolution</em>, <em>38</em>(10), 927–935. <a href="https://doi.org/10.1016/j.tree.2023.04.013">https://doi.org/10.1016/j.tree.2023.04.013</a>
+Vries, Charlotte de, and Jussi Lehtonen. 2023. <span>“Sex-Specific Assumptions and Their Importance in Models of Sexual Selection.”</span> <em>Trends in Ecology &amp; Evolution</em> 38 (10): 927–35. <a href="https://doi.org/10.1016/j.tree.2023.04.013">https://doi.org/10.1016/j.tree.2023.04.013</a>.
 </div>
 <div id="ref-walker1998" class="csl-entry">
-Walker, P. L., &amp; Cook, D. C. (1998). Brief communication: <span>Gender</span> and sex: <span>Vive</span> la difference. <em>American Journal of Physical Anthropology: The Official Publication of the American Association of Physical Anthropologists</em>, <em>106</em>(2), 255–259. <a href="https://doi.org/10.1002/(SICI)1096-8644(199806)106:2%3C255::AID-AJPA11%3E3.0.CO;2-%23">https://doi.org/10.1002/(SICI)1096-8644(199806)106:2%3C255::AID-AJPA11%3E3.0.CO;2-%23</a>
-</div>
-<div id="ref-Evolution_of_sexual_reproduction" class="csl-entry">
-Wikipedia. (2025a). <span class="nocase">Evolution of sexual reproduction</span> — <span>W</span>ikipedia<span>,</span> the free encyclopedia. <a href="http://en.wikipedia.org/w/index.php?title=Evolution%20of%20sexual%20reproduction&amp;oldid=1306061564" class="uri">http://en.wikipedia.org/w/index.php?title=Evolution%20of%20sexual%20reproduction&amp;oldid=1306061564</a>.
-</div>
-<div id="ref-Ultimatum_game" class="csl-entry">
-Wikipedia. (2025b). <span class="nocase">Ultimatum game</span> — <span>W</span>ikipedia<span>,</span> the free encyclopedia. <a href="http://en.wikipedia.org/w/index.php?title=Ultimatum%20game&amp;oldid=1308927274" class="uri">http://en.wikipedia.org/w/index.php?title=Ultimatum%20game&amp;oldid=1308927274</a>.
+Walker, Phillip L, and Della Collins Cook. 1998. <span>“Brief Communication: <span>Gender</span> and Sex: <span>Vive</span> La Difference.”</span> <em>American Journal of Physical Anthropology: The Official Publication of the American Association of Physical Anthropologists</em> 106 (2): 255–59. <a href="https://doi.org/10.1002/(SICI)1096-8644(199806)106:2%3C255::AID-AJPA11%3E3.0.CO;2-%23">https://doi.org/10.1002/(SICI)1096-8644(199806)106:2%3C255::AID-AJPA11%3E3.0.CO;2-%23</a>.
 </div>
 <div id="ref-Cabinet_of_curiosities" class="csl-entry">
-Wikipedia. (2025c). <span class="nocase">Cabinet of curiosities</span> — <span>W</span>ikipedia<span>,</span> the free encyclopedia. <a href="http://en.wikipedia.org/w/index.php?title=Cabinet%20of%20curiosities&amp;oldid=1312026532" class="uri">http://en.wikipedia.org/w/index.php?title=Cabinet%20of%20curiosities&amp;oldid=1312026532</a>.
+Wikipedia. 2025. <span>“<span class="nocase">Cabinet of curiosities</span> — <span>W</span>ikipedia<span>,</span> the Free Encyclopedia.”</span> <a href="http://en.wikipedia.org/w/index.php?title=Cabinet%20of%20curiosities&amp;oldid=1312026532" class="uri">http://en.wikipedia.org/w/index.php?title=Cabinet%20of%20curiosities&amp;oldid=1312026532</a>.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
