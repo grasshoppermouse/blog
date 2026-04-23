@@ -2076,7 +2076,7 @@
     "href": "talks/2026-02-26-kiss2-conference/index.html#hunter-gatherer-energy-production-1",
     "title": "Menopause averted a midlife energetic crisis with help from older children and parents: A simulation study",
     "section": "Hunter-gatherer energy production",
-    "text": "Hunter-gatherer energy production\n\\[\n\\mathrm{productivity}(age) = \\mathrm{TEE}_{prop} \\mathrm{strength}(age)^\\alpha \\mathrm{skill}(age)^{1 - \\alpha}\n\\tag{1}\\]\n\\[\n\\mathrm{strength}(age, sex) = \\frac{\\mathrm{weight}(age, sex)  (1 - e^{b_0 (age_{\\mathrm{max}}-age)})}{\\mathrm{weight}_{\\mathrm{max}}}\n\\tag{2}\\]\n\\[\n\\mathrm{skill}(age) = \\frac{1}{1 - e^{-b_1(age - age_{50})}} (1 - e^{b_0(age_{\\mathrm{max}}-age)})\n\\tag{3}\\]"
+    "text": "Hunter-gatherer energy production\n\\[\n\\mathrm{productivity}(age) = \\mathrm{TEE}_{prop} \\mathrm{strength}(age)^\\alpha \\mathrm{skill}(age)^{1 - \\alpha}\n\\qquad(1)\\]\n\\[\n\\mathrm{strength}(age, sex) = \\frac{\\mathrm{weight}(age, sex)  (1 - e^{b_0 (age_{\\mathrm{max}}-age)})}{\\mathrm{weight}_{\\mathrm{max}}}\n\\qquad(2)\\]\n\\[\n\\mathrm{skill}(age) = \\frac{1}{1 - e^{-b_1(age - age_{50})}} (1 - e^{b_0(age_{\\mathrm{max}}-age)})\n\\qquad(3)\\]"
   },
   {
     "objectID": "talks/2026-02-26-kiss2-conference/index.html#hunter-gatherer-energy-production-2",
