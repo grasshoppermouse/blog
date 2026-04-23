@@ -9,8 +9,44 @@
 <link>https://blog.edhagen.net/</link>
 <atom:link href="https://blog.edhagen.net/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog posts and talk slides</description>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 22 Aug 2025 07:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.33</generator>
+<lastBuildDate>Mon, 01 Dec 2025 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>ATproto as the foundation of a new prestige economy for science?</title>
+  <dc:creator>Ed Hagen</dc:creator>
+  <link>https://blog.edhagen.net/posts/2025-12-01-atproto-prestige-economy/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The software foundations of the internet and every smartphone that connects to it are perhaps the most valuable intellectual properties today, but they’re free for others to <a href="https://opensource.org/licenses">modify and use as they please</a>. How is this possible? A major reason is that we humans value prestige almost as much as we value money, maybe more, and the developers of linux, which runs most websites, and other open source software are often accorded <a href="https://en.wikipedia.org/wiki/Linus_Torvalds">well-earned prestige</a>.</p>
+<p>Although free and open source software (<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a>) first appeared along with the first commercial computers, it got a huge boost with the emergence of the World Wide Web, and in particular, <a href="https://github.com">GitHub</a>, a website where open source software developers can share their code and collaborate with others for free.</p>
+<p>Critically, GitHub provides simple but effective prestige-allocating mechanisms: code repositories garner stars and forks (copies), and individual developers can be followed and their contributions tracked. In other words, valuable contributions are recognized by the software community, and this recognition is highly valuable in and of itself, motivating further contributions to open source software.</p>
+<p>Striving for prestige might seem crass, but it simply means that we humans strive to be valued by our communities, and we do so by striving to provide genuine benefits to our communities.</p>
+<p>Ironically, the ethos of the open source community – sharing valuable code in exchange for prestige – originated in the open ethos of academia, where much open source software was (and is) developed. Yet the academic prestige economy requires paying north of $20B USD annually to a small oligarchy of scientific publishers, who are now flooding the literature with junk articles because they can make a lot of money doing it.</p>
+<p>In 2011, Marcio von Muhlen argued that academia needed a <a href="https://marciovm.com/i-want-a-github-of-science">GitHub of science</a>. He made three key points:</p>
+<ul>
+<li><p>Publishing is central to Academia, but its publishing system is outclassed by what Open Source software developers have in GitHub</p></li>
+<li><p>GitHub’s success is not just about openness, but also a prestige economy that rewards valuable content producers with credit and attention</p></li>
+<li><p>Open Science efforts like arXiv and PLoS ONE should follow GitHub’s lead and embrace the social web</p></li>
+</ul>
+<p>Each of these points is just as true today as it was then, yet no GitHub of science has emerged—no way to allocate prestige for valuable work other than to continue publishing in prestigious journals requiring expensive subscriptions or high article processing charges, a system that was <a href="https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science">heavily influenced by Robert Maxwell</a>, father of <a href="https://en.wikipedia.org/wiki/Ghislaine_Maxwell">Ghislaine</a>.</p>
+<p>Like GitHub, other social media platforms also enable prestige economies based on simple mechanisms such as likes, follows, and reposts. The power of these systems is immense, offering their users unprecedented access to widely valued content, and rocketing some producers of that valuable content to internet stardom. Yet they are run by for-profit companies that will naturally exploit their monopoly power over the social network to their own financial and political benefit at the expense of everyone else, even including the content producers:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://en.wikipedia.org/wiki/Enshittification"><img src="https://blog.edhagen.net/posts/2025-12-01-atproto-prestige-economy/images/doctorow.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://blog.edhagen.net/posts/2025-12-01-atproto-prestige-economy/</guid>
+  <pubDate>Mon, 01 Dec 2025 08:00:00 GMT</pubDate>
+  <media:content url="https://blog.edhagen.net/posts/2025-12-01-atproto-prestige-economy/RitrattoMuseoFerranteImperato.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Review of Sex Is a Spectrum: The Biological Limits of the Binary by Agustín Fuentes</title>
   <dc:creator>Edward H. Hagen</dc:creator>
@@ -1481,6 +1517,91 @@ font-style: inherit;">'&lt;script async src="https://platform.twitter.com/widget
   <guid>https://blog.edhagen.net/posts/Threads/</guid>
   <pubDate>Sun, 18 May 2025 07:00:00 GMT</pubDate>
   <media:content url="https://blog.edhagen.net/posts/Threads/thread.png" medium="image" type="image/png" height="178" width="144"/>
+</item>
+<item>
+  <title>Don’t fear the genome</title>
+  <link>https://blog.edhagen.net/posts/2022-05-15-dont-fear-the-genome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://blog.edhagen.net/posts/2022-05-15-dont-fear-the-genome/the_seventh_seal.ancestry.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>I want to convince you of four things. First, what we don’t understand about the human genome vastly exceeds what we do understand. Second, that the most popular conception of the genome, which I will refer to as the DIFF model, though widely accepted by biologists and social scientists of all stripes, is ridiculously misleading. Third, research is exploding on an immeasurably better model that I’ll term REG. Fourth, the DIFF model should be retired as the basis of genetics education and replaced with the REG model.</p>
+<section id="the-proteome" class="level2">
+<h2 class="anchored" data-anchor-id="the-proteome">The proteome</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://blog.edhagen.net/posts/2022-05-15-dont-fear-the-genome/index_files/figure-html/proteins-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Protein classes. Data from https://www.proteinatlas.org/</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="the-genome-is-still-largely-a-mystery" class="level2">
+<h2 class="anchored" data-anchor-id="the-genome-is-still-largely-a-mystery">The genome is still largely a mystery</h2>
+<p>We all start life as a single cell, a zygote, that, after a few dozen cell divisions across a couple of decades, becomes the 37 trillion cells of the intricately-structured adult human body.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-cell" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://blog.edhagen.net/posts/2022-05-15-dont-fear-the-genome/cellularstructures.png" class="img-fluid figure-img" width="576">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Cellular structures. Figure from <span class="citation" data-cites="thul2017">Thul et al. (2017)</span>.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>A recent study grouped these 37 trillion cells into over 400 types.</p>
+</section>
+<section id="reverse-engineering-the-genome" class="level2">
+<h2 class="anchored" data-anchor-id="reverse-engineering-the-genome">Reverse engineering the genome</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-cvjoint" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cvjoint-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://blog.edhagen.net/posts/2022-05-15-dont-fear-the-genome/1024px-Gelenk-liegend.jpg" class="img-fluid figure-img" width="512">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cvjoint-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Mystery mechanism
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-thul2017" class="csl-entry">
+Thul, Peter J., Lovisa Åkesson, Mikaela Wiking, Diana Mahdessian, Aikaterini Geladaki, Hammou Ait Blal, Tove Alm, et al. 2017. <span>“A Subcellular Map of the Human Proteome.”</span> <em>Science</em> 356 (6340): eaal3321. <a href="https://doi.org/10.1126/science.aal3321">https://doi.org/10.1126/science.aal3321</a>.
+</div>
+</div></section></div> ]]></description>
+  <guid>https://blog.edhagen.net/posts/2022-05-15-dont-fear-the-genome/</guid>
+  <pubDate>Sun, 15 May 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://blog.edhagen.net/images/the_seventh_seal_ancestry.png" medium="image" type="image/png"/>
+</item>
+<item>
+  <title></title>
+  <link>https://blog.edhagen.net/posts/2021-05-01-the-wide-world-of-modules/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://blog.edhagen.net/posts/2021-05-01-the-wide-world-of-modules/</guid>
+  <pubDate>Sat, 01 May 2021 07:00:00 GMT</pubDate>
+  <media:content url="https://blog.edhagen.net/posts/2021-05-01-the-wide-world-of-modules/2001_hal_daisy.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Is evolutionary psychology impossible?</title>
@@ -4144,447 +4265,6 @@ font-style: inherit;">$</span>y)</span></code></pre></div>
   <guid>https://blog.edhagen.net/posts/2017-11-15-pca-new-coordinate-system-same-data/</guid>
   <pubDate>Wed, 15 Nov 2017 08:00:00 GMT</pubDate>
   <media:content url="https://blog.edhagen.net/posts/2017-11-15-pca-new-coordinate-system-same-data/ConstellationBigDipper.png" medium="image" type="image/png" height="61" width="144"/>
-</item>
-<item>
-  <title>Put your data in an R package</title>
-  <dc:creator>Ed Hagen</dc:creator>
-  <link>https://blog.edhagen.net/posts/2017-10-18-put-your-data-in-an-r-package/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><em>Updated: Feb 26, 2025</em></p>
-<p>I used to write long R scripts that imported data files, created new variables, reshaped the data, reshaped it again, and spit out results along the way, all in one file.</p>
-<p>That worked so long as I never wanted to use that data again. But what if I did? Should I just tack on more code for the new analysis, and then even more code for yet more analyses? That approach will litter your environment with objects that are irrelevant for, and might even interfere with, a particular analysis. Should I copy all the files into a new directory and then hack away at the code? Now I have two copies of the data – which one is definitive? Should I just treat the original data files as the data? Now I have to repeat the same initial processing steps every time I want to reuse that data.</p>
-<section id="the-solution" class="level2">
-<h2 class="anchored" data-anchor-id="the-solution">The solution</h2>
-<p>For each new data set I create a new R data package. This package lives in my library along with <code>ggplot2</code>, <code>dplyr</code>, <code>lme4</code>, and all my other packages, and is accessible in any project or analysis with a simple:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(mydatapackage)</span></code></pre></div>
-</div>
-<p>Creating a data package involves some small costs, but these are far outweighed by the benefits.</p>
-</section>
-<section id="pros" class="level2">
-<h2 class="anchored" data-anchor-id="pros">Pros</h2>
-<ul>
-<li>Your data is cleanly separated from your analyses.</li>
-<li>Your data is easily accessible in any future project.</li>
-<li>Packages have a built-in documentation system so you can easily document all your variables. The documentation for each data frame (or other object) is accessible with <code>?my_df</code>.</li>
-<li>Packages have a versioning system so you can keep track of new versions of your data package.</li>
-<li>Share your data with students and colleagues simply by sharing the package.</li>
-<li>Archive your data in a public repository simply by uploading the package.</li>
-</ul>
-</section>
-<section id="cons" class="level2">
-<h2 class="anchored" data-anchor-id="cons">Cons</h2>
-<ul>
-<li>Creating a package is a few extra steps.</li>
-<li>Every change to the data package requires a rebuild step before the changes are available in your analyses.</li>
-<li>If you forget to rebuild, your analyses will be using the outdated version of your data, something that can be hard to detect.</li>
-<li>In the early phases of an analysis, you will probably be moving code back and forth from your data package to your analysis until you find the sweet spot between processed data and analyzed data.</li>
-</ul>
-</section>
-<section id="how-to-create-a-data-package" class="level1">
-<h1>How to create a data package</h1>
-<p>I assume you are using RStudio. Although RStudio can create packages using the GUI, I have gotten obscure errors using that feature. Therefore, do <em>not</em> create a new RStudio project using the GUI. Instead, run this code from the console:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Run these from the R console</span></span>
-<span id="cb2-2"></span>
-<span id="cb2-3"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Check that the `usethis` package is installed. If not:</span></span>
-<span id="cb2-4"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"usethis"</span>)</span>
-<span id="cb2-5"></span>
-<span id="cb2-6"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Create new package. Directory must not exist. </span></span>
-<span id="cb2-7"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># This also creates a new RStudio project.</span></span>
-<span id="cb2-8">usethis<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">create_package</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"path/to/my/nifty/data/package"</span>)</span></code></pre></div>
-</div>
-<p>Your new data package will open automatically in RStudio. If it doesn’t, open it using “Open project…” in RStudio. Then run this code from the console:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Run this code after opening the new package in RStudio</span></span>
-<span id="cb3-2"></span>
-<span id="cb3-3"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Set up the data-raw directory and data processing script</span></span>
-<span id="cb3-4"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># You can use any name you want for your script</span></span>
-<span id="cb3-5">usethis<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">use_data_raw</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">name =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'niftydata'</span>)</span>
-<span id="cb3-6"></span>
-<span id="cb3-7"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Create a script in the R directory that will contain the</span></span>
-<span id="cb3-8"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># documentation, which I explain a bit later. </span></span>
-<span id="cb3-9"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># You can use any name you want.</span></span>
-<span id="cb3-10"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">file.create</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"R/data.R"</span>)</span>
-<span id="cb3-11"></span>
-<span id="cb3-12"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Initialize git repository (optional)</span></span>
-<span id="cb3-13">usethis<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">use_git</span>()</span></code></pre></div>
-</div>
-<p>Put your data files into the <code>data-raw</code> folder. Your new package directory should look something like this:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://blog.edhagen.net/posts/2017-10-18-put-your-data-in-an-r-package/datapackage_screenshot.png" class="img-fluid figure-img"></p>
-<figcaption>Package layout</figcaption>
-</figure>
-</div>
-<p>Write your data processing code in a <code>data-raw/niftydata.R</code> script. It would look something like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># data-raw/niftydata.R</span></span>
-<span id="cb4-2"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Data import and processing pipeline</span></span>
-<span id="cb4-3"></span>
-<span id="cb4-4"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(readr)</span>
-<span id="cb4-5"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(readxl)</span>
-<span id="cb4-6"></span>
-<span id="cb4-7">niftydata <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">read_excel</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"data-raw/niftydata.xlsx"</span>)</span>
-<span id="cb4-8"></span>
-<span id="cb4-9"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Data cleaning code here...</span></span>
-<span id="cb4-10"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># (Do NOT put data analysis code here!)</span></span>
-<span id="cb4-11"></span>
-<span id="cb4-12"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># This should be the last line.</span></span>
-<span id="cb4-13"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># Note that names are unquoted.</span></span>
-<span id="cb4-14"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># I like using overwrite = T so everytime I run the script the </span></span>
-<span id="cb4-15"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># updated objects are saved, but the default is overwrite = F</span></span>
-<span id="cb4-16">usethis<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">use_data</span>(niftydata, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">overwrite =</span> T)</span></code></pre></div>
-</div>
-<p>That last line writes your R data frames and other data objects to files in the <code>data</code> directory (not the <code>data-raw</code> directory!). The <code>data</code> directory will be created if it does not exist.</p>
-<p>Edit your <code>DESCRIPTION</code> file as specified in Hadley Wickham’s book on R packages:</p>
-<p><a href="https://r-pkgs.had.co.nz/description.html" class="uri">https://r-pkgs.had.co.nz/description.html</a></p>
-<p>You won’t need <code>Imports</code> or <code>Suggests</code>.</p>
-<p>At this point you should confirm that you can build and install your package. You should see a <strong>Build</strong> tab in RStudio. Open it and click <strong>Build and Install</strong> (older RStudio versions) or <strong>Install</strong> (newer RStudio versions), which will build the package and install it in your package library. You should see your package in the <strong>Packages</strong> tab, and you should have access to the data frame objects in any script where you include: <code>library(niftydata)</code>.</p>
-</section>
-<section id="document-your-data" class="level1">
-<h1>Document your data</h1>
-<p>One of the biggest advantages of creating a data package is that it provides a very convenient system for documenting your data, and for accessing that documentation. Although they are not required, I recommend first installing this utility package:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"sinew"</span>)</span></code></pre></div>
-</div>
-<p>Open your currently blank <code>R/data.R</code> file, which is where you will add the documentation using <a href="https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html">roxygen</a>.</p>
-<p>Then use the <code>makeOxygen</code> function from the <code>sinew</code> package to create skeleton documentation, e.g., for the <code>mydataset</code> data frame:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1">sinew<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">makeOxygen</span>(niftydata, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">add_fields =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"source"</span>)</span></code></pre></div>
-</div>
-<p>This will print out a skeleton that you copy and paste into your currently empty <code>R/data.R</code> file:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># This goes in R/data.R</span></span>
-<span id="cb7-2"></span>
-<span id="cb7-3"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#' @title DATASET_TITLE</span></span>
-<span id="cb7-4"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#' @description DATASET_DESCRIPTION</span></span>
-<span id="cb7-5"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#' @format A data frame with 1559 rows and 5 variables:</span></span>
-<span id="cb7-6"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#' \describe{</span></span>
-<span id="cb7-7"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#'   \item{\code{Time (s)}}{double COLUMN_DESCRIPTION}</span></span>
-<span id="cb7-8"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#'   \item{\code{Acceleration - x (m/s²)}}{double COLUMN_DESCRIPTION}</span></span>
-<span id="cb7-9"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#'   \item{\code{Acceleration - y (m/s²)}}{double COLUMN_DESCRIPTION}</span></span>
-<span id="cb7-10"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#'   \item{\code{Acceleration - z (m/s²)}}{double COLUMN_DESCRIPTION}</span></span>
-<span id="cb7-11"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#'   \item{\code{Acceleration - resultant (m/s²)}}{double COLUMN_DESCRIPTION} </span></span>
-<span id="cb7-12"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#'}</span></span>
-<span id="cb7-13"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#' @source \url{http://somewhere.important.com/}</span></span>
-<span id="cb7-14"><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"niftydata"</span></span></code></pre></div>
-</div>
-<p>Do that for each data frame in your package, adding each skeleton to <code>R/data.R</code>. Edit the parts in ALL_CAPS. <code>sinew</code> also provides RStudio addins, available in the <code>Addins</code> menu. Read their documentation to learn how to use them.</p>
-<p>For a bit more detail on documenting data packages, see:</p>
-<p><a href="https://r-pkgs.had.co.nz/data.html" class="uri">https://r-pkgs.had.co.nz/data.html</a></p>
-</section>
-<section id="building-your-data-package" class="level1">
-<h1>Building your data package</h1>
-<p>The final step in creating a data package is to build the package along with the new documentation.</p>
-<p>In the <strong>Build</strong> tab, first select <code>Document</code> from the <code>More</code> menu – this will generate the documentation from from the roxygen markup you created above. Then click <code>Install and Restart</code> (or <code>Build and Reload</code>). You should now be able to access the help page for each data frame in the standard way:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1">?niftydata</span></code></pre></div>
-</div>
-<p>You’re done! Just remember, when you change something, update the version number in the <code>DESCRIPTION</code> file and rebuild your package.</p>
-
-
-</section>
-
- ]]></description>
-  <category>stats</category>
-  <guid>https://blog.edhagen.net/posts/2017-10-18-put-your-data-in-an-r-package/</guid>
-  <pubDate>Wed, 18 Oct 2017 07:00:00 GMT</pubDate>
-  <media:content url="https://blog.edhagen.net/posts/2017-10-18-put-your-data-in-an-r-package/datapackage_screenshot.png" medium="image" type="image/png" height="74" width="144"/>
-</item>
-<item>
-  <title>Monkey butts, menstrual cycles, sex, and the color pink. The statistical crisis in science</title>
-  <dc:creator>Ed Hagen</dc:creator>
-  <link>https://blog.edhagen.net/posts/2015-06-27-monkey-butts-menstrual-cycles-sex-and-the-color-pink-the-statistical-crisis-in-science/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>A couple of years ago, when I was starting a new project that used cross-national data, I picked up a <a href="http://www.stat.columbia.edu/~gelman/arm/">popular statistics textbook</a> by Andrew Gelman and Jennifer Hill because Gelman is known for his analysis of voting patterns across US states, which is conceptually similar to analysis of data across countries. I decided to google Gelman, a prominent statistics professor at Columbia, to see if he had papers on his website that would provide detailed, published examples of these kinds of analyses (’bout ready to head back to Facebook?).</p>
-<p>It turned out Gelman is a prolific blogger. At the time, in <a href="http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html">Slate</a> and on his <a href="http://andrewgelman.com/2013/07/31/response-by-jessica-tracy-and-alec-beall-to-my-criticism-of-their-paper/">blog</a>, Gelman was accusing authors of four papers of shoddy stats. One paper was the <a href="https://dx.doi.org/10.1037%2Fa0021524">infamous paper on ESP</a> by <a href="https://en.wikipedia.org/wiki/Daryl_Bem">Daryl Bem</a> that had already been <a href="https://dx.doi.org/10.1037%2Fa0025172">debunked</a>. But the <a href="https://dx.doi.org/10.1177/0956797612466415">three</a> <a href="https://dx.doi.org/10.1177/0956797612466416">other</a> <a href="http://dx.doi.org/10.1177/0956797613476045">papers</a> were on evolutionary psychology, and two authors of <a href="https://dx.doi.org/10.1177/0956797612466415">one paper</a> were my former advisors John Tooby and Leda Cosmides.</p>
-<p>That got my attention.</p>
-<p>My first impression was that Gelman had found a new way to attack ev psych: cherry pick a few EP papers with questionable stats, and use those to tar the field.</p>
-<p>Most of the discussion on Gelman’s blog involved the paper by Alec Beall and Jessica Tracy, <a href="http://dx.doi.org/10.1177/0956797613476045">Women more likely to wear red or pink at peak fertility,</a> published in <em>Psychological Science</em>, one of psychology’s top journals. The inspiration for the study was the fact that “females in many closely related species signal their fertile window in an observable manner, often involving red or pink coloration.”</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://blog.edhagen.net/posts/2015-06-27-monkey-butts-menstrual-cycles-sex-and-the-color-pink-the-statistical-crisis-in-science/Darwin_sexual_caricature.gif" class="img-fluid figure-img"></p>
-<figcaption>Victorian cartoon</figcaption>
-</figure>
-</div>
-<p>Monkey butts, menstrual cycles, sex, and the color pink. Nothing to mock there. The study, however, is more important than it sounds. If Beall and Tracy were right, human female ovulation is not <a href="http://www.jstor.org/stable/2460555">concealed</a> after all.</p>
-<p>In Slate, Gelman <a href="http://www.slate.com/articles/health_and_science/science/2013/07/statistics_and_psychology_multiple_comparisons_give_spurious_results.html">accused</a> Beall and Tracy of conducting a fishing expedition — repeatedly making comparisons until they found one that was “statistically significant” and then reporting it as if they had predicted it in advance — a big, though often inadvertent, no-no that he claimed was widespread in science:</p>
-<blockquote class="blockquote">
-<p>There’s a larger statistical point to be made here, which is that as long as studies are conducted as fishing expeditions, with a willingness to look hard for patterns and report any comparisons that happen to be statistically significant, we will see lots of dramatic claims based on data patterns that don’t represent anything real in the general population. Again, this fishing can be done implicitly, without the researchers even realizing that they are making a series of choices enabling them to over-interpret patterns in their data.</p>
-</blockquote>
-<p>Every scientist knows that fishing is wrong, so Beall and Tracy were understandably <a href="http://ubc-emotionlab.ca/2013/07/too-good-does-not-always-mean-not-true/">upset</a> that Gelman accused them of unethical conduct without talking to them first.</p>
-<p>I hadn’t met either author (so far as I know), so I googled them. According to Beall’s cv, he was a grad student and this was his first, first-authored paper. What a great introduction to academia! Get published in <em>Psych Science</em> on your first effort, only to be slammed by a prominent statistician, repeatedly. I became a regular reader of Gelman’s blog, and a week rarely goes by that he doesn’t <a href="https://www.google.com/search?num=20&amp;site=&amp;source=hp&amp;q=beall+tracy+site%3Aandrewgelman.com&amp;oq=beall+tracy+site%3Aandrewgelman.com">work in some dig</a> at the Beall and Tracy paper. In fact, I was inspired to write this post after a <a href="http://andrewgelman.com/2015/06/17/born-open-data/">recent dustup</a> over Beall and Tracy’s refusal to share their data with Gelman since Gelman wouldn’t tell them where he was publishing his critique (they have shared their data with others).</p>
-<p>Gelman, who presented himself as a disinterested critic who only wanted to improve science, had several criticisms of the paper, but I am going to focus on one: Gelman guessed that Beall and Tracy had originally predicted that, like female chimpanzees who signal estrus with a prominent red swelling, women would tend to choose red shirts around the time of ovulation. Gelman surmised that after collecting their data Beall and Tracy noticed that there was no statistically significant tendency to wear red shirts during the fertile period (red only: p &gt;.05), but if women wearing red shirts and women wearing pink shirts were combined into a single, new category (reddish shirts), there was a statistically significant effect (red + pink: p&lt;.05).</p>
-<p>I was a little confused. Researchers often combine conditions and no one blinks an eye (and Beall and Tracy <a href="http://ubc-emotionlab.ca/2013/07/too-good-does-not-always-mean-not-true/">deny</a> they did this). Further, there was no evidence that Beall and Tracy had repeatedly tested various combinations of shirt colors to find one that was “significantly” associated with the fertile period of women’s menstrual cycles, and then, after the fact, had come up with some theory to explain it, which would be a classic fishing expedition.</p>
-<p>Gelman began to walk back his accusation that Beall and Tracy went fishing. Instead, <a href="http://dx.doi.org/10.1511/2014.111.460">in a paper with Eric Loken</a> in <em>American Scientist</em>, and on his <a href="http://andrewgelman.com/2014/05/31/jessica-tracy-alec-beall-authors-fertile-women-wear-pink-study-comment-garden-forking-paths-paper-comment-comments/">blog</a>, Gelman claimed that multiple comparisons can be a problem, <em>even when the research hypothesis was posited ahead of time and researchers only conduct one statistical test.</em></p>
-<p>Huh?</p>
-<p>Gelman’s own stats textbook didn’t mention anything about this. In fact, in the textbook and in a publication, Gelman et al.&nbsp;claimed “we (usually) don’t have to worry about multiple comparisons,” an irony he himself <a href="http://andrewgelman.com/2014/10/14/one-lifes-horrible-ironies-wrote-paper-usually-dont-worry-multiple-comparisons-now-spend-lots-time-worrying-multiple-comparisons/">noted</a>. Further, why pick on a grad student? Or evolutionary psychology? The problem, if there was one, would be pervasive throughout all the sciences.</p>
-<p>My first impression was right. A reader of Gelman’s wondered why he spent so much time criticizing a study on pink shirts instead of the statistically flawed medical research that actually harms people, and Gelman <a href="http://andrewgelman.com/2015/06/08/the-psychologists-are-getting-a-hard-time-for-doing-what-they-do-whereas-people-doing-real-harm-to-society-are-happily-roaming-around-like-free-range-chicken/">admitted</a> he had an agenda: surprise, surprise, he doesn’t like evolutionary psychology:</p>
-<blockquote class="blockquote">
-<p>But I do think these social psychology studies make a difference too, in that they feed the idea that people are shallow and capricious, that we make all sorts of decisions based on our animal instincts etc. Sure, some of that is true but not to the extent claimed by those clueless researchers.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>To erroneously connect fat arms [the paper co-authored by Tooby and Cosmides] or monthly cycles to political attitudes is to trivialize political attitudes, and I think that’s a mistake, whatever your politics.</p>
-</blockquote>
-<p>Well, Gelman also makes mistakes: singling out a few articles on one side of a debate that supposedly have statistical flaws, but not looking at articles on the other side of the debate, obviously says nothing about who’s right (even assuming such a debate exists; Gelman knows very little about evolutionary psychology).</p>
-<p>Still, if Gelman’s general points were correct, I realized I could easily be making the same mistakes in my own research, and so too would a lot of other people. With some chagrin, I had to admit that although I was aware of the many debates surrounding Frequentist vs.&nbsp;Bayesian approaches to statistical inference, I had never thought critically about the foundation of them both: probability.</p>
-<p>Following pointers on Gelman’s blog, I started reading. Late to the party as always, I discovered that many statisticians, such as <a href="https://med.stanford.edu/profiles/john-ioannidis?tab=bio">John Ioannidis</a>, and other quantitative types, such as <a href="http://opim.wharton.upenn.edu/~uws/">Uri Simonsohn</a>, <a href="https://opimweb.wharton.upenn.edu/profile/1666/">Joseph Simmons</a>, and <a href="http://facultybio.haas.berkeley.edu/faculty-list/nelson-leif">Leif Nelson</a>, believed there was a statistical crisis in science, and that it was possible that <a href="http://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124">most research findings were false</a>. Yikes! After pouring through many <a href="http://dx.doi.org/10.1177/0956797611417632">articles</a> and <a href="http://datacolada.org">blogs</a>, I concluded that although the tools statisticians have given us are powerful, they are very brittle and easy to break because probability is easy to get wrong.</p>
-<p>The world is noisy and we humans have a propensity to see patterns in this noise where none exist. To distinguish signal from noise, most scientists therefore rely on the following expression:</p>
-<p><a href="http://mathworld.wolfram.com/HypothesisTesting.html">P(D|H0)</a></p>
-<p>which is the probability that your data (D) would turn out the way they did given some null hypothesis (H0), such as no difference in shirt color during peak fertility. If p is small, you’re looking at a signal and not noise. Yea! This is called Null Hypothesis Significance Testing (NHST).</p>
-<p>There are many critics of NHST. But the problems that Gelman and others were highlighting actually did not involve NHST <em>per se</em>. Instead, they were making a <a href="https://en.wikipedia.org/wiki/Garbage_in,_garbage_out">“garbage in, garbage out”</a> argument. The probabilities spit out by standard software packages — p-values — were, in too many cases, misleadingly small because scientists had inadvertently fed the software the answers they wanted to see.</p>
-<p>Probability is a subtle concept (and I’m probably going to screw it up right now!). To illustrate the problem Gelman and others have found, I will use a casino example. Imagine that you have a die you suspect is loaded. You roll it 2 times, and it comes up 3 each time. Can you reject the null that the die is fair? You might think that because the probability of rolling one three with a fair die is 1/6, and you’ve rolled two threes, the probability under the null is <img src="https://latex.codecogs.com/png.latex?(1/6)%5E2">, which is about 0.028, so you can reject the null hypothesis that the die is fair.</p>
-<p>If that’s what you thought, you would be wrong, because it’s a trick question. If you had called two threes <em>before</em> rolling the die, that is, you suspected it was loaded to come up threes, and then it came up all threes, you could conclude that the die is (probably) loaded. But I asked you to test the null by computing the probability of two threes based on already having rolled two threes.</p>
-<p>Hey, you might respond, it’s odd that the die came up three both times, right? Yes it is. It would also be odd if it came up two ones, or two twos, or two fours, etc., and I gave you no reason to suspect one of these possibilities over the others. The probability that it came up two ones OR two twos OR two threes OR two fours OR two fives OR two sixes is about 0.17, i.e., not odd at all. You can’t test the null by computing a probability as if you hadn’t seen the faces of the die if your choice of probability test is based on having seen those faces. This is the core problem.</p>
-<p>In science, collecting data is the analog of rolling the dice. That’s what P(D|H0) means. To use this probability to distinguish signal from noise, we scientists must therefore make a very precise prediction <em>before</em> collecting or looking at the data because the p-values our stat programs compute are only accurate if our “call” was not influenced by the data.</p>
-<p>But we all have looked at the data. Almost every statistics textbook, including Gelman’s, recommends that we pour over our data, checking distributional assumptions and so forth, <em>before</em> running any test. And many common choices during data analysis, such as controlling for potential confounds, looking at interactions, and combining conditions, can <a href="http://dx.doi.org/10.1177/0956797611417632">dramatically increase the chance of a false positive</a>.</p>
-<p>Current best practice in the sciences is like first rolling the dice, then meticulously examining the numbers that land face up, but promising to not let anything we learn about those numbers influence any aspect of our call.</p>
-<p>Think any casino would play by those rules?</p>
-<p>Gelman and others are not criticizing NHST <em>per se</em> (or rather, that’s a separate argument). They are showing how easy it is to inadvertently break NHST.</p>
-<p>In another irony, Gelman grounds this crisis in human nature: just like the gambler who has the strong monetary incentive to beat the house, scientists can usually only publish (and thus get credit for) “statistically significant” results, and therefore have an incentive to find some justification for altering their predictions after looking at the data (e.g., red+pink, not just red). That is, many scientists are pursuing their self-interest and taking a benefit they don’t deserve, and Gelman’s cheater detection mechanisms are on full alert. Just the phenomenon that put evolutionary psychology <a href="https://books.google.com/books?id=SxX4gRzOS6oC&amp;lpg=PA163&amp;ots=Bh0q1J0LzK&amp;dq=social%20exchange%20cosmides&amp;lr&amp;pg=PA163#v=onepage&amp;q&amp;f=false">on the map</a>!</p>
-<p>Although deliberate or inadvertent cheating is certainly part of the story, I want to offer a different framing: scientists currently face an untenable tradeoff between learning about the world, and confirming what they’ve learned. If Beall and Tracy had discovered, rather than predicted, that women tend to wear pink shirts <em>and</em> red shirts during the fertile phase of their cycle, that would be important. Discovering that you need to control for, e.g., age, would be important. After all, aren’t scientists supposed to discover things? Combining the two colors, and studying “reddish” clothing, would be excellent science. So would controlling for previously unsuspected confounds. Unfortunately, these would break the computation of statistical significance that tells us this is a real effect and not just a fluke. Good science can be bad statistics, and good statistics can be bad science.</p>
-<p>Science is screwed.</p>
-<p>There is a way out of this mess, as statistician John Tukey realized decades ago. I’ll discuss that in my next post. For now, I will just note that there is a long history of ridiculing approaches to human sexuality that take account of our primate heritage. As targets of such ridicule, Beall and Tracy are in pretty good company:</p>
-<blockquote class="blockquote">
-<p>IN the discussion on Sexual Selection in my “Descent of Man,” no case interested and perplexed me so much as the brightly-coloured hinder ends and adjoining parts of certain monkeys. As these parts are more brightly coloured in one sex than the other, and as they become more brilliant during the season of love, I concluded that the colours had been gained as a sexual attraction. I was well aware that I thus laid myself open to ridicule; though in fact it is not more surprising that a monkey should display his bright-red hinder end than that a peacock should display his magnificent tail.</p>
-<p>Charles Darwin (1876) <a href="http://www.nature.com/nature/journal/v15/n366/abs/015018a0.html">Sexual Selection in Relation to Monkeys</a>. <em>Nature</em>, 15, 18-19.</p>
-</blockquote>
-<!--
-> Ed:
-
-> The issues that Eric and I discussed are not special to evolutionary psychology. Much has been written about the propagation of mistaken research claims in medicine (consider the paper by Ioannidis) and neuroscience (consider the papers by Vul and Pashler, and by Button et al.), and in other papers I’ve discussed similar problems with the interpretation of statistical results in other fields such as education policy and public health.
-
-> Why are 3 of our 4 examples in evolutionary psychology? I see two reasons. First, this isn’t quite an independent sample of size 4. The examples have many similar features and I think the central point of our paper is strengthened by the inclusion of several different papers with similar structures that make different decisions on which interactions to consider in their comparisons. Second, all of these are examples which were pointed out to me. Evolutionary psychology has some conceptual links to political science (in that it can be viewed as an alternative way of explaining the world) and maybe that’s one reason people are more likely to point me to articles on that topic, rather than to papers with similar problems that appear in medical research or neuroimaging.
-
-http://andrewgelman.com/2014/05/31/jessica-tracy-alec-beall-authors-fertile-women-wear-pink-study-comment-garden-forking-paths-paper-comment-comments/
-
-
--->
-
-
-
- ]]></description>
-  <category>science</category>
-  <category>stats</category>
-  <guid>https://blog.edhagen.net/posts/2015-06-27-monkey-butts-menstrual-cycles-sex-and-the-color-pink-the-statistical-crisis-in-science/</guid>
-  <pubDate>Sat, 27 Jun 2015 07:00:00 GMT</pubDate>
-  <media:content url="https://blog.edhagen.net/posts/2015-06-27-monkey-butts-menstrual-cycles-sex-and-the-color-pink-the-statistical-crisis-in-science/Darwin_sexual_caricature.gif" medium="image" type="image/gif"/>
-</item>
-<item>
-  <title>Pavlov’s dogs, dopamine and drug use</title>
-  <dc:creator>Ed Hagen</dc:creator>
-  <link>https://blog.edhagen.net/posts/2015-05-16-pavlovs-dogs-dopamine-and-drug-use/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<blockquote class="blockquote">
-<p>Findings from studies investigating only stimulants (generally cocaine or amphetamine) were often discussed as though they applied to all addictions, even though there was no evidence for such an assumption. (Nutt et al.&nbsp;2015)</p>
-</blockquote>
-<p>Is it possible to get all the facts right, but still get the explanation wrong? That can happen to <a href="../../2015-05-15-i-am-a-sucker-for-a-good-theory/">anyone</a>. Nutt et al.&nbsp;(2015), writing in <a href="http://dx.doi.org/10.1038/nrn3939">Nature Reviews Neuroscience</a>, argue that it’s happened to an entire subfield, the neuroscience of substance use and addiction.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://blog.edhagen.net/posts/2015-05-16-pavlovs-dogs-dopamine-and-drug-use/olds_milner.2.jpg" class="img-fluid figure-img"></p>
-<figcaption>Olds and Milner</figcaption>
-</figure>
-</div>
-<p>The neuroscience of substance use is grounded in Pavlovian concepts that wield powerful and persistent influences over the behavioral sciences. The story begins over 60 years ago when James Olds and Peter Milner inserted wires into the septal areas of the brains of four rats. The rats were then tested in a Skinner box with a lever (above, right). When the rats pressed the lever, a small voltage was applied to the wire. The rats responded by pressing the lever hundreds of times an hour. Olds and Milner concluded that the “control exercised over the animal’s behavior by means of this reward is extreme, possibly exceeding that exercised by any other reward previously used in animal experimentation” (Old and Milner 1954, p.&nbsp;426).</p>
-<p>The critical neurons turned out to be dopamine neurons in the midbrain. It was also discovered that various drugs of abuse increase dopamine release in this region. These and other findings lead Roy Wise and colleagues to propose the “hedonia” hypothesis: dopamine encoded reward itself; it was a “pleasure” molecule. If so, the role of dopamine in both reinforcement learning and drug use was clear: behaviors that resulted in food or sex – “natural” rewards – cause the release of dopamine in the MDS, whose pleasurable effects reinforce those behaviors. Drugs of abuse – conceptualized as “artificial” rewards that “hijack” the brain – also release dopamine, whose pleasurable effects similarly reinforce drug use.</p>
-<p>Thus were born two intimately intertwined theories: the dopamine theory of reinforcement learning, and the dopamine theory of substance use and addiction, each deeply rooted in the stimulus-response paradigm at the core of behaviorism.</p>
-<p>Twenty years of experiments using these and other methods showed that although dopamine plays some important role in reinforcement learning, it does not directly mediate the hedonic effects of rewards. In an interview in <em>Science</em> (Wickelgren, 1997), Roy Wise acknowledged that the hedonia hypothesis was wrong (<a href="http://www.drugabuse.gov/publications/addiction-science/why-do-people-abuse-drugs/natural-rewards-stimulate-dopamine-neurotransmission">time to update the NIDA website!</a>).</p>
-<p>One alternative hypothesis is that mesolimbic dopamine mediates <em>wanting</em>, not liking. Key evidence for this hypothesis is that after 6-hydroxydopamine lesioning of their mesolimbic dopamine neurons, rats still seem to enjoy food and sex, but are no longer motivated to seek them out (Berridge 1996). On this view, drug-induced dopamine release hijacks the brain by inducing craving for the drug, but not pleasure at consuming it (Robinson and Berridge, 1993).</p>
-<p>Another influential idea, based on electrophysiological recordings of dopamine neurons in monkeys, and with roots in the experiments of Pavlov, is that the phasic activity of mesolimbic dopamine neurons encodes reward prediction error: dopamine neurons spike with unexpected rewards, and their activity is suppressed with unexpected absence of rewards. But they don’t spike when monkeys get an expected reward (for an exhaustive review, see Schultz, in press). According to Glimcher (2011, p.&nbsp;15647), who eloquently defends this theory,</p>
-<blockquote class="blockquote">
-<p>[I]ntertwining of theory and experiment now suggests very clearly that the phasic activity of the midbrain dopamine neurons provides a global mechanism for synaptic modification. These synaptic modifications, in turn, provide the mechanistic underpinning for a <strong>specific class of reinforcement learning mechanisms that now seem to underlie much of human and animal behavior.</strong> (emphasis added)</p>
-</blockquote>
-<p>This ambitious theory has a harder time explaining how drugs hijack the brain (see Schultz, 2011 for some ideas).</p>
-<p>Enter David Nutt and colleagues. Whatever the role of dopamine in reinforcement learning, Nutt et al.&nbsp;argue there are problems with the dopamine theory of drug use that have been swept under the carpet. Foremost among these is that, in experiments in humans that directly measure mesolimbic dopamine concentrations using <a href="https://en.wikipedia.org/wiki/Positron_emission_tomography">PET</a> or <a href="https://en.wikipedia.org/wiki/Single-photon_emission_computed_tomography">SPECT</a> scans, some popular drugs of abuse do not increase mesolimbic dopamine much. Here is the key figure in their paper (more negative binding values indicate increased dopamine release):</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://blog.edhagen.net/posts/2015-05-16-pavlovs-dogs-dopamine-and-drug-use/nrn3939-f1.dopamine.jpg" class="img-fluid figure-img"></p>
-<figcaption>Nutt et al.</figcaption>
-</figure>
-</div>
-<p>As you can see, whereas amphetamine clearly increases dopamine, morphine and THC mostly do not (and results for nicotine are variable).</p>
-<p>Nutt et al.&nbsp;argue that the relationship between stimulants and dopamine is not surprising because these drugs act directly on the dopamine system:</p>
-<blockquote class="blockquote">
-<p>[W]hat was overlooked was the fact that methylphenidate and other stimulants act specifically on the dopamine system to increase dopamine levels. Thus, dopamine must be the proximal mediator of <strong>any</strong> psychological response to stimulants, and it should not be surprising that the change in striatal dopamine release correlates with the subjective high. (emphasis added)</p>
-</blockquote>
-<p>Lower availability of D2/D3 receptors is consistently associated with addiction to some drugs, like cocaine, which supports the dopamine theory of drug use. But this association also presents a paradox:</p>
-<blockquote class="blockquote">
-<p>If dopamine acting through D2 and/or D3 receptors is necessary to experience a drug high, then lower receptor availability should result in less-rewarding rather than more-rewarding drug effects.</p>
-</blockquote>
-<p>Lower D2/D3 availability is also not consistently associated with addiction to other drugs, such as opiates, cannabis, or nicotine.</p>
-<p>Nutt et al.&nbsp;conclude:</p>
-<blockquote class="blockquote">
-<p>Tellingly, the dopamine theory has not led to any new treatments for addiction. We suggest that the role of dopamine in addiction is more complicated than the role proposed in the dopamine theory of reward. We propose that dopamine has a central role in addiction to stimulant drugs, which act directly via the dopamine system, but that it has a less important role, if any, in mediating addiction to other drugs, particularly opiates and cannabis.</p>
-</blockquote>
-<p>Unlike Nutt et al., I don’t fault drug researchers for the dopamine theory. On the contrary, good theories are ambitious, with clear predictions that can be falsified by evidence. It is also easy, when in the grip of a compelling theory with much supporting evidence, to dismiss findings that contradict the theory.</p>
-<p>Still, by highlighting evidence that contradicts the dominant dopamine model of drug use, Nutt et al.&nbsp;bolster <a href="http://journal.frontiersin.org/article/10.3389/fpsyt.2013.00142/full">our critique</a> of the dopamine model’s evolutionary rationale that drugs are evolutionary novel, provide no benefits, and “hijack” the brain via these dopamine circuits.</p>
-<p>The image at the top of this post epitomizes an approach to studying evolved animal mechanisms, such as reinforcement learning mechanisms, that often abstracts away critical details of the environment that selected for the evolved mechanism. Most popular drugs are plant defensive chemicals, or their close chemical analogs (alcohol is the exception). Plant defensive compounds have infused animal diets since at least the time terrestrial plants and animals evolved, about 400 million years ago. My colleagues and I argue that neurobiological theories of drug use, and perhaps also the related theories that ground much animal behavior in a single neurotransmitter, would profit by incorporating, rather than ignoring, the long co-evolution of plants and animals.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://blog.edhagen.net/posts/2015-05-16-pavlovs-dogs-dopamine-and-drug-use/carboniferous.jpg" class="img-fluid figure-img"></p>
-<figcaption>Carboniferious</figcaption>
-</figure>
-</div>
-<section id="references" class="level1">
-<h1>References</h1>
-<p>Berridge, K. C. (1996). Food reward: brain substrates of wanting and liking. Neuroscience &amp; Biobehavioral Reviews, 20(1), 1-25.</p>
-<p>Glimcher, P. W. (2011). Colloquium Paper: Understanding dopamine and reinforcement learning: The dopamine reward prediction error hypothesis. Proceedings of the National Academy of Sciences, 108(Supplement_3), 15647–15654. <a href="http://doi.org/10.1073/pnas.1014269108" class="uri">http://doi.org/10.1073/pnas.1014269108</a></p>
-<p>Hagen, E. H., Roulette, C. J., &amp; Sullivan, R. J. (2013). Explaining Human Recreational Use of “pesticides”: The Neurotoxin Regulation Model of Substance Use vs.&nbsp;the Hijack Model and Implications for Age and Sex Differences in Drug Consumption. Frontiers in Psychiatry, 4. <a href="http://doi.org/10.3389/fpsyt.2013.00142" class="uri">http://doi.org/10.3389/fpsyt.2013.00142</a></p>
-<p>Olds, J. (1958). Self-Stimulation of the Brain Its Use To Study Local Effects of Hunger, Sex, and Drugs. Science, 127(3294), 315–324. http://doi.org/10.1126/science.127.3294.315</p>
-<p>Olds, J., &amp; Milner, P. (1954). Positive reinforcement produced by electrical stimulation of septal area and other regions of rat brain. Journal of Comparative and Physiological Psychology, 47(6), 419–427.</p>
-<p>Nutt, D. J., Lingford-Hughes, A., Erritzoe, D., &amp; Stokes, P. R. (2015). The dopamine theory of addiction: 40 years of highs and lows. Nature Reviews Neuroscience, 16(5), 305-312. <a href="http://doi.org/10.1038/nrn3939" class="uri">http://doi.org/10.1038/nrn3939</a></p>
-<p>Robinson, T. E., &amp; Berridge, K. C. (1993). The neural basis of drug craving: an incentive-sensitization theory of addiction. Brain Research Reviews, 18(3), 247-291.</p>
-<p>Schultz, W. (2011). Potential Vulnerabilities of Neuronal Reward, Risk, and Decision Mechanisms to Addictive Drugs. Neuron, 69(4), 603–617. <a href="http://doi.org/10.1016/j.neuron.2011.02.014" class="uri">http://doi.org/10.1016/j.neuron.2011.02.014</a></p>
-<p>Schultz, W. (in press). Neuronal reward and decision signals: from theories to data. Physiological Reviews. <a href="http://www.pdn.cam.ac.uk/staff/schultz/pdfs%20website/2015%20Schultz%20PhysiolRev%20in%20press.pdf" class="uri">http://www.pdn.cam.ac.uk/staff/schultz/pdfs%20website/2015%20Schultz%20PhysiolRev%20in%20press.pdf</a></p>
-<p>Wickelgren, I. (1997). Getting the brain’s attention. Science, 278(5335), 35-37.</p>
-<p>Figure 1: Modified from Olds, 1958.</p>
-<p>Figure 2: From Nutt et al., 2015.</p>
-<p>Figure 3: Modified from “Carboniferous Pteridophyta (After Dana)” from a the 1896 edition of Underwood’s Native Ferns and their Allies.</p>
-
-
-</section>
-
- ]]></description>
-  <category>science</category>
-  <guid>https://blog.edhagen.net/posts/2015-05-16-pavlovs-dogs-dopamine-and-drug-use/</guid>
-  <pubDate>Sat, 16 May 2015 07:00:00 GMT</pubDate>
-  <media:content url="https://blog.edhagen.net/posts/2015-05-16-pavlovs-dogs-dopamine-and-drug-use/olds_milner.2.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
