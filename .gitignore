@@ -6,3 +6,4 @@
 *.pxd
 /.quarto/
 **/*.quarto_ipynb
+.positai
