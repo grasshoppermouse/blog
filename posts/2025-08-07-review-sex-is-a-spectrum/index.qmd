@@ -4,7 +4,7 @@ author: "Edward H. Hagen"
 date: "2025-8-22"
 image: "RitrattoMuseoFerranteImperato.jpg"
 draft: false
-description: "Does Sex is a Spectrum offer a bold new paradigm for understanding the biology of sex?"
+description: "Fuentes has it backwards: biological variation doesn't undermine the anisogamy concept; instead, anisogamy has been one of the most powerful concepts for *explaining* that variation"
 format:
   html: 
     embed-resources: false
